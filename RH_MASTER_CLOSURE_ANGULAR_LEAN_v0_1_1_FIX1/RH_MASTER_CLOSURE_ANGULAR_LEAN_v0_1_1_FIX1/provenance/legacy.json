@@ -1,0 +1,206 @@
+[
+  {
+    "path": "AWPI/PhiRH/RocqPortModel.lean",
+    "archive": "23-awpi_phi_rh_final_v0_2_16_portable-1-.zip",
+    "source_member": "awpi_phi_rh_final_v0_2_16_portable/AWPI/PhiRH/RocqPortModel.lean",
+    "sha256": "ea0ff2f46b938fcf73b8a5b856c408648c739488f5c50a6119dc02f885117092",
+    "modified": false
+  },
+  {
+    "path": "AWPI/PhiRH/ScalarConcreteFrontier.lean",
+    "archive": "23-awpi_phi_rh_final_v0_2_16_portable-1-.zip",
+    "source_member": "awpi_phi_rh_final_v0_2_16_portable/AWPI/PhiRH/ScalarConcreteFrontier.lean",
+    "sha256": "caab68732cd28164148492b1fc68689e2761e886ddcf3ad6731399882735d44a",
+    "modified": false
+  },
+  {
+    "path": "AWPI/PhiRH/CanonicalOneSidedTail.lean",
+    "archive": "23-awpi_phi_rh_final_v0_2_16_portable-1-.zip",
+    "source_member": "awpi_phi_rh_final_v0_2_16_portable/AWPI/PhiRH/CanonicalOneSidedTail.lean",
+    "sha256": "f5e6948f3afef9d09d3316387ad111fa4edafe9e1389086a85981b5ba636aff3",
+    "modified": false
+  },
+  {
+    "path": "AWPI/PhiRH/CanonicalTailDecay.lean",
+    "archive": "23-awpi_phi_rh_final_v0_2_16_portable-1-.zip",
+    "source_member": "awpi_phi_rh_final_v0_2_16_portable/AWPI/PhiRH/CanonicalTailDecay.lean",
+    "sha256": "62ded70182869e25ea82a727b03db8fd721293ca985b6be9ac09b89fad9e8efe",
+    "modified": false
+  },
+  {
+    "path": "AWPI/PhiRH/NativeLeafSurface.lean",
+    "archive": "23-awpi_phi_rh_final_v0_2_16_portable-1-.zip",
+    "source_member": "awpi_phi_rh_final_v0_2_16_portable/AWPI/PhiRH/NativeLeafSurface.lean",
+    "sha256": "ef79c402196c91b6192072d2ab598d36e91e2ac22ecc989ab339663aca9c9577",
+    "modified": false
+  },
+  {
+    "path": "AWPI/PhiRH/Forward.lean",
+    "archive": "23-awpi_phi_rh_final_v0_2_16_portable-1-.zip",
+    "source_member": "awpi_phi_rh_final_v0_2_16_portable/AWPI/PhiRH/Forward.lean",
+    "sha256": "822d5f60ac028d8028f3883e9b6160aaf0e8270fd03820454b1c406c183b9a50",
+    "modified": false
+  },
+  {
+    "path": "AWPI/PhiRH/PhiS1Series.lean",
+    "archive": "23-awpi_phi_rh_final_v0_2_16_portable-1-.zip",
+    "source_member": "awpi_phi_rh_final_v0_2_16_portable/AWPI/PhiRH/PhiS1Series.lean",
+    "sha256": "b5a61c2d92ff1c500e58da0e9a1df98d8db4b4eef00a5b44da9a57037fe54ed6",
+    "modified": false
+  },
+  {
+    "path": "AWPI/PhiRH/NativeZetaSupport.lean",
+    "archive": "23-awpi_phi_rh_final_v0_2_16_portable-1-.zip",
+    "source_member": "awpi_phi_rh_final_v0_2_16_portable/AWPI/PhiRH/NativeZetaSupport.lean",
+    "sha256": "39f64920bd89b0c16ec1c2a7065fbf3924c3a51ba17987f3f390c509bfb2d1d1",
+    "modified": false
+  },
+  {
+    "path": "AWPI/PhiRH/TransverseFrontier.lean",
+    "archive": "23-awpi_phi_rh_final_v0_2_16_portable-1-.zip",
+    "source_member": "awpi_phi_rh_final_v0_2_16_portable/AWPI/PhiRH/TransverseFrontier.lean",
+    "sha256": "c59ec647a94fbb1527e66d6806d26d33ef2e4d4c8ffd368d51fad5477fb5c94f",
+    "modified": false
+  },
+  {
+    "path": "AWPI/PhiRH/ConcreteLeafSurface.lean",
+    "archive": "23-awpi_phi_rh_final_v0_2_16_portable-1-.zip",
+    "source_member": "awpi_phi_rh_final_v0_2_16_portable/AWPI/PhiRH/ConcreteLeafSurface.lean",
+    "sha256": "1450338a5a16f2779aad17665e0178672beb9cd3958d9f64ed661f709056b247",
+    "modified": false
+  },
+  {
+    "path": "AWPI/PhiRH/Geometry.lean",
+    "archive": "23-awpi_phi_rh_final_v0_2_16_portable-1-.zip",
+    "source_member": "awpi_phi_rh_final_v0_2_16_portable/AWPI/PhiRH/Geometry.lean",
+    "sha256": "ae19fbf1d63e6a7fad3423f22e2b4a942bb26887837f46124bf3d9a19490457d",
+    "modified": false
+  },
+  {
+    "path": "AWPI/PhiRH/ShiftedSliceFrontier.lean",
+    "archive": "23-awpi_phi_rh_final_v0_2_16_portable-1-.zip",
+    "source_member": "awpi_phi_rh_final_v0_2_16_portable/AWPI/PhiRH/ShiftedSliceFrontier.lean",
+    "sha256": "57ea1c114ac1dad795b2c7b6f25396beabcb1e54c05b012f05e4d67dcd01fed0",
+    "modified": false
+  },
+  {
+    "path": "AWPI/PhiRH/FiveLeafSurface.lean",
+    "archive": "23-awpi_phi_rh_final_v0_2_16_portable-1-.zip",
+    "source_member": "awpi_phi_rh_final_v0_2_16_portable/AWPI/PhiRH/FiveLeafSurface.lean",
+    "sha256": "7807384e854590913d166c08564b5c603cfdd0ae567fb22f476b0f5e5fefaab5",
+    "modified": false
+  },
+  {
+    "path": "AWPI/PhiRH/RocqSourceLayer.lean",
+    "archive": "23-awpi_phi_rh_final_v0_2_16_portable-1-.zip",
+    "source_member": "awpi_phi_rh_final_v0_2_16_portable/AWPI/PhiRH/RocqSourceLayer.lean",
+    "sha256": "26ce4110d8489be8b0f46e088899f3d46731fc1e88a1ece8ccf2fb98c0e9ee55",
+    "modified": false
+  },
+  {
+    "path": "AWPI/PhiRH/CanonicalBindingScales.lean",
+    "archive": "23-awpi_phi_rh_final_v0_2_16_portable-1-.zip",
+    "source_member": "awpi_phi_rh_final_v0_2_16_portable/AWPI/PhiRH/CanonicalBindingScales.lean",
+    "sha256": "e7da828092f40542762d39f5268dfd5542e6ab7073924e4c60cc0a12b6be7dc5",
+    "modified": false
+  },
+  {
+    "path": "AWPI/PhiRH/S1Prefactor.lean",
+    "archive": "23-awpi_phi_rh_final_v0_2_16_portable-1-.zip",
+    "source_member": "awpi_phi_rh_final_v0_2_16_portable/AWPI/PhiRH/S1Prefactor.lean",
+    "sha256": "d5f656e95233d479395a0fa422e32471672a18de27da2c9864234512df702591",
+    "modified": false
+  },
+  {
+    "path": "AWPI/PhiRH/CanonicalTransverseJet.lean",
+    "archive": "23-awpi_phi_rh_final_v0_2_16_portable-1-.zip",
+    "source_member": "awpi_phi_rh_final_v0_2_16_portable/AWPI/PhiRH/CanonicalTransverseJet.lean",
+    "sha256": "e7a7f21e009a0d23b4036b8518e4876c111080fbd00366e996123cd6c67f3482",
+    "modified": false
+  },
+  {
+    "path": "AWPI/PhiRH/ActivityFrontier.lean",
+    "archive": "23-awpi_phi_rh_final_v0_2_16_portable-1-.zip",
+    "source_member": "awpi_phi_rh_final_v0_2_16_portable/AWPI/PhiRH/ActivityFrontier.lean",
+    "sha256": "6444ba52240f69228f32e49535df88447afb6421e0a46b01d1c731bd8d13a3b4",
+    "modified": false
+  },
+  {
+    "path": "AWPI/PhiRH/Final.lean",
+    "archive": "23-awpi_phi_rh_final_v0_2_16_portable-1-.zip",
+    "source_member": "awpi_phi_rh_final_v0_2_16_portable/AWPI/PhiRH/Final.lean",
+    "sha256": "115f150f6b0932f756311c78cba63ef302be1c673beca80d39c15a9196ec9c85",
+    "modified": false
+  },
+  {
+    "path": "AWPI/PhiRH/Reverse.lean",
+    "archive": "23-awpi_phi_rh_final_v0_2_16_portable-1-.zip",
+    "source_member": "awpi_phi_rh_final_v0_2_16_portable/AWPI/PhiRH/Reverse.lean",
+    "sha256": "a89cd177115c9f7ab70177a5fcbe49bafce0cb49cfd9704b3ffdf4651f57ef4e",
+    "modified": false
+  },
+  {
+    "path": "AWPI/PhiRH/MathlibBridge.lean",
+    "archive": "23-awpi_phi_rh_final_v0_2_16_portable-1-.zip",
+    "source_member": "awpi_phi_rh_final_v0_2_16_portable/AWPI/PhiRH/MathlibBridge.lean",
+    "sha256": "25a64990add700b9b1fe11c8318e43370bfeaf896593a01f3276c7fe7139f3d3",
+    "modified": false
+  },
+  {
+    "path": "AWPI/PhiRH/LiteralModel.lean",
+    "archive": "23-awpi_phi_rh_final_v0_2_16_portable-1-.zip",
+    "source_member": "awpi_phi_rh_final_v0_2_16_portable/AWPI/PhiRH/LiteralModel.lean",
+    "sha256": "497d1eac96c9f33acb0867a0033e3e8bff5123162f7222bc4901549929b9bd7b",
+    "modified": false
+  },
+  {
+    "path": "AWPI/PhiRH/CanonicalPhiS1.lean",
+    "archive": "23-awpi_phi_rh_final_v0_2_16_portable-1-.zip",
+    "source_member": "awpi_phi_rh_final_v0_2_16_portable/AWPI/PhiRH/CanonicalPhiS1.lean",
+    "sha256": "8c4ef90c9e05feff7dc8cff4aaae85b35226cf29fe34a503830cb657a330e7f4",
+    "modified": false
+  },
+  {
+    "path": "AWPI/PhiRH/Core.lean",
+    "archive": "23-awpi_phi_rh_final_v0_2_16_portable-1-.zip",
+    "source_member": "awpi_phi_rh_final_v0_2_16_portable/AWPI/PhiRH/Core.lean",
+    "sha256": "eeaf46a7f04b59b5a9144646f22b50003d1510f68436f942dce44556a937ac50",
+    "modified": false
+  },
+  {
+    "path": "AWPI/PhiRH/Split.lean",
+    "archive": "23-awpi_phi_rh_final_v0_2_16_portable-1-.zip",
+    "source_member": "awpi_phi_rh_final_v0_2_16_portable/AWPI/PhiRH/Split.lean",
+    "sha256": "44f07b28a756aa8c5891db0af6db5f6e83d12dbfb32a8e27c1309867d14788a0",
+    "modified": false
+  },
+  {
+    "path": "GPHausdorff/Core/FiniteDifference.lean",
+    "archive": "02-GP_HAUSDORFF_STRONG_IDENTITIES_LEAN_v0_2_1.zip",
+    "source_member": "GP_HAUSDORFF_STRONG_IDENTITIES_LEAN_v0_2_1/GPHausdorff/Core/FiniteDifference.lean",
+    "sha256": "63440e5664653ebd66b78b35c34828bea14d092439c86dc4f13dc1762e316c60",
+    "modified": false
+  },
+  {
+    "path": "GPHausdorff/Our/PassivityLedger.lean",
+    "archive": "02-GP_HAUSDORFF_STRONG_IDENTITIES_LEAN_v0_2_1.zip",
+    "source_member": "GP_HAUSDORFF_STRONG_IDENTITIES_LEAN_v0_2_1/GPHausdorff/Our/PassivityLedger.lean",
+    "sha256": "f267a086669e16a541e97829580b05d502dda7a6c09c06e71d90760c369c3e9a",
+    "modified": false
+  },
+  {
+    "path": "GPHausdorff/Our/FiniteHierarchy.lean",
+    "archive": "02-GP_HAUSDORFF_STRONG_IDENTITIES_LEAN_v0_2_1.zip",
+    "source_member": "GP_HAUSDORFF_STRONG_IDENTITIES_LEAN_v0_2_1/GPHausdorff/Our/FiniteHierarchy.lean",
+    "sha256": "94bdd27c0b49c682bee7bc83634a5f8e23267e843d68f9dba32ce021b963f5a4",
+    "modified": false
+  },
+  {
+    "path": "RHMaster/AWPIRoutes.lean",
+    "archive": null,
+    "source_member": null,
+    "sha256": "8f278e18190a62171a7e999c690ce4a4c59b1648aa2b647ca0282ad8ee6f1624",
+    "modified": true,
+    "note": "New wrapper with explicit premises; not compiled in this session."
+  }
+]

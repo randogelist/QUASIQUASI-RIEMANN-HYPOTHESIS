@@ -1,0 +1,41 @@
+{
+  "files": [
+    {
+      "path": "AngularMaster/AnchorHeight.lean",
+      "sha256": "07084ddd1f5e622dcb82cbe711670cfff09638ba25878a86c6929aa32de1643a",
+      "source_archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+      "source_member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/AngularMaster/AnchorHeight.lean"
+    },
+    {
+      "path": "AngularMaster/MellinAnchorBound.lean",
+      "sha256": "d38e72e3c5ba927d7d2ed01f85ec4165f7e54ba196cf8d0f789ac91bc84274d8",
+      "source_archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+      "source_member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/AngularMaster/MellinAnchorBound.lean"
+    },
+    {
+      "path": "AngularMaster/MellinEndpointBound.lean",
+      "sha256": "061df1283ff2011629a2fe501f3151f17e2d6d67b84d7da18fb1a225b8ab19c3",
+      "source_archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+      "source_member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/AngularMaster/MellinEndpointBound.lean"
+    },
+    {
+      "path": "AngularMaster/MellinPairedBound.lean",
+      "sha256": "5d2e593be01d93f425ccff6a178706d46b90479dcc843eb7f2f21e78b4a954d7",
+      "source_archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+      "source_member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/AngularMaster/MellinPairedBound.lean"
+    },
+    {
+      "path": "AngularMaster/StripProductBound.lean",
+      "sha256": "616dcc0be8cddcad2a2eac3b43887cb2c2571559c7067b57649a18e3405a4314",
+      "source_archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+      "source_member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/AngularMaster/StripProductBound.lean"
+    },
+    {
+      "path": "AngularMaster/ThetaKernelAnchorBound.lean",
+      "sha256": "5bb0ac885fba20de6daecfea0f1ad5f7dab8062eeeebfb1584ba356f1ffe074d",
+      "source_archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+      "source_member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/AngularMaster/ThetaKernelAnchorBound.lean"
+    }
+  ],
+  "selection_rule": "Only Lean files unique to ZIP34 versus canonical ZIP36; no existing shared module overwritten"
+}

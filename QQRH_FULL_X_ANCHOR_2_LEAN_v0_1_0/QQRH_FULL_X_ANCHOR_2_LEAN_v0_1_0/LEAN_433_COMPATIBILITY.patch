@@ -1,0 +1,45 @@
+diff --git a/RiemannHypothesis/Reduction/BacklundCanonicalDivisor.lean b/RiemannHypothesis/Reduction/BacklundCanonicalDivisor.lean
+index 99a5ba0..a956730 100644
+--- a/RiemannHypothesis/Reduction/BacklundCanonicalDivisor.lean
++++ b/RiemannHypothesis/Reduction/BacklundCanonicalDivisor.lean
+@@ -230,10 +230,10 @@ noncomputable def canonicalPositiveHeightOccurrenceEquivZetaOccurrence
+     (Equiv.sigmaCongr
+       (entireXiPullbackPositiveHeightZeroEquivZetaZeroUpToHeight T)
+       (fun z => finCongr (by
+-        simpa [entireXiPullbackPositiveHeightZeroEquivZetaZeroUpToHeight,
+-          zetaCoordinateOfPullback] using
+-          entireXiPullback_analyticOrderNatAt_eq_riemannZeta_of_zero
+-            z.val.property.1)))
++        change analyticOrderNatAt EntireXiPullback z.val.val =
++          analyticOrderNatAt riemannZeta ((1 / 2 : ℂ) + Complex.I * z.val.val)
++        exact entireXiPullback_analyticOrderNatAt_eq_riemannZeta_of_zero
++          z.val.property.1)))
+ 
+ /-- The canonical positive-height occurrence count is definitionally tied to
+ the classical multiplicity-weighted zeta-zero count, with no xi-specific
+@@ -383,8 +383,10 @@ private theorem canonicalNormCeilShellToSignedHeightSlab_injective
+   by_cases hi : 0 < (entireXiPullbackZeroOccurrenceLoc i.1).re
+   · by_cases hj : 0 < (entireXiPullbackZeroOccurrenceLoc j.1).re
+     · simp only [canonicalNormCeilShellToSignedHeightSlab, hi, hj,
+-        dite_true, Sum.inl.injEq, Subtype.mk.injEq] at hij
+-      exact Subtype.ext hij
++        dite_true, Sum.inl.injEq] at hij
++      exact Subtype.ext (congrArg
++        (fun u : canonicalPositiveHeightOccurrenceSlabType ((n - 2 : Nat) : Real) n =>
++          u.val) hij)
+     · simp only [canonicalNormCeilShellToSignedHeightSlab, hi, hj,
+         dite_true, dite_false] at hij
+       cases hij
+diff --git a/RiemannHypothesis/Xi/ThetaKernelMellinGrowth.lean b/RiemannHypothesis/Xi/ThetaKernelMellinGrowth.lean
+index b0f6533..1c56599 100644
+--- a/RiemannHypothesis/Xi/ThetaKernelMellinGrowth.lean
++++ b/RiemannHypothesis/Xi/ThetaKernelMellinGrowth.lean
+@@ -222,7 +222,7 @@ theorem completedRiemannZeta₀_eq_thetaMellin (s : ℂ) :
+ parameter, as supplied by Mathlib's strong functional-equation pair. -/
+ theorem hurwitzThetaMellinKernel_convergent (s : ℂ) :
+     MellinConvergent hurwitzThetaMellinKernel s := by
+-  exact (HurwitzZeta.hurwitzEvenFEPair 0).toStrongFEPair.hasMellin s |>.1
++  exact (HurwitzZeta.hurwitzEvenFEPair 0).isStrongFEPair_toStrongFEPair.hasMellin s |>.1
+ 
+ /-- Direct factorial envelope for Mathlib's actual
+ `completedRiemannZeta₀`. -/

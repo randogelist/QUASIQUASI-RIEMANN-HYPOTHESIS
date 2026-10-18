@@ -1,0 +1,90 @@
+{
+  "package": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0",
+  "verified_date": "2026-10-16",
+  "compiler": "Lean 4.33.0",
+  "compiler_commit": "d8b18978322de05a8f3dba51ef03cf5461676c17",
+  "mathlib_revision": "db584cd6d46c92f209a44c0f1c829460d327499d",
+  "compile_status": "PASS",
+  "modules_compiled": 91,
+  "focused_project_modules": 31,
+  "classical_factorization_dependency_modules": 60,
+  "audit": "Audit.lean",
+  "fresh_package_output_directory": true,
+  "previous_package_compiled_outputs_used_in_final_build": false,
+  "kernel_axioms_observed": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "sorryAx": false,
+  "custom_axiom_declarations": 0,
+  "QQRH_two": {
+    "endpoint": "QQRH.two",
+    "research_hypotheses": [],
+    "proof_route": "QQRH.of_positivity applied to QQRH.positivity_two",
+    "cutoff": "-3/5 (exact)",
+    "actual_riemann_zeta": true,
+    "computed_zero_tables_used": false,
+    "region": "0 < Re(s) < 1 and |Im(s)| < 2*|Re(s)-1/2|",
+    "scope": "Fixed wedge below height 1 in the critical strip; no RH claim."
+  },
+  "general_QQRH": {
+    "endpoint": "QQRH.of_positivity",
+    "hypotheses": [
+      "m > 0",
+      "nonnegative actual angular derivative above cutoff m"
+    ]
+  },
+  "native_windows_runner": {
+    "file": "run.cmd",
+    "static_review": "PASS",
+    "windows_execution_tested": false
+  },
+  "lake_workflow_execution_tested": false,
+  "linux_build": "Official Lean and pinned Mathlib; same-process executable path compatibility documented in build-support. Compiler and kernel unchanged.",
+  "QQRH_eleven": {
+    "endpoint": "QQRH.eleven",
+    "research_hypotheses": [],
+    "proof_route": "QQRH.of_positivity applied to QQRH.positivity_eleven",
+    "cutoff": "-60/61 (exact)",
+    "actual_riemann_zeta": true,
+    "computed_zero_tables_used": false,
+    "region": "0 < Re(s) < 1 and |Im(s)| < 11*|Re(s)-1/2|",
+    "scope": "Fixed wedge below height 11/2 in the critical strip; no RH claim."
+  },
+  "quantitative_family": {
+    "endpoint": "QQRH.of_sq_lt_122",
+    "arithmetic_hypotheses": [
+      "1 <= m",
+      "m^2 < 122"
+    ],
+    "analytic_hypotheses": [],
+    "proof_route": "Explicit Mellin bound -> xi zero height -> angular derivative nonnegativity -> QQRH"
+  },
+  "analytic_bounds": {
+    "p": "6283/2000",
+    "q": "100/2313",
+    "kernel": "norm(K(u)) <= [2/(1-q^3)] * exp(-p*u) for u >= 1",
+    "completed_zeta_zero": "norm(completedRiemannZeta0(s)) <= 9/385 on 0 <= Re(s) <= 1",
+    "xi_prefactor": "norm(s*(s-1)) <= Im(s)^2 + 1/2 on the closed critical strip",
+    "height_thirteen_halves_product_upper_bound": "1539/1540 < 1"
+  },
+  "audit_status": "PASS",
+  "second_full_x_anchor": {
+    "endpoint": "QQRH.second_full_x_range_anchor",
+    "radius": "255/7 (exact)",
+    "radial_domain": "0 < r <= 255/7",
+    "angular_derivative_domain": "-1 < x < 1",
+    "statement": "0 <= deriv (QQRH.profile r) x",
+    "research_hypotheses": [],
+    "monotonicity_endpoint": "QQRH.second_full_x_monotone",
+    "monotonicity_domain": "0 < r <= 255/7; -1 <= x <= 1",
+    "strict_positive_endpoint": "QQRH.second_full_x_positive",
+    "strict_positive_domain": "0 <= r <= 255/7; -1 <= x <= 1",
+    "height_gap_endpoint": "AngularMaster.actual_xi_zero_thirteen_halves_lt_abs_im",
+    "height_gap": "13/2 < abs(Im(s)) for every actual xi zero",
+    "height_gap_proved_analytically": true,
+    "computed_zero_tables_used": false,
+    "scope": "Full angular interval on a finite radial slab. No unbounded-radius or RH claim."
+  }
+}

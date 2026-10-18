@@ -1,0 +1,42 @@
+Lean 4.33.0 Linux self-location compatibility record
+===================================================
+
+Observed startup failure
+  Official bin/lean --version: error: failed to locate application
+  Python os.readlink('/proc/self/exe'): succeeds
+  Python os.readlink('/proc/' + str(os.getpid()) + '/exe'): PermissionError(13)
+
+Official source inspected
+  https://raw.githubusercontent.com/leanprover/lean4/v4.33.0/src/runtime/io.cpp
+  lean_io_app_path constructs /proc/<getpid()>/exe and calls readlink.
+  src/lean/Lean/Util/Path.lean getBuildDir calls IO.appDir unconditionally.
+  Its initSearchPathInternal calls getBuildDir before command-line processing.
+  LEAN_SYSROOT controls external installation lookup, not this startup call.
+
+Compatibility adapter
+  lean_self_path_compat.c / lean_self_path_compat.so
+  A libc readlink interposer compares the requested path with exactly
+  /proc/<the calling process's current getpid()>/exe. Only an exact match is
+  translated to /proc/self/exe, the permitted standard alias for that same
+  calling process. All other paths pass unchanged to libc readlink.
+  No other process, inaccessible file, or privileged information is accessed.
+  No Lean executable/library, elaborator, kernel, or trust option is changed.
+
+Build
+  cc -shared -fPIC -O2 -Wall -Wextra -o lean_self_path_compat.so lean_self_path_compat.c -ldl
+
+Usage
+  Set LD_PRELOAD to the absolute path of lean_self_path_compat.so for the
+  unmodified official Lean or Lake command and its compiler subprocesses.
+
+Verification
+  Official lean --version succeeds:
+    Lean 4.33.0, x86_64-unknown-linux-gnu
+    commit d8b18978322de05a8f3dba51ef03cf5461676c17, Release
+  Official lean compiles LeanKernelSmoke.lean to LeanKernelSmoke.olean.
+  The theorem proves n + 0 = n using Nat.add_zero.
+  '#print axioms kernel_smoke' reports no axioms.
+
+Scope
+  This record verifies compiler startup and a genuine small proof compile.
+  It does not by itself certify any mathematical project or full build.

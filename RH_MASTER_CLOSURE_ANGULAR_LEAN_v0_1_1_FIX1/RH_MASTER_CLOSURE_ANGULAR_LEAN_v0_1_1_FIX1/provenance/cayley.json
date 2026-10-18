@@ -1,0 +1,94 @@
+{
+  "source_archive": "19-A-TIER-RH-EQUIVALENCE.zip",
+  "source_archive_sha256": "30ff368e1a2ac7865d6687d4ee09224d4bef8dcf7a545397af34651a01d25d6e",
+  "files": [
+    {
+      "module": "CayleyConstruction",
+      "destination": "CayleyConstruction.lean",
+      "source_archive": "19-A-TIER-RH-EQUIVALENCE.zip",
+      "source_member": "GP_BKQR_CAYLEY_RH_A_TIER_CLOSURE_LEAN_v0_4_2_FIX2/CayleyConstruction.lean",
+      "source_sha256": "0da5a6afc63579fa5fe08cfc440811874e1caa8d7a6a613ec66ddb5efeaa03f2",
+      "destination_sha256": "0da5a6afc63579fa5fe08cfc440811874e1caa8d7a6a613ec66ddb5efeaa03f2",
+      "change": "unchanged"
+    },
+    {
+      "module": "CayleyGolPhi.CayleyCore",
+      "destination": "CayleyGolPhi/CayleyCore.lean",
+      "source_archive": "19-A-TIER-RH-EQUIVALENCE.zip",
+      "source_member": "GP_BKQR_CAYLEY_RH_A_TIER_CLOSURE_LEAN_v0_4_2_FIX2/CayleyGolPhi/CayleyCore.lean",
+      "source_sha256": "29b6366ed563c5a01e40f1cf82bbc9d173f806a5cf90f096f13b221795e07b81",
+      "destination_sha256": "29b6366ed563c5a01e40f1cf82bbc9d173f806a5cf90f096f13b221795e07b81",
+      "change": "unchanged"
+    },
+    {
+      "module": "CayleyGolPhi.GolPhiSlice",
+      "destination": "CayleyGolPhi/GolPhiSlice.lean",
+      "source_archive": "19-A-TIER-RH-EQUIVALENCE.zip",
+      "source_member": "GP_BKQR_CAYLEY_RH_A_TIER_CLOSURE_LEAN_v0_4_2_FIX2/CayleyGolPhi/GolPhiSlice.lean",
+      "source_sha256": "daa4140558365fcf50178c1f7194a36b9ea70563627c6011ec9a4bae6d18aaa4",
+      "destination_sha256": "daa4140558365fcf50178c1f7194a36b9ea70563627c6011ec9a4bae6d18aaa4",
+      "change": "unchanged"
+    },
+    {
+      "module": "CayleyGolPhi.ZeroEquivalence",
+      "destination": "CayleyGolPhi/ZeroEquivalence.lean",
+      "source_archive": "19-A-TIER-RH-EQUIVALENCE.zip",
+      "source_member": "GP_BKQR_CAYLEY_RH_A_TIER_CLOSURE_LEAN_v0_4_2_FIX2/CayleyGolPhi/ZeroEquivalence.lean",
+      "source_sha256": "c94d8b4542b0af93b02021acf8df9df7482cb60b1fc623c9d3fc625b1c26cc09",
+      "destination_sha256": "c94d8b4542b0af93b02021acf8df9df7482cb60b1fc623c9d3fc625b1c26cc09",
+      "change": "unchanged"
+    },
+    {
+      "module": "CayleyRHClosure",
+      "destination": "CayleyRHClosure.lean",
+      "source_archive": "19-A-TIER-RH-EQUIVALENCE.zip",
+      "source_member": "GP_BKQR_CAYLEY_RH_A_TIER_CLOSURE_LEAN_v0_4_2_FIX2/CayleyRHClosure.lean",
+      "source_sha256": "518c59f5f83e026919d8bf926bdd7848ea800084e915750923d2aabba4599331",
+      "destination_sha256": "518c59f5f83e026919d8bf926bdd7848ea800084e915750923d2aabba4599331",
+      "change": "unchanged"
+    },
+    {
+      "module": "GeneralizedCharacter",
+      "destination": "GeneralizedCharacter.lean",
+      "source_archive": "19-A-TIER-RH-EQUIVALENCE.zip",
+      "source_member": "GP_BKQR_CAYLEY_RH_A_TIER_CLOSURE_LEAN_v0_4_2_FIX2/GeneralizedCharacter.lean",
+      "source_sha256": "c4ba708b8217e463b18545df2d59e18b5cb8d18cf9b2fe732aaad4c9c367ed44",
+      "destination_sha256": "c4ba708b8217e463b18545df2d59e18b5cb8d18cf9b2fe732aaad4c9c367ed44",
+      "change": "unchanged"
+    },
+    {
+      "module": "HausdorffKernel",
+      "destination": "HausdorffKernel.lean",
+      "source_archive": "19-A-TIER-RH-EQUIVALENCE.zip",
+      "source_member": "GP_BKQR_CAYLEY_RH_A_TIER_CLOSURE_LEAN_v0_4_2_FIX2/HausdorffKernel.lean",
+      "source_sha256": "c971898ba7bc9657b12dbc0ce0f01eab243553b5aea84ff13afce7cc50b59c8a",
+      "destination_sha256": "c971898ba7bc9657b12dbc0ce0f01eab243553b5aea84ff13afce7cc50b59c8a",
+      "change": "unchanged"
+    },
+    {
+      "module": "ScaleGeometry",
+      "destination": "ScaleGeometry.lean",
+      "source_archive": "19-A-TIER-RH-EQUIVALENCE.zip",
+      "source_member": "GP_BKQR_CAYLEY_RH_A_TIER_CLOSURE_LEAN_v0_4_2_FIX2/ScaleGeometry.lean",
+      "source_sha256": "384c844e7927f69900f8f3f4547115af016db1dbe43aa82ea58a97d67bc8fe04",
+      "destination_sha256": "384c844e7927f69900f8f3f4547115af016db1dbe43aa82ea58a97d67bc8fe04",
+      "change": "unchanged"
+    },
+    {
+      "module": "StandardCayleyLoss",
+      "destination": "StandardCayleyLoss.lean",
+      "source_archive": "19-A-TIER-RH-EQUIVALENCE.zip",
+      "source_member": "GP_BKQR_CAYLEY_RH_A_TIER_CLOSURE_LEAN_v0_4_2_FIX2/StandardCayleyLoss.lean",
+      "source_sha256": "3325cda903fce484dae15b287a538fe1d7876ae57c3b7832d88712d5f36049d9",
+      "destination_sha256": "3325cda903fce484dae15b287a538fe1d7876ae57c3b7832d88712d5f36049d9",
+      "change": "unchanged"
+    }
+  ],
+  "new_files": [
+    {
+      "destination": "RHMaster/CayleyRoutes.lean",
+      "sha256": "a1bbe52a6901d32b6681f8f6be280010803cd137d1e5bd5bd89c637b7199aed7",
+      "change": "new explicit object alignment and theorem composition; no compilation performed"
+    }
+  ]
+}

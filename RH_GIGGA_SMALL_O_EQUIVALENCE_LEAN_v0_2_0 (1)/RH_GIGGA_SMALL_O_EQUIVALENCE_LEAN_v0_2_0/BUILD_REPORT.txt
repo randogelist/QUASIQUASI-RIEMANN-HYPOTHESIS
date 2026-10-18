@@ -1,0 +1,49 @@
+BUILD RESULT: PASS
+
+Package: RH_GIGGA_SMALL_O_EQUIVALENCE_LEAN_v0_2_0
+Runtime: official Lean 4.33.0, x86_64-unknown-linux-gnu
+Lean commit: d8b18978322de05a8f3dba51ef03cf5461676c17
+Mathlib: v4.33.0
+Mathlib commit: db584cd6d46c92f209a44c0f1c829460d327499d
+
+Actual validation performed:
+- All 87 packaged project modules compiled from source into a fresh empty
+  output directory, using the existing Mathlib and Lean dependency caches.
+- No old project .olean outputs were used by this fresh rebuild.
+- Audit.lean completed against those fresh outputs.
+- All 88 packaged Lean sources match the hashes captured for compilation.
+- Nine transitive endpoint axiom probes report exactly:
+    propext, Classical.choice, Quot.sound
+- No sorryAx or added project research axioms occur in these endpoints.
+- The Windows runner includes all 87 modules and the new equivalence audit.
+
+Public equivalence:
+  RHSmallO.rh_iff_small_o : RiemannHypothesis <-> RHSmallO.SmallOPremise
+
+Expanded equivalence:
+  RHSmallO.rh_iff_angular_integral_isLittleO :
+    RiemannHypothesis <->
+      (I(r) - pi*r*criticalLineCutoff(r) = o(r), as r -> 0+)
+
+Forward direction:
+  RHSmallO.rh_of_small_o
+Reverse direction:
+  RHSmallO.small_o_of_rh
+
+The integral and finite multiplicity-bearing cutoff are the same concrete
+objects used by the previously checked closure package. The cutoff is 1/r.
+The normalized integral limit I(r)/r -> pi*q1 and I(r) -> 0 are proved.
+RH implies cutoff saturation; together these limits prove the reverse
+little-o statement. There are no extra hypotheses in the equivalence.
+
+The exact finite-radius GIGGA identity is not needed by this development.
+
+Platform record:
+This validation used the official Linux compiler. The existing executable-path
+compatibility adapter was reused; the Lean binary and kernel were unchanged.
+The Windows run.cmd runner was checked statically and has not been executed
+on Windows as part of this new equivalence build.
+
+See BUILD_AUDIT.txt and validation/ for actual output, BUILD_MANIFEST.json
+for checked source hashes and runtime pins, and SHA256SUMS for all packaged
+file hashes.

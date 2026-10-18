@@ -1,0 +1,58 @@
+{
+  "base_package_version": "0.3.0",
+  "extension": "Unconditional slope-two angular positivity and QQRH, 2026-10-16",
+  "compiler": "Lean 4.33.0",
+  "compiler_commit": "d8b18978322de05a8f3dba51ef03cf5461676c17",
+  "mathlib_revision": "db584cd6d46c92f209a44c0f1c829460d327499d",
+  "compile_status": "PASS",
+  "modules_compiled": 86,
+  "audits_compiled": [
+    "QQRHAudit.lean",
+    "QQRHUnconditionalAudit.lean",
+    "Audit.lean"
+  ],
+  "fresh_package_output_directory": true,
+  "build_order": "compile-order.txt, then all three audits",
+  "kernel_axioms_observed": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "sorryAx": false,
+  "custom_axiom_declarations": 0,
+  "qqrh_extension": {
+    "status": "COMPILED_AND_AUDITED",
+    "general_conditional_endpoint": "AngularMaster.QQRH_of_deriv_nonnegative",
+    "general_hypotheses": [
+      "m > 0",
+      "angular derivative nonnegative above slopeCutoff m"
+    ],
+    "slope_two_endpoint": "AngularMaster.QQRH_two",
+    "slope_two_hypotheses": [],
+    "positivity_endpoint": "AngularMaster.actual_deriv_nonnegative_above_neg_three_fifths",
+    "positivity_domain": "every r > 0 and -3/5 < x < 1",
+    "positivity_itself_proved": true,
+    "cutoff_endpoint": "AngularMaster.slopeCutoff_two",
+    "cutoff_value": "-3/5 (exact)",
+    "actual_zeta_binding": true,
+    "RH_assumption": false,
+    "unconditional_QQRH_2_proved": true,
+    "computed_zero_data_used": false,
+    "exact_zero_free_region": "0 < Re(s) < 1 and |Im(s)| < 2 * |Re(s) - 1/2|",
+    "scope": "This fixed wedge lies below |Im(s)| < 1; no unbounded slope limit or RH proof."
+  },
+  "original_rh_equivalence": {
+    "endpoint": "AngularMaster.RH_iff_Master",
+    "recompiled_and_audited": true,
+    "proves_RH": false,
+    "proves_Master": false
+  },
+  "windows_runners": {
+    "full": "run.cmd",
+    "unconditional_qqrh": "run-qqrh-unconditional.cmd",
+    "conditional_qqrh_only": "run-qqrh.cmd",
+    "static_review": "PASS",
+    "windows_execution_tested": false
+  },
+  "linux_self_location_compatibility": "See build-support/LEAN_SELF_LOCATION_COMPATIBILITY.txt; official compiler and kernel binaries unchanged."
+}

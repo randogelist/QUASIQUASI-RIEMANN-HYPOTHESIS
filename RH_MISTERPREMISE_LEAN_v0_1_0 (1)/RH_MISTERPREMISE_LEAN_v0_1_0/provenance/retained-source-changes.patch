@@ -1,0 +1,32 @@
+--- baseline/AngularRegularity/Calculus.lean
++++ release/AngularRegularity/Calculus.lean
+@@ -1,4 +1,4 @@
+-import Mathlib
++import MisterPremise.MathlibImports
+ 
+ /-!
+ # The angular profile: elementary regularity
+--- baseline/AngularRegularity/Topology.lean
++++ release/AngularRegularity/Topology.lean
+@@ -1,4 +1,4 @@
+-import Mathlib
++import MisterPremise.MathlibImports
+ 
+ /-!
+ # Topology of angular derivative signals
+--- baseline/AngularRegularity/RadiusIsolation.lean
++++ release/AngularRegularity/RadiusIsolation.lean
+@@ -1,4 +1,4 @@
+-import Mathlib
++import MisterPremise.MathlibImports
+ 
+ /-!
+ # Isolation of zero radii
+--- baseline/AngularRegularity/StationaryAlgebra.lean
++++ release/AngularRegularity/StationaryAlgebra.lean
+@@ -1,4 +1,4 @@
+-import Mathlib
++import MisterPremise.MathlibImports
+ 
+ /-!
+ # Algebra and calculus of real Euler-logarithmic levels

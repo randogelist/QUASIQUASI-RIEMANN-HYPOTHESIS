@@ -1,0 +1,146 @@
+PACKAGED_SOURCE_HASHES=PASS
+Lean (version 4.33.0, x86_64-unknown-linux-gnu, commit d8b18978322de05a8f3dba51ef03cf5461676c17, Release)
+COMPILE_PASS=AngularMaster.ZeroExclusion 3.631s
+COMPILE_PASS=AWPIRH.XiCore 4.43s
+COMPILE_PASS=RiemannHypothesis.ComplexAnalysis.GrowthRigidity 4.75s
+COMPILE_PASS=RiemannHypothesis.ComplexAnalysis.AntiHerglotz 3.274s
+COMPILE_PASS=AWPIRH.ThetaEntire 4.263s
+COMPILE_PASS=RiemannHypothesis.ComplexAnalysis.RealPartGrowth 6.192s
+COMPILE_PASS=RiemannHypothesis.ComplexAnalysis.PoleProbe 3.724s
+COMPILE_PASS=RiemannHypothesis.ComplexAnalysis.RealSymmetry 1.59s
+COMPILE_PASS=RiemannHypothesis.ComplexAnalysis.ProximityGrowth 6.223s
+COMPILE_PASS=RiemannHypothesis.RealZeros.Engine 3.171s
+COMPILE_PASS=RiemannHypothesis.ComplexAnalysis.EvenAnalyticOrder 3.824s
+COMPILE_PASS=RiemannHypothesis.Xi.Definitions 3.831s
+COMPILE_PASS=RiemannHypothesis.ComplexAnalysis.LogDerivative 14.899s
+COMPILE_PASS=RiemannHypothesis.ComplexAnalysis.EntireQuotient 2.946s
+COMPILE_PASS=RiemannHypothesis.Xi.FunctionalEquation 4.614s
+COMPILE_PASS=RiemannHypothesis.HadamardProduct.GenusOne 4.811s
+COMPILE_PASS=RiemannHypothesis.RealZeros.EntireFunctions 4.446s
+COMPILE_PASS=RiemannHypothesis.Xi.Pullback 4.423s
+COMPILE_PASS=RiemannHypothesis.GammaCancellation.PoleSet 2.223s
+COMPILE_PASS=RiemannHypothesis.HadamardProduct.InfiniteProducts 4.283s
+COMPILE_PASS=RiemannHypothesis.Xi.SignTargets 3.731s
+COMPILE_PASS=RiemannHypothesis.GammaCancellation.CompletedZeta 3.748s
+COMPILE_PASS=RiemannHypothesis.HadamardProduct.PairedGenusOne 3.02s
+COMPILE_PASS=RiemannHypothesis.HadamardProduct.LogDerivative 6.597s
+COMPILE_PASS=RiemannHypothesis.GammaCancellation.TextbookXi 3.917s
+COMPILE_PASS=RiemannHypothesis.HadamardProduct.DyadicZeroCount 6.043s
+COMPILE_PASS=RiemannHypothesis.HadamardProduct.CanonicalProductGrowth 8.862s
+COMPILE_PASS=RiemannHypothesis.HadamardProduct.CanonicalProductDivisor 4.479s
+COMPILE_PASS=RiemannHypothesis.HadamardProduct.IndexedRealZeroSign 3.396s
+COMPILE_PASS=RiemannHypothesis.ZeroCounting.SmoothMainTerm 15.468s
+COMPILE_PASS=RiemannHypothesis.HadamardProduct.CompletedLFunction 3.388s
+COMPILE_PASS=RiemannHypothesis.Xi.CanonicalDivisor 4.855s
+COMPILE_PASS=RiemannHypothesis.HadamardProduct.CanonicalProductDyadicGrowth 12.154s
+COMPILE_PASS=RiemannHypothesis.HadamardProduct.CanonicalProductMultiplicity 3.415s
+COMPILE_PASS=RiemannHypothesis.Xi.RiemannHypothesisBridge 5.924s
+COMPILE_PASS=RiemannHypothesis.Xi.CanonicalProductCharacteristicGrowth 3.045s
+COMPILE_PASS=RiemannHypothesis.Xi.BacklundTuringBridge 4.766s
+COMPILE_PASS=RiemannHypothesis.Xi.ZetaMultiplicityBridge 3.893s
+COMPILE_PASS=RiemannHypothesis.ZeroCounting.ZetaZeros 4.165s
+COMPILE_PASS=RiemannHypothesis.Xi.DyadicZeroCountBridge 2.973s
+COMPILE_PASS=RiemannHypothesis.HadamardProduct.ExponentialPrefactor 4.869s
+COMPILE_PASS=RiemannHypothesis.Reduction.BacklundCanonicalDivisor 6.763s
+COMPILE_PASS=RiemannHypothesis.HadamardProduct.PairedCanonicalProductGrowth 18.924s
+COMPILE_PASS=RiemannHypothesis.HadamardProduct.NatZeroData 4.357s
+COMPILE_PASS=AngularMaster.ZeroGeometry 4.211s
+COMPILE_PASS=RiemannHypothesis.ComplexAnalysis.MellinGrowth 5.182s
+COMPILE_PASS=RiemannHypothesis.HadamardProduct.RealZeroSign 3.698s
+COMPILE_PASS=AngularMaster.Calculus 2.03s
+COMPILE_PASS=RiemannHypothesis.HadamardProduct.StrictRealZeroCriterion 2.794s
+COMPILE_PASS=RiemannHypothesis.Xi.ThetaKernelMellinGrowth 5.862s
+COMPILE_PASS=RiemannHypothesis.ComplexAnalysis.FactorialDyadicGrowth 5.217s
+COMPILE_PASS=RiemannHypothesis.HadamardProduct.OriginMultiplicityCriterion 3.637s
+COMPILE_PASS=AngularMaster.ActualProfile 3.555s
+COMPILE_PASS=AngularMaster.ThetaKernelExplicitBound 4.223s
+COMPILE_PASS=RiemannHypothesis.Xi.StrictLagariasCriterion 4.481s
+COMPILE_PASS=AngularRegularity.Geometry 3.487s
+COMPILE_PASS=AngularMaster.ZeroFreeSeed 6.155s
+COMPILE_PASS=RiemannHypothesis.Xi.HadamardLogDerivativeCriterion 4.669s
+COMPILE_PASS=AngularRegularity.Derivative 4.262s
+COMPILE_PASS=AngularMaster.AngularCutoff 3.838s
+COMPILE_PASS=RiemannHypothesis.Xi.CanonicalQuotientCriterion 3.786s
+COMPILE_PASS=RiemannHypothesis.Xi.CanonicalProductSymmetry 3.452s
+COMPILE_PASS=AngularIntegral 6.011s
+COMPILE_PASS=AngularMaster.QQRHGeometry 6.924s
+COMPILE_PASS=RiemannHypothesis.Xi.CanonicalQuotientLogNormGrowth 3.709s
+COMPILE_PASS=RiemannHypothesis.Xi.JensenDyadicCountBridge 5.872s
+COMPILE_PASS=AngularMaster.QQRH 3.629s
+COMPILE_PASS=RiemannHypothesis.Xi.CanonicalQuotientCharacteristicGrowth 4.284s
+COMPILE_PASS=ScalarLittleO 4.174s
+COMPILE_PASS=AngularMaster.ConjugateFactor 5.494s
+COMPILE_PASS=ScalarConverse 2.476s
+COMPILE_PASS=RiemannHypothesis.Xi.EntireXiMellinGrowth 9.126s
+COMPILE_PASS=RiemannHypothesis.Xi.EntireXiLogNormGrowth 6.347s
+COMPILE_PASS=RiemannHypothesis.Xi.CanonicalQuotientThetaCharacteristicGrowth 3.356s
+COMPILE_PASS=RiemannHypothesis.Xi.UnconditionalLagariasEquivalence 3.027s
+COMPILE_PASS=RiemannHypothesis.Xi.CompletedLFunctionInstance 3.247s
+COMPILE_PASS=RiemannHypothesis.Xi.CanonicalProductPairedGrowth 4.543s
+COMPILE_PASS=AngularMaster.ActualHadamard 3.592s
+COMPILE_PASS=AngularMaster.ComplexScaleProduct 3.614s
+COMPILE_PASS=AngularMaster.SectorPositivity 4.553s
+COMPILE_PASS=AngularMaster.LowHeightGeometry 4.628s
+COMPILE_PASS=AngularMaster.QQRHUnconditional 4.72s
+COMPILE_PASS=NativeClosure 3.664s
+COMPILE_PASS=OriginTrace 16.908s
+COMPILE_PASS=RHSmallO 3.927s
+COMPILE_PASS=ReverseCutoff 3.68s
+COMPILE_PASS=RHSmallOEquivalence 3.281s
+def RHSmallO.I : ℝ → ℝ :=
+AngularMaster.angularI
+def AngularMaster.angularI : ℝ → ℝ :=
+fun r => ∫ (x : ℝ) in -1..1, deriv (AngularMaster.actualProfile r) x / AngularMaster.actualProfile r x * √(1 - x ^ 2)
+def RHSmallO.q1 : ℝ :=
+(deriv AWPIRH.theta 0 / AWPIRH.theta 0).re
+def RHSmallO.criticalLineCutoffTerm : ℝ → RHSmallO.SpectralIndex → ℝ :=
+fun r i =>
+  if (AngularMaster.actualPairZero i).im = 0 ∧ ‖AngularMaster.actualPairZero i‖ ≤ 1 / r then RHSmallO.spectralWeight i
+  else 0
+def RHSmallO.criticalLineCutoff : ℝ → ℝ :=
+fun r => ∑' (i : RHSmallO.SpectralIndex), RHSmallO.criticalLineCutoffTerm r i
+RHSmallO.criticalLineCutoff_finite_support (r : ℝ) : (Function.support (RHSmallO.criticalLineCutoffTerm r)).Finite
+RHSmallO.criticalLineCutoff_eq_inverse_height_sum (r : ℝ) :
+  RHSmallO.criticalLineCutoff r =
+    ∑' (i : RHSmallO.SpectralIndex),
+      if (AngularMaster.actualPairZero i).im = 0 ∧ ‖AngularMaster.actualPairZero i‖ ≤ 1 / r then
+        1 / ‖AngularMaster.actualPairZero i‖ ^ 2
+      else 0
+def RHSmallO.SmallOPremise : Prop :=
+(fun r => RHSmallO.I r - Real.pi * r * RHSmallO.criticalLineCutoff r) =o[nhdsWithin 0 (Set.Ioi 0)] fun r => r
+RHSmallO.normalized_integral_tendsto :
+  Filter.Tendsto (fun r => RHSmallO.I r / r) (nhdsWithin 0 (Set.Ioi 0)) (nhds (Real.pi * RHSmallO.q1))
+RHSmallO.integral_tendsto_zero : Filter.Tendsto RHSmallO.I (nhdsWithin 0 (Set.Ioi 0)) (nhds 0)
+RHSmallO.cutoff_tendsto_of_small_o (h : RHSmallO.SmallOPremise) :
+  Filter.Tendsto RHSmallO.criticalLineCutoff (nhdsWithin 0 (Set.Ioi 0)) (nhds RHSmallO.q1)
+RHSmallO.residual_tendsto_of_small_o (h : RHSmallO.SmallOPremise) :
+  Filter.Tendsto (fun r => RHSmallO.q1 - RHSmallO.criticalLineCutoff r) (nhdsWithin 0 (Set.Ioi 0)) (nhds 0)
+RHSmallO.rh_of_small_o (h : RHSmallO.SmallOPremise) : RiemannHypothesis
+RHSmallO.rh_of_angular_integral_isLittleO
+  (h :
+    (fun r => AngularMaster.angularI r - Real.pi * r * RHSmallO.criticalLineCutoff r) =o[nhdsWithin 0 (Set.Ioi 0)]
+      fun r => r) :
+  RiemannHypothesis
+'AngularMaster.actual_theta_origin_real_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHSmallO.normalized_integral_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHSmallO.integral_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHSmallO.rh_of_small_o' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHSmallO.rh_of_angular_integral_isLittleO' depends on axioms: [propext, Classical.choice, Quot.sound]
+RHSmallO.small_o_of_rh (hRH : RiemannHypothesis) : RHSmallO.SmallOPremise
+RHSmallO.small_o_iff_RH : RHSmallO.SmallOPremise ↔ RiemannHypothesis
+RHSmallO.rh_iff_small_o : RiemannHypothesis ↔ RHSmallO.SmallOPremise
+RHSmallO.rh_iff_angular_integral_isLittleO :
+  RiemannHypothesis ↔
+    (fun r => AngularMaster.angularI r - Real.pi * r * RHSmallO.criticalLineCutoff r) =o[nhdsWithin 0 (Set.Ioi 0)]
+      fun r => r
+'RHSmallO.small_o_of_rh' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHSmallO.small_o_iff_RH' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHSmallO.rh_iff_small_o' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHSmallO.rh_iff_angular_integral_isLittleO' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+FRESH_BUILD_MODULES=87
+AXIOM_AUDIT=STANDARD_LOGICAL_AXIOMS_ONLY
+SOLE_HYPOTHESIS=SMALL_O_PREMISE
+NATIVE_RH_CONDITIONAL_CLOSURE=PASS
+REVERSE_RH_TO_SMALL_O=PASS
+SMALL_O_RH_EQUIVALENCE=PASS

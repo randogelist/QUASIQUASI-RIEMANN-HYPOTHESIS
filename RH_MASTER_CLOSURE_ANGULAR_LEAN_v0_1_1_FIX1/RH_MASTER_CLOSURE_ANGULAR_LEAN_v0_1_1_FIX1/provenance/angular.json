@@ -1,0 +1,89 @@
+{
+  "selection_rule": "Only Lean files unique to ZIP34 versus canonical ZIP36; no existing shared module overwritten",
+  "files": [
+    {
+      "path": "AngularMaster/AnalyticExtension.lean",
+      "source_archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+      "source_member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/AngularMaster/AnalyticExtension.lean",
+      "sha256": "23d1f3a4d5814bb1e87854f2b4ff8186dbf87b8bde2d5fb3b102196fed13ae9c"
+    },
+    {
+      "path": "AngularMaster/AnchorHeight.lean",
+      "source_archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+      "source_member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/AngularMaster/AnchorHeight.lean",
+      "sha256": "07084ddd1f5e622dcb82cbe711670cfff09638ba25878a86c6929aa32de1643a"
+    },
+    {
+      "path": "AngularMaster/FullXGeometry.lean",
+      "source_archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+      "source_member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/AngularMaster/FullXGeometry.lean",
+      "sha256": "c4f1e71a09df8d144193b5d861f929234d7a79d84f1eb998c70f1b7271d0f1c5"
+    },
+    {
+      "path": "AngularMaster/FullXProduct.lean",
+      "source_archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+      "source_member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/AngularMaster/FullXProduct.lean",
+      "sha256": "cfa5ecd23fd41e70d717b7332f01e7df028d1c114fdeeeb73eca8e8c053210d2"
+    },
+    {
+      "path": "AngularMaster/HeightExtension.lean",
+      "source_archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+      "source_member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/AngularMaster/HeightExtension.lean",
+      "sha256": "e4ca1898f70541e936dad8808b94c0dac9cd455bab26b2c3c8295b3880755206"
+    },
+    {
+      "path": "AngularMaster/MellinAnchorBound.lean",
+      "source_archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+      "source_member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/AngularMaster/MellinAnchorBound.lean",
+      "sha256": "d38e72e3c5ba927d7d2ed01f85ec4165f7e54ba196cf8d0f789ac91bc84274d8"
+    },
+    {
+      "path": "AngularMaster/MellinEndpointBound.lean",
+      "source_archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+      "source_member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/AngularMaster/MellinEndpointBound.lean",
+      "sha256": "061df1283ff2011629a2fe501f3151f17e2d6d67b84d7da18fb1a225b8ab19c3"
+    },
+    {
+      "path": "AngularMaster/MellinPairedBound.lean",
+      "source_archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+      "source_member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/AngularMaster/MellinPairedBound.lean",
+      "sha256": "5d2e593be01d93f425ccff6a178706d46b90479dcc843eb7f2f21e78b4a954d7"
+    },
+    {
+      "path": "AngularMaster/SecondFullXAnchor.lean",
+      "source_archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+      "source_member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/AngularMaster/SecondFullXAnchor.lean",
+      "sha256": "16e3a34ff3d3ea0cb812ba5575bfc1636578edd55f5cbcccc76d86f2f4e827d7"
+    },
+    {
+      "path": "AngularMaster/SharperZeroFreeSeed.lean",
+      "source_archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+      "source_member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/AngularMaster/SharperZeroFreeSeed.lean",
+      "sha256": "c291292f10dc2479634bb56901d1595fa11eaafab2fe65caa9008f43fb7acbf0"
+    },
+    {
+      "path": "AngularMaster/StripProductBound.lean",
+      "source_archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+      "source_member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/AngularMaster/StripProductBound.lean",
+      "sha256": "616dcc0be8cddcad2a2eac3b43887cb2c2571559c7067b57649a18e3405a4314"
+    },
+    {
+      "path": "AngularMaster/ThetaKernelAnchorBound.lean",
+      "source_archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+      "source_member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/AngularMaster/ThetaKernelAnchorBound.lean",
+      "sha256": "5bb0ac885fba20de6daecfea0f1ad5f7dab8062eeeebfb1584ba356f1ffe074d"
+    },
+    {
+      "path": "AngularMaster/ThetaKernelSharperBound.lean",
+      "source_archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+      "source_member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/AngularMaster/ThetaKernelSharperBound.lean",
+      "sha256": "f5a651fdb70c67e8643c8c58d791720709cd5929b4f2fa447cb47dd3f2c5c026"
+    },
+    {
+      "path": "QQRH.lean",
+      "source_archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+      "source_member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/QQRH.lean",
+      "sha256": "8f73572dce837532d57df1ed56b8a9a122dd3dec1b50b8d857b394100f32ed45"
+    }
+  ]
+}

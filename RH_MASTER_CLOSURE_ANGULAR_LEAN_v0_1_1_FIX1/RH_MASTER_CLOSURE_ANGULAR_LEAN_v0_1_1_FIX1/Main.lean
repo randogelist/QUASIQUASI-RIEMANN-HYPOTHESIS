@@ -1,0 +1,21 @@
+import RHMaster
+
+#check RHMaster.RH_MASTER_CLOSURE
+#check RHMaster.RH_MASTER_EQUIVALENCE
+#check RHMaster.RH_MASTER_EQUIVALENCE_ATLAS
+#check RHMaster.QQRH_thirteen
+#check RHMaster.native_RH_of_noRegularAngularStationary
+#check RHMaster.native_RH_of_angularStationaryZero
+#check RHMaster.NativeRoutes.rh_of_local_pole_and_cayley_trace
+#check RHMaster.NativeRoutes.rh_of_native_energy_and_coefficient_identity
+
+#print RHMaster.AngularResidualNonnegative
+#print RHMaster.AllSlopePositivity
+#print AngularRegularity.ActualNoRegularAngularStationary
+#print AngularRegularity.NoRegularAngularStationary
+#print Merger04.ForwardLocalPole.ActualLocalPoleForcesDirectNegativity
+#print NativeSoloboloNegativity.CofinalMersenneXiCayleyTraceConvergence
+
+#print axioms RHMaster.RH_MASTER_EQUIVALENCE_ATLAS
+#print axioms RHMaster.native_RH_of_noRegularAngularStationary
+#print axioms RHMaster.NativeRoutes.rh_of_local_pole_and_cayley_trace

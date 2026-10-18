@@ -1,0 +1,116 @@
+def RiemannHypothesis : Prop :=
+∀ (s : ℂ), riemannZeta s = 0 → (¬∃ n, s = -2 * (↑n + 1)) → s ≠ 1 → s.re = 1 / 2
+def AWPIRH.xi : ℂ → ℂ :=
+fun s => (1 + s * (s - 1) * completedRiemannZeta₀ s) / 2
+def AWPIRH.theta : ℂ → ℂ :=
+fun z => AWPIRH.centeredXi z.sqrt
+def TaylorsProdigy.H : ℝ → ℝ → ℝ :=
+fun r x => deriv (AngularMaster.actualProfile r) x
+def TaylorsProdigy.F : ℝ → ℝ → ℝ :=
+fun r θ => TaylorsProdigy.H r (Real.cos θ)
+def TaylorsProdigy.TAYLORS_PRODIGY_PREMISE : Prop :=
+∀ (r : ℝ),
+  0 < r →
+    ∃ rate,
+      (∀ (b : ℝ), 0 < b → b < Real.pi → IntervalIntegrable rate MeasureTheory.volume 0 b) ∧
+        (∀ θ ∈ Set.Ioo 0 Real.pi, 0 ≤ rate θ) ∧
+          ∀ θ ∈ Set.Ioo 0 Real.pi,
+            0 < TaylorsProdigy.F r θ → -rate θ * TaylorsProdigy.F r θ ≤ deriv (TaylorsProdigy.F r) θ
+TaylorsProdigy.positive_of_integrable_relative_decay {f rate : ℝ → ℝ} {a b : ℝ} (hab : a ≤ b)
+  (hf : ContinuousOn f (Set.Icc a b)) (hd : ∀ t ∈ Set.Ioo a b, DifferentiableAt ℝ f t) (hseed : 0 < f a)
+  (hi : MeasureTheory.IntegrableOn rate (Set.Icc a b) MeasureTheory.volume) (hn : ∀ t ∈ Set.Icc a b, 0 ≤ rate t)
+  (hr : ∀ t ∈ Set.Ioo a b, 0 < f t → -rate t * f t ≤ deriv f t) : 0 < f b
+TaylorsProdigy.lower_bound_of_integrable_relative_decay {f rate : ℝ → ℝ} {a b : ℝ} (hab : a ≤ b)
+  (hf : ContinuousOn f (Set.Icc a b)) (hd : ∀ t ∈ Set.Ioo a b, DifferentiableAt ℝ f t) (hseed : 0 < f a)
+  (hi : MeasureTheory.IntegrableOn rate (Set.Icc a b) MeasureTheory.volume) (hn : ∀ t ∈ Set.Icc a b, 0 ≤ rate t)
+  (hr : ∀ t ∈ Set.Ioo a b, 0 < f t → -rate t * f t ≤ deriv f t) : f a * Real.exp (-∫ (t : ℝ) in a..b, rate t) ≤ f b
+TaylorsProdigy.deriv_F {r θ : ℝ} (hθ : θ ∈ Set.Ioo 0 Real.pi) :
+  deriv (TaylorsProdigy.F r) θ = -Real.sin θ * deriv (TaylorsProdigy.H r) (Real.cos θ)
+TaylorsProdigy.F_positive_propagates (h : TaylorsProdigy.TAYLORS_PRODIGY_PREMISE) {r a b : ℝ} (hr : 0 < r) (ha : 0 < a)
+  (hab : a ≤ b) (hb : b < Real.pi) (hseed : 0 < TaylorsProdigy.F r a) : 0 < TaylorsProdigy.F r b
+TaylorsProdigy.actual_no_zero_on_interior_circle (htransport : TaylorsProdigy.AngularSlopePositivePropagatesLeft)
+  {r x : ℝ} (hr : 0 < r) (hx : x ∈ Set.Ioo (-1) 1) : AWPIRH.theta (AngularMaster.circlePoint r x) ≠ 0
+TaylorsProdigy.actual_theta_no_zero_interior_of_premise (h : TaylorsProdigy.TAYLORS_PRODIGY_PREMISE) {r x : ℝ}
+  (hr : 0 < r) (hx : x ∈ Set.Ioo (-1) 1) : AWPIRH.theta (AngularMaster.circlePoint r x) ≠ 0
+TaylorsProdigy.theta_zeros_nonpositive_of_premise (h : TaylorsProdigy.TAYLORS_PRODIGY_PREMISE) :
+  AngularMaster.ThetaZerosNonpositive
+TaylorsProdigy.native_RH_of_TAYLORS_PRODIGY_PREMISE (h : TaylorsProdigy.TAYLORS_PRODIGY_PREMISE) : RiemannHypothesis
+TaylorsProdigy.relative_decay_rate_of_positive_extension {f g : ℝ → ℝ} {B : ℝ} (hg : ContinuousOn g (Set.Ico 0 B))
+  (hdg : ContinuousOn (deriv g) (Set.Ico 0 B)) (hpos : ∀ t ∈ Set.Ico 0 B, 0 < g t)
+  (heq : ∀ t ∈ Set.Ioo 0 B, f t = g t) :
+  ∃ rate,
+    (∀ (b : ℝ), 0 < b → b < B → IntervalIntegrable rate MeasureTheory.volume 0 b) ∧
+      (∀ t ∈ Set.Ioo 0 B, 0 ≤ rate t) ∧ ∀ t ∈ Set.Ioo 0 B, 0 < f t → -rate t * f t ≤ deriv f t
+TaylorsProdigy.TAYLORS_PRODIGY_PREMISE_of_native_RH (hRH : RiemannHypothesis) : TaylorsProdigy.TAYLORS_PRODIGY_PREMISE
+TaylorsProdigy.TAYLORS_PRODIGY_PREMISE_iff_RH : TaylorsProdigy.TAYLORS_PRODIGY_PREMISE ↔ RiemannHypothesis
+AXIOM_DEPENDENCIES TaylorsProdigy.monotoneOn_quotient_of_product_values._simp_1_1: [propext]
+AXIOM_DEPENDENCIES TaylorsProdigy.angleExtension_contDiff: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.angleExtension: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.F_differentiableAt: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.monotoneOn_quotient_of_product_values._simp_1_6: [propext,
+ Classical.choice,
+ Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.F: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.TAYLORS_PRODIGY_PREMISE_iff_RH: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.sqrtArgument_pos: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.genusZeroFactor_pos: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.monotoneOn_quotient_of_product_values._simp_1_4: [propext]
+AXIOM_DEPENDENCIES TaylorsProdigy.TAYLORS_PRODIGY_PREMISE: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.monotoneOn_quotient_of_product_values: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.H_contDiffAt: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.deriv_pos_of_product_values: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.scaled_angleExtension_eq_F: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.native_RH_of_TAYLORS_PRODIGY_PREMISE: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.F_continuousOn: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.extendedSlope_contDiff: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.F_positive_propagates: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.cos_mem_interior: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.indexedProductValues_tendsto_realProduct._simp_1_2: [propext,
+ Classical.choice,
+ Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.realProduct: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.actual_no_zero_on_interior_circle: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.realProduct_contDiff: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.monotoneOn_quotient_of_product_values._simp_1_2: [propext]
+AXIOM_DEPENDENCIES TaylorsProdigy.actual_theta_no_zero_interior_of_premise: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.AngularSlopePositivePropagatesLeft: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.F.eq_1: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.monotoneOn_quotient_of_product_values._simp_1_7: [propext]
+AXIOM_DEPENDENCIES TaylorsProdigy.scaled_extendedSlope_eq_H: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.deriv_F: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.log_lower_bound_of_positive: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.TAYLORS_PRODIGY_PREMISE_of_native_RH: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.indexedProductValues_tendsto_realProduct._simp_1_1: [propext,
+ Classical.choice,
+ Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.actual_slope_zero_of_profile_zero: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.F_continuousAt: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.H_differentiableOn: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.relative_decay_rate_of_positive_extension: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.scaled_realProduct_eq_actualProfile: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.H: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.H_continuousOn: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.monotoneOn_quotient_of_product_values._simp_1_3: [propext]
+AXIOM_DEPENDENCIES TaylorsProdigy.actualProfile_pos_of_RH: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.actual_theta_zero_real_nonpositive: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.H_continuousAt: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.positive_of_integrable_relative_decay: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.H.eq_1: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.lower_bound_of_integrable_relative_decay: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.F_differentiableOn: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.extendedSlope: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.H_differentiableAt: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.monotoneOn_quotient_of_product_values._simp_1_5: [propext]
+AXIOM_DEPENDENCIES TaylorsProdigy.indexedProductValues_tendsto_realProduct: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.F_contDiffAt: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.complexIndexedAngularProduct_differentiable: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.realProduct.eq_1: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.deriv_lower_bound_of_product_values: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.scaled_angleExtension_eventuallyEq_F: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.theta_zeros_nonpositive_of_premise: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.angularSlopePositivePropagatesLeft_of_premise: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES TaylorsProdigy.actualProfile_contDiffAt: [propext, Classical.choice, Quot.sound]
+TAYLORS_PRODIGY_AXIOM_AUDIT=PASS COUNT=61
+'TaylorsProdigy.native_RH_of_TAYLORS_PRODIGY_PREMISE' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TaylorsProdigy.TAYLORS_PRODIGY_PREMISE_of_native_RH' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TaylorsProdigy.TAYLORS_PRODIGY_PREMISE_iff_RH' depends on axioms: [propext, Classical.choice, Quot.sound]

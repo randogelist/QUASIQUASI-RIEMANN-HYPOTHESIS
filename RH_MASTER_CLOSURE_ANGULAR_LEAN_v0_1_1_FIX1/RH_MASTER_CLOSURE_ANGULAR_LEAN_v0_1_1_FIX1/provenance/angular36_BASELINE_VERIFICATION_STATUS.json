@@ -1,0 +1,35 @@
+{
+  "package_version": "0.3.0",
+  "compiler": "Lean4.33.0",
+  "mathlib": "v4.33.0",
+  "compile_status": "PASS",
+  "modules_compiled": 76,
+  "audit_compiled": true,
+  "kernel_axioms_observed": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "sorryAx": false,
+  "custom_axiom_declarations": 0,
+  "endpoint": "AngularMaster.RH_iff_Master : RiemannHypothesis <-> frozenLogMaster (1/2)",
+  "extra_analytic_hypotheses": [],
+  "full_equivalence_unconditional_in_Lean": true,
+  "proves_RH": false,
+  "proves_Master": false,
+  "textbook_GRH_instantiated": false,
+  "actual_factorization": "proved; vendored source and Lean4.33 compatibility edits included",
+  "external_source_commit": "753938937e624d1c8bbe4c208517660a672d1b8e",
+  "clean_build_seconds": 90.82,
+  "windows_runner": {
+    "mode": "NATIVE_WINDOWS_LEAN_433_FASTCACHE",
+    "default_threads": 16,
+    "uses_existing_mathlib_cache": true,
+    "network_used": false,
+    "lake_used": false,
+    "windows_execution_verified": false,
+    "prior_version_v0_2_0_windows_execution_verified": true,
+    "static_review": "PASS",
+    "direct_compiler_sequence_linux": "PASS_76_MODULES_AND_AUDIT"
+  }
+}

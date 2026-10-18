@@ -1,0 +1,55 @@
+TAYLORS_PRODIGY_LEAN_v0_2_0 -- VERIFICATION REPORT
+
+Compiler: Lean 4.33.0, Linux x86_64
+Compiler commit: d8b18978322de05a8f3dba51ef03cf5461676c17
+Mathlib: 4.33.0
+
+PROVED ENDPOINTS
+TaylorsProdigy.native_RH_of_TAYLORS_PRODIGY_PREMISE
+TaylorsProdigy.TAYLORS_PRODIGY_PREMISE_of_native_RH
+TaylorsProdigy.TAYLORS_PRODIGY_PREMISE_iff_RH
+
+The iff theorem states the exact original premise iff Mathlib's native
+RiemannHypothesis. Its proof takes no research hypothesis. Neither RH nor
+the premise is proved unconditionally by this package.
+
+PREMISE IDENTITY
+TaylorProdigy/Objects.lean is byte-for-byte identical to v0.1.0.
+SHA256: 17d16a624b3e1a90f1769c307fe95953c712cc57acf140d82d18c60582caa265
+The premise definition and the previously delivered forward proof modules
+are unchanged. No new research condition is introduced.
+
+CHECKS EXECUTED
+- Compiled all six new reverse-direction modules with Lean 4.33.0:
+  PositiveExtension, AngularExtension, StrictProductSlope,
+  ActualPositivity, Reverse, and Equivalence.
+- Freshly compiled the full retained AngularMaster/ActualHadamard.lean,
+  including its actual native-RH-to-product bridge.
+- Built the integrated TaylorProdigy.lean import and ran Audit.lean with
+  only this package's object directory plus Mathlib/dependency caches in
+  LEAN_PATH. Both exited successfully.
+- Verified source hashes for all 74 retained Lean modules.
+- Reused retained compiled objects only after exact source-byte comparison
+  against their previously checked Lean 4.33.0 sources. This was an
+  incremental verification, not a fresh rebuild of all 85 modules.
+- Audit checked all 61 Taylor declarations present in the environment,
+  including generated declarations and their transitive dependencies.
+  This includes the transitive dependencies of both directions and iff.
+- The three endpoint theorems depend only on the standard logical axioms
+  propext, Classical.choice, and Quot.sound.
+- Audit marker: TAYLORS_PRODIGY_AXIOM_AUDIT=PASS COUNT=61.
+- Verified the source compile order and ZIP integrity/checksum manifest.
+
+WINDOWS RUNNER
+The v0.2.0 runner was statically reviewed, not executed on this Linux host.
+The user previously verified the v0.1.0 native Windows runner successfully.
+run.cmd recompiles all 85 included modules, then runs the new axiom audit.
+It needs the user's existing matching Lean 4.33.0 and Mathlib cache and
+uses no network, Lake, Python, PowerShell, or WSL.
+
+ARCHIVE CONTENTS
+85 compile-order modules plus Audit.lean, declaration/source manifests,
+README, license, runner, and verification logs. No compiled objects or
+internal cache bookkeeping are included. The two successful build logs
+may be empty because Lean produced no diagnostics; the full audit output
+is in VERIFIED_AUDIT.log.

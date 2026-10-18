@@ -1,0 +1,192 @@
+[
+  {
+    "filename": "01-RH_GP_BKQR_EXPLICIT_FRONTIER_LEAN_v0_3_0.zip",
+    "sha256": "c0aeb1e8ac3818c81a24908ac53931fa382d31d74400e779bfbc7c1c005ab78d",
+    "bytes": 15887
+  },
+  {
+    "filename": "02-GP_HAUSDORFF_STRONG_IDENTITIES_LEAN_v0_2_1.zip",
+    "sha256": "14ac8abb53d7591686fe1b5ea62f42a885b859b5884a0454378fbfdfb790810d",
+    "bytes": 24479
+  },
+  {
+    "filename": "03-GP_RH_LAYERED_FRONTIERS_LEAN_v0_3_1_TRACE_BRIDGE_FASTCORE-1-.zip",
+    "sha256": "ab76345b26b7dddb005efbadafe56ed2e0997e0c7b791f34b189524bc7df7394",
+    "bytes": 30121
+  },
+  {
+    "filename": "04-AWPI_PHI_RH_LEAN_LIVE_SNAPSHOT_2026-09-19-1-.zip",
+    "sha256": "0be61c05dc69e5c6be76f14df64cd08e0569d323225b08e45a695ef56e1a1c2e",
+    "bytes": 23954
+  },
+  {
+    "filename": "05-awpi_phi_rh_lean_minimal_frontier_v0_2_17_native16-1-.zip",
+    "sha256": "f248c570aa8b61d9bd47e2fbf7157cd29ee67293738b8ad055051218b7c27290",
+    "bytes": 59159
+  },
+  {
+    "filename": "06-AWPI_PhiRH_Archive_Bundle_v0_2_16.zip",
+    "sha256": "e153bd2a6eb8299d4a668a2113c3fa3eb61f13cc9539da952f68034e4816e65e",
+    "bytes": 477997
+  },
+  {
+    "filename": "07-RH_NATIVE_SOLOBOLO_LEAN_v0_18_3_EXPLICIT_ANALYTIC_COMP_ARGS-1-.zip",
+    "sha256": "d6e4813d83ed681d2263448d6222a3903a60e46e19a6219ccff8f1bad17621f4",
+    "bytes": 51081
+  },
+  {
+    "filename": "08-RH_NATIVE_SOLOBOLO_MERGER04_LOCAL_POLE_v0_4_1_FIX1-3-.zip",
+    "sha256": "ea7b6f4bce822c9baf9e72e2cc8d5d4f496d879743903f590788a8c9106c857a",
+    "bytes": 57520
+  },
+  {
+    "filename": "09-MERGER_03_MAINLINE_PATCH_001_MODE_BRANCH_GEOMETRY.zip",
+    "sha256": "b8dab42236d807fd3d8e0d34c5ac6ef510ddeaef6119e67124a3ada3a7266b42",
+    "bytes": 11846
+  },
+  {
+    "filename": "10-CAYLEY_GOLPHI_RH_EQUIV_LEAN_v0_1_0-1-.zip",
+    "sha256": "a91a76f4696ee39a1ea96860c64cea8d20aa4cd7d592b239eb49fecb199b3e5d",
+    "bytes": 14397
+  },
+  {
+    "filename": "11-MCP_ZHANG_REAL_ETA_SIGN_FASTCORE_v0_3_0.zip",
+    "sha256": "dcc5102e982d37c36a7a8d57aef8bbbece7857f9282672ee0821f8b4c61bd2ed",
+    "bytes": 4460
+  },
+  {
+    "filename": "12-RH_GP_BKQR_OPERATION_ZHANG_FIREWALL_LEAN_v0_4_3-1-.zip",
+    "sha256": "cb551c91c6f9e3899d25fe662078239d65481c38985c76b573eb08f64b2b41f0",
+    "bytes": 25855
+  },
+  {
+    "filename": "13-RH_GP_EXACT_LEDGER_ADAPTER_LEAN_v0_1_0-1-.zip",
+    "sha256": "a4b4f894bcd86e98791ba3fb4c07306243bdf24f9d9b83416800d544ebaec0ea",
+    "bytes": 20583
+  },
+  {
+    "filename": "14-RH_NATIVE_SOLOBOLO_LEAN_v0_18_2_DEFINITIONAL_ANALYTIC_ALIGNMENT_FIX-2-.zip",
+    "sha256": "8c81300d8ff03bc9c52698870f475231b6051f3fd2fa597c7f11f701de07f200",
+    "bytes": 51753
+  },
+  {
+    "filename": "15-MERGER_04_REAL_ZETA_SIGN_REDUCTION_v0_6_0-1-.zip",
+    "sha256": "9828d07abb2d16399c37c323230dca7b800a28077be2273552e91dfa3bbfb9ef",
+    "bytes": 23992
+  },
+  {
+    "filename": "16-MERGER_02_NATIVE_ROW_REINDEX_v0_10_1_FIX1-1-.zip",
+    "sha256": "84952c69d3803fc9bf7e7a2864360a392ec34f777bad4b1464331b2996241a8e",
+    "bytes": 44962
+  },
+  {
+    "filename": "17-RH_NATIVE_SOLOBOLO_MERGER05_EXPLICIT_CAYLEY_TRACE_v0_23_0-1-.zip",
+    "sha256": "f0218c807084b703f525f03369e52adab6abf22f8e0540820a28b0a2b3174228",
+    "bytes": 57202
+  },
+  {
+    "filename": "18-AWPIRH_MERGER_01_LEAN_v0_10_1_FIX1.zip",
+    "sha256": "2dd8004d24a06bec6eebd401b8936d84168999cec1561fa68abe52f3e1cb7eb0",
+    "bytes": 104596
+  },
+  {
+    "filename": "19-A-TIER-RH-EQUIVALENCE.zip",
+    "sha256": "30ff368e1a2ac7865d6687d4ee09224d4bef8dcf7a545397af34651a01d25d6e",
+    "bytes": 26587
+  },
+  {
+    "filename": "20-A-TIER-GRH-CLOSURE.zip",
+    "sha256": "32f964156018247b884f74259e193e0242afb4caffa1f0f4d4dcad269b252a89",
+    "bytes": 7254
+  },
+  {
+    "filename": "21-GP_BKQR_RH_TO_GRH_COMPLETED_L_FACTOR_FRONTIER_LEAN_v0_7_0_FASTCORE.zip",
+    "sha256": "2fb25af039324ebcfb852400624be1aa4e8d941314d545811af48b00c1e235e6",
+    "bytes": 4799
+  },
+  {
+    "filename": "22-RocQ.rar",
+    "sha256": "6a75bedd0674bafefc1813617ce9ac9fc90d38d484a3a8d310ed639cf013bae1",
+    "bytes": 5564
+  },
+  {
+    "filename": "23-awpi_phi_rh_final_v0_2_16_portable-1-.zip",
+    "sha256": "af996072df701aca8398d4b0f52bc1c76d670ff0c7b0a5c63b3c0fe1c84f86c2",
+    "bytes": 48142
+  },
+  {
+    "filename": "24-Lean.zip",
+    "sha256": "211edce1f89acb606134dea07f10cd95784620ba9e0f4e7c7d5fb57a51c6de89",
+    "bytes": 11746
+  },
+  {
+    "filename": "25-awpi_phi_rh_native_zero_binding_v0_24_0-1-.zip",
+    "sha256": "47944fa7674382dce1f68560cad543cf8132c2e9e210820e8b0dd0d2904a0465",
+    "bytes": 13542
+  },
+  {
+    "filename": "26-awpi_phi_rh_pow2_strip_v0_18_2-2-.zip",
+    "sha256": "4f9ac7eb69e978c03a6fd82ec29526caeeb09137047a6df8b1d1cf9292752f99",
+    "bytes": 28595
+  },
+  {
+    "filename": "27-awpi_phi_rh_shifted_slice_transversality_v0_18_1-2-.zip",
+    "sha256": "1555d5d3bf129c21ec809ea26fd82eb101d95b800328cb9a2a4ba2cb47f06d83",
+    "bytes": 28650
+  },
+  {
+    "filename": "28-awpi_phi_rh_subexp_adapter_v0_16_3-2-.zip",
+    "sha256": "20e7ee671f8699b63273abf40c1b9b8d7335d16df2b95207ac79f48d20d95078",
+    "bytes": 25460
+  },
+  {
+    "filename": "29-awpi_phi_rh_zeta_zero_factor_v0_15_1-2-.zip",
+    "sha256": "ff992ce0b9ac265e6422ef22b38b55c25fea10147defe5f603594bf1dfa260e5",
+    "bytes": 24283
+  },
+  {
+    "filename": "30-awpi_phi_rh_actual_phi_boundary_envelope_v0_19_0-2-.zip",
+    "sha256": "0d67afeab1b3a59f463edb5ebb75ed62b386afa872040c61815999e10a8e65bf",
+    "bytes": 11012
+  },
+  {
+    "filename": "31-RH_v0_1_21_PATCH.zip",
+    "sha256": "538a69cc16f589bfb2a1fff1aa1ddf3dad1825f5abc40958df8638bd607b8bea",
+    "bytes": 9946
+  },
+  {
+    "filename": "32-GRAND_MERGE_RI01_NATIVE_N2_CONVERGENCE_v0_12_0_PATCH.zip",
+    "sha256": "80e9196123f7ef66665fd4715b0fd61b5bdf1b294fd21fd8645c8dbe96098db0",
+    "bytes": 5598
+  },
+  {
+    "filename": "33-GRAND_MERGE_RI01_NATIVE_N2_HOLOBALL_v0_16_1_CONTINUITY_FIX1.zip",
+    "sha256": "d57a36ee8578c28b8ba60be5a81347ed00a768bae1967d096c7e28196539c04e",
+    "bytes": 3324
+  },
+  {
+    "filename": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+    "sha256": "eb3dce3d9ef5b751cf5a9ba3281709f5e9d270533a6b024fe66539c7e3b99644",
+    "bytes": 287435
+  },
+  {
+    "filename": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+    "sha256": "2d55c84b449d87957adc8897ea39557742a8667d2b2d869aef5bf7a34dc64705",
+    "bytes": 259936
+  },
+  {
+    "filename": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+    "sha256": "f6f5df99cc77321ae04cfe3e7e8a7d176f3ed2d5999af87e31636233a93c552b",
+    "bytes": 309549
+  },
+  {
+    "filename": "37-ANGULAR_REGULARITY_FRAMEWORK_LEAN_v0_1_0_FIX3-1-.zip",
+    "sha256": "660bf9fd7adaf4ae40ee2bc5f3aaba523f0f2fd60bd091f0b6d362ed244224b9",
+    "bytes": 31016
+  },
+  {
+    "filename": "38-ANGULAR_REGULARITY_LEAN_v0_1_9_FIX9.zip",
+    "sha256": "39b0166ea06a69b1338e228660e23c510ee0c90cf6a37edd352f37487b900809",
+    "bytes": 32901
+  }
+]

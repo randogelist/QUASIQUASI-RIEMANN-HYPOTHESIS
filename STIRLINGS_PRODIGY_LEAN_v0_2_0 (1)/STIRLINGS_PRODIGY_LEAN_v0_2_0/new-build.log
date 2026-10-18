@@ -1,0 +1,10 @@
+COMPILE_START=StirlingsProdigy/Closure.lean
+COMPILE_PASS=StirlingsProdigy/Closure.lean
+COMPILE_START=StirlingsProdigy/Local.lean
+COMPILE_PASS=StirlingsProdigy/Local.lean
+COMPILE_START=StirlingsProdigy/Equivalence.lean
+COMPILE_PASS=StirlingsProdigy/Equivalence.lean
+COMPILE_START=StirlingsProdigy.lean
+COMPILE_PASS=StirlingsProdigy.lean
+AUDIT_PASS=Audit.lean
+TRANSITIVE_AXIOM_AUDIT=PASS COUNT=32

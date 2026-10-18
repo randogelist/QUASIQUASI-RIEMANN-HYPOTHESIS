@@ -1,0 +1,23 @@
+{
+  "base_archive": "18-AWPIRH_MERGER_01_LEAN_v0_10_1_FIX1.zip",
+  "base_archive_sha256": "2dd8004d24a06bec6eebd401b8936d84168999cec1561fa68abe52f3e1cb7eb0",
+  "inherited_sources": [
+    {
+      "archive_entry": "AWPIRH_MERGER_01_LEAN_v0_10_1_FIX1/AWPIRH/XiCore.lean",
+      "current_path": "AWPIRH/XiCore.lean",
+      "current_sha256": "6bda1a14b59a508811b9f9a8bff400ed824d86f366b2ddeecd728571be7fd9db",
+      "note": "Imports narrowed; any compatibility proof edits are in the delivered source.",
+      "source_sha256": "60a9f5b9dd6c94039c60a8fc78e2f16b1e9bdf3d1533baa646b4b7e8faf01432"
+    },
+    {
+      "archive_entry": "AWPIRH_MERGER_01_LEAN_v0_10_1_FIX1/AWPIRH/ThetaEntire.lean",
+      "current_path": "AWPIRH/ThetaEntire.lean",
+      "current_sha256": "cb1f0838f2d90a1ba30e696afd05337e721ee7cc7e021a30ec28cdf2f810533b",
+      "note": "Imports narrowed; any compatibility proof edits are in the delivered source.",
+      "source_sha256": "cb1f0838f2d90a1ba30e696afd05337e721ee7cc7e021a30ec28cdf2f810533b"
+    }
+  ],
+  "lean": "4.33.0",
+  "mathlib_revision": "db584cd6d46c92f209a44c0f1c829460d327499d",
+  "scope_note": "Retained inherited-source records only; prior package validation is not a validation of this release."
+}

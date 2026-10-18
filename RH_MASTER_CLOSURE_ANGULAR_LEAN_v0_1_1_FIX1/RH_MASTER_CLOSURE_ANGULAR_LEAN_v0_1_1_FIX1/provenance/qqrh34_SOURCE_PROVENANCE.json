@@ -1,0 +1,77 @@
+{
+  "package": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0",
+  "derived_from": "RH_ANGULAR_MASTER_CHAIN_v0_3_0.zip",
+  "source_archive_sha256": "f6f5df99cc77321ae04cfe3e7e8a7d176f3ed2d5999af87e31636233a93c552b",
+  "source_library_version": 6,
+  "public_entry": "QQRH.lean",
+  "public_endpoints": [
+    "QQRH.cutoff_two",
+    "QQRH.of_positivity",
+    "QQRH.positivity_two",
+    "QQRH.two",
+    "QQRH.cutoff_ten",
+    "QQRH.cutoff_eleven",
+    "QQRH.positivity_ten",
+    "QQRH.positivity_eleven",
+    "QQRH.ten",
+    "QQRH.eleven",
+    "QQRH.of_sq_lt_122",
+    "QQRH.second_full_x_radius",
+    "QQRH.second_full_x_monotone",
+    "QQRH.second_full_x_range_anchor",
+    "QQRH.second_full_x_positive"
+  ],
+  "trimmed_project_modules": [
+    "AngularMaster/ZeroGeometry.lean",
+    "AngularMaster/ZeroExclusion.lean",
+    "AngularMaster/Calculus.lean",
+    "AngularMaster/ActualProfile.lean",
+    "AngularMaster/AngularCutoff.lean",
+    "AngularMaster/QQRHGeometry.lean",
+    "AngularMaster/ActualHadamard.lean",
+    "AngularMaster/LowHeightGeometry.lean"
+  ],
+  "removed_source_files": [
+    "AWPIRH.lean",
+    "AngularMaster.lean",
+    "AngularMaster/CanonicalProduct.lean",
+    "AngularMaster/Chain.lean",
+    "AngularMaster/IndexedProduct.lean",
+    "AngularMaster/ProductLimit.lean",
+    "AngularMaster/ProductSummability.lean",
+    "AngularMaster/ProductValueLimit.lean",
+    "AngularMaster/RadialExtension.lean",
+    "QQRHAudit.lean",
+    "QQRHUnconditionalAudit.lean"
+  ],
+  "upstream_factorization_modules_unchanged": 60,
+  "minimization_scope": "QQRH-only public interface and complete import dependency closure; not a declaration-level minimization of upstream libraries.",
+  "analytic_extension": {
+    "date": "2026-10-16",
+    "modules": [
+      "AngularMaster/ThetaKernelSharperBound.lean",
+      "AngularMaster/MellinEndpointBound.lean",
+      "AngularMaster/SharperZeroFreeSeed.lean",
+      "AngularMaster/StripProductBound.lean",
+      "AngularMaster/HeightExtension.lean",
+      "AngularMaster/AnalyticExtension.lean"
+    ],
+    "method": "Retain Mellin integration endpoints, sharpen explicit theta decay, and use AM-GM for the xi prefactor. Transport the proved zero height bound through the original angular positivity criterion.",
+    "original_slope_two_proof_retained": true
+  },
+  "base_package": "QQRH_MINIMAL_LEAN_v0_1_0 with analytic extension to QQRH(11)",
+  "second_full_x_anchor": {
+    "date": "2026-10-16",
+    "modules": [
+      "AngularMaster/ThetaKernelAnchorBound.lean",
+      "AngularMaster/MellinAnchorBound.lean",
+      "AngularMaster/MellinPairedBound.lean",
+      "AngularMaster/AnchorHeight.lean",
+      "AngularMaster/FullXGeometry.lean",
+      "AngularMaster/FullXProduct.lean",
+      "AngularMaster/SecondFullXAnchor.lean"
+    ],
+    "method": "Sharper theta series and paired weighted Mellin bounds prove the height gap; polynomial factorization proves full-angular factor monotonicity; the actual canonical product transports it to the profile.",
+    "previous_public_proofs_retained": true
+  }
+}

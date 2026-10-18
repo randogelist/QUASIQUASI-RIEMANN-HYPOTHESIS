@@ -1,0 +1,466 @@
+{
+  "result": "PASS",
+  "package": "RH_GIGGA_SMALL_O_EQUIVALENCE_LEAN_v0_2_0",
+  "lean_version": "4.33.0",
+  "lean_commit": "d8b18978322de05a8f3dba51ef03cf5461676c17",
+  "platform": "x86_64-unknown-linux-gnu",
+  "mathlib_tag": "v4.33.0",
+  "mathlib_commit": "db584cd6d46c92f209a44c0f1c829460d327499d",
+  "recorded_utc": "2026-10-18T22:33:04.504387+00:00",
+  "compiled_modules": 87,
+  "audited_modules": 1,
+  "source_count": 88,
+  "new_modules": [
+    "ReverseCutoff.lean",
+    "ScalarConverse.lean",
+    "RHSmallOEquivalence.lean"
+  ],
+  "axiom_probes": 9,
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "sources": [
+    {
+      "source": "AWPIRH/ThetaEntire.lean",
+      "sha256": "cb1f0838f2d90a1ba30e696afd05337e721ee7cc7e021a30ec28cdf2f810533b",
+      "result": "PASS"
+    },
+    {
+      "source": "AWPIRH/XiCore.lean",
+      "sha256": "6bda1a14b59a508811b9f9a8bff400ed824d86f366b2ddeecd728571be7fd9db",
+      "result": "PASS"
+    },
+    {
+      "source": "AngularIntegral.lean",
+      "sha256": "8b47ffabfa07d1e6346665c5aa1a3fa102be916a8338512383ebaa51a5bb19c7",
+      "result": "PASS"
+    },
+    {
+      "source": "AngularMaster/ActualHadamard.lean",
+      "sha256": "99f424e8e0e87247c76b9f638850de67dcaaf7a5559e7158eeb1883efcee3664",
+      "result": "PASS"
+    },
+    {
+      "source": "AngularMaster/ActualProfile.lean",
+      "sha256": "dc179f4af95be6babe9be87be76076e6525b45c959f9b6e645d30b4112983d8e",
+      "result": "PASS"
+    },
+    {
+      "source": "AngularMaster/AngularCutoff.lean",
+      "sha256": "634d4e73152acdc556c28437ccfb7f7d986cb889e21287b0e4248e0434863d53",
+      "result": "PASS"
+    },
+    {
+      "source": "AngularMaster/Calculus.lean",
+      "sha256": "dbdf9dbe8cf1d030edc80d5723d4acf304ef6eecdedbca8a6cb99fd6674874d4",
+      "result": "PASS"
+    },
+    {
+      "source": "AngularMaster/ComplexScaleProduct.lean",
+      "sha256": "2a25b446accead2b314877c8eace2764f775e8b6b8675aa9909be89f421f535d",
+      "result": "PASS"
+    },
+    {
+      "source": "AngularMaster/ConjugateFactor.lean",
+      "sha256": "578dd3c727876d8a773f3aa140f17c042619a7d357da4b0094685aedd9bede04",
+      "result": "PASS"
+    },
+    {
+      "source": "AngularMaster/LowHeightGeometry.lean",
+      "sha256": "524de1676223e39ace67404892e5ff78a69a37a77efbbe66aa8263498954a392",
+      "result": "PASS"
+    },
+    {
+      "source": "AngularMaster/QQRH.lean",
+      "sha256": "7c6a8802744ac36b33a22be1a5596f7ade7cb3f6989927e531d522942ca703c6",
+      "result": "PASS"
+    },
+    {
+      "source": "AngularMaster/QQRHGeometry.lean",
+      "sha256": "f661ee3f0359af3539d30a297a23f0edc160699495725f2888bd2facaf637906",
+      "result": "PASS"
+    },
+    {
+      "source": "AngularMaster/QQRHUnconditional.lean",
+      "sha256": "41deb779222374488651f85c76aa3c7b9ce4225f33a26ec61f793d761b0b3d4a",
+      "result": "PASS"
+    },
+    {
+      "source": "AngularMaster/SectorPositivity.lean",
+      "sha256": "6c94b4cb699fe9a62d343e6dadc2667403e353e9f7d10bffe572f9bb26c8a7df",
+      "result": "PASS"
+    },
+    {
+      "source": "AngularMaster/ThetaKernelExplicitBound.lean",
+      "sha256": "9a01fbfd31a48c096eb8c27fcfd07c7fec716d7069669dfc28dd7c77c9d37122",
+      "result": "PASS"
+    },
+    {
+      "source": "AngularMaster/ZeroExclusion.lean",
+      "sha256": "2061f954006832ba899ab454ce08168e449b1d69c3104d5a2a3dddf201865b96",
+      "result": "PASS"
+    },
+    {
+      "source": "AngularMaster/ZeroFreeSeed.lean",
+      "sha256": "4c617c74b545f1473f85c8ea59dd31818b5de9e8b5a35814d0a0e8a7ca1a3aa4",
+      "result": "PASS"
+    },
+    {
+      "source": "AngularMaster/ZeroGeometry.lean",
+      "sha256": "b0812a3b5f8bdf2a162553b24fa9801aa71d3dc2227d02400f9abca0e1888bc9",
+      "result": "PASS"
+    },
+    {
+      "source": "AngularRegularity/Derivative.lean",
+      "sha256": "bcc726912d4cf273931f37f9a57e204cdb06e27ff59e7cddb7fdf9017da7b5e9",
+      "result": "PASS"
+    },
+    {
+      "source": "AngularRegularity/Geometry.lean",
+      "sha256": "2ab0c192458b0c43141a681d4c1e34b4dcbcc2f441ad749a067f6612a7334da9",
+      "result": "PASS"
+    },
+    {
+      "source": "Audit.lean",
+      "sha256": "8883d2ddbfcd466eeae39822fa6c120c98e7fded1549fdda51e11a2114be5f22",
+      "result": "PASS"
+    },
+    {
+      "source": "NativeClosure.lean",
+      "sha256": "2d0a232a00a60a203507e14230dd4db8430413e629cd0930dfe2e0d47a093883",
+      "result": "PASS"
+    },
+    {
+      "source": "OriginTrace.lean",
+      "sha256": "01c0d483964ef1b3cff5883267eec10ad65830ac2251d8db206434e85c73bedf",
+      "result": "PASS"
+    },
+    {
+      "source": "RHSmallO.lean",
+      "sha256": "003da021c92bddd75d9da140e997c2a05b1dc0c8bd4273e142b5d8e42548ca27",
+      "result": "PASS"
+    },
+    {
+      "source": "RHSmallOEquivalence.lean",
+      "sha256": "58c678f9818d39b183b7bf3b2b7bec49c0b43b8766457e19dd09b93595ab7a1f",
+      "result": "PASS"
+    },
+    {
+      "source": "ReverseCutoff.lean",
+      "sha256": "e54154386607ea04391742d05765df89cddbab3b4740dae350e0b35ef20172ba",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/ComplexAnalysis/AntiHerglotz.lean",
+      "sha256": "1792b68059adde42fba35af15461764462d9b686e4a702eae240d5db0012fa88",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/ComplexAnalysis/EntireQuotient.lean",
+      "sha256": "ca9213e5608b0d63e5d3a2a5fe982ffb72bf77b815c8a0f29ce6420cd471105e",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/ComplexAnalysis/EvenAnalyticOrder.lean",
+      "sha256": "1b40cdb7861734c5f5e13d55be65abc211cbcfcf5e1f27e8e89b9ab4a9f01659",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/ComplexAnalysis/FactorialDyadicGrowth.lean",
+      "sha256": "4f0c560effde7259d8fa6ef52b17df85aebb39294dc71ad3bf8009769954a50c",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/ComplexAnalysis/GrowthRigidity.lean",
+      "sha256": "6393cb9257fb39f5979974b9eb01a86c2b426aaa9199f310bbb021d4c015cc4e",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/ComplexAnalysis/LogDerivative.lean",
+      "sha256": "46e6818321ea99f466740578e0b16a0ba0b8a57f8b8ae5f3fb91921c9f7ffe64",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/ComplexAnalysis/MellinGrowth.lean",
+      "sha256": "95150cb0fec21a8ffb62ef6eb59bee9d7fc9570cd4d150fdc67a49b848e7db0e",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/ComplexAnalysis/PoleProbe.lean",
+      "sha256": "40401afe8024afdf5feb81be0da723a25139047f8e6d209281cb387ff2abffaa",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/ComplexAnalysis/ProximityGrowth.lean",
+      "sha256": "2c4130bb3afe29e94aaf339599a4aef2f50b2b68da53361ffb0755d1c0850b9d",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/ComplexAnalysis/RealPartGrowth.lean",
+      "sha256": "17f4a7906ac32639c2187ebcade312bbcf0fa91dbc1dc49bb14669aafb6a7128",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/ComplexAnalysis/RealSymmetry.lean",
+      "sha256": "5f83e842a50fe85e7601290db5f7620244da46951ee129ac4135e8d6a07726ea",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/GammaCancellation/CompletedZeta.lean",
+      "sha256": "a68c5c838f8a4b7666f4fe579908946212ea0f052d81cdb6d6d2b929f88c001b",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/GammaCancellation/PoleSet.lean",
+      "sha256": "eb5c37f7ded790b001f868fc8e6991973ae9a3ac1c74eea51e5d05746ae3eb63",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/GammaCancellation/TextbookXi.lean",
+      "sha256": "b08c3353a4bade05487631009f2ebbd1d993d524481274a858886105fe6059c7",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/HadamardProduct/CanonicalProductDivisor.lean",
+      "sha256": "7c26232ff13951e9a30df96fa8066aca71064d99790a0ff2e5343537b860f950",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/HadamardProduct/CanonicalProductDyadicGrowth.lean",
+      "sha256": "8adf77b92fa13a212eece3131d72cac0df2e07bf364ede8a01c2843191d12c29",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/HadamardProduct/CanonicalProductGrowth.lean",
+      "sha256": "677a9e98c5e9a8a7073ff2b14d9c1a1af325dff5ae880ba3524aab49f1d5219a",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/HadamardProduct/CanonicalProductMultiplicity.lean",
+      "sha256": "10da8fd539dee790695e73c76bc30565171aff83c5b3d72b8cfad091063b786f",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/HadamardProduct/CompletedLFunction.lean",
+      "sha256": "25e2ea5bd1238b6c15bbafa05cfe06f4eca5dd4ea6ecdde4cc433bb8c5f699be",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/HadamardProduct/DyadicZeroCount.lean",
+      "sha256": "c1a3b871311e0a4b8af3b7c8c10ba5071874db3105a6005ac176c85421148b00",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/HadamardProduct/ExponentialPrefactor.lean",
+      "sha256": "b567173b5bce7c312e65f755ea29757e0339e9237abe1cd3fbf6f39fe5feb024",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/HadamardProduct/GenusOne.lean",
+      "sha256": "6ea6e3041c9db215831e4fd3b5825797dea27f0fb6a497aec5523f61aab5ea69",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/HadamardProduct/IndexedRealZeroSign.lean",
+      "sha256": "5cc725c58ee37d7e6fa286157d4e6f66d6c3ed1eab918d1700cda30ad39df26f",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/HadamardProduct/InfiniteProducts.lean",
+      "sha256": "0a52a01b6f1a79e490d794f470cd6096fec3ca683d5d7d7d725a91f84ad8ce48",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/HadamardProduct/LogDerivative.lean",
+      "sha256": "0f6d76241e3da7221cf486c748faf51f44a262d75a9142b207529e36caf56586",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/HadamardProduct/NatZeroData.lean",
+      "sha256": "54ca9e5f26fd1d7e7e2e70bb63590425ecd058b6d9a6740b4d2eef5d95fd4934",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/HadamardProduct/OriginMultiplicityCriterion.lean",
+      "sha256": "5c304d933e1fd7ef22b80d5901153483abca28a8f81056a4467d1f9e5dfe8f0e",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/HadamardProduct/PairedCanonicalProductGrowth.lean",
+      "sha256": "ec5a9bcb065e2c3e286321ef0924014f97544ddb50d126895f4d7ba3a170aa24",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/HadamardProduct/PairedGenusOne.lean",
+      "sha256": "8b5a6002231a9ed90995c4a8a252c6772114e4ff9ed78e5cded7bdc4965fe0c2",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/HadamardProduct/RealZeroSign.lean",
+      "sha256": "4309deef7755b23c1f1da8aca5cec5566a2269d5ffca0eb2d61ece83abfa193e",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/HadamardProduct/StrictRealZeroCriterion.lean",
+      "sha256": "832d9b74b67b4d916d21808acb0280445e1f63cc3438a066670ae8e7f6d41028",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/RealZeros/Engine.lean",
+      "sha256": "0f48d57c45672a56f354c8cacc6e017c0a6c45e4809b5f89b44c96e6819c77c7",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/RealZeros/EntireFunctions.lean",
+      "sha256": "cf7b51cbe17e56e7bc4a2674c0d122a4d42fab3b8a2b2204da5a5d6ae6ec3902",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/Reduction/BacklundCanonicalDivisor.lean",
+      "sha256": "ca04cd2aa7b38d0443f1316c3c61ce2d0c79c32256d0490cdbb743d37aaee43c",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/Xi/BacklundTuringBridge.lean",
+      "sha256": "415689e15ab1afc103378d0817d6c23137d7bacada4b85b1b33c62db14888ffc",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/Xi/CanonicalDivisor.lean",
+      "sha256": "7fe314d6754729e36ffcbb43978d59d8226d47e007338493ca1b6a751eb299ec",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/Xi/CanonicalProductCharacteristicGrowth.lean",
+      "sha256": "173dc74a9f1dce4e868eb5cc2fbde83c6648ff4cf9c2e827a22009183f44ee86",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/Xi/CanonicalProductPairedGrowth.lean",
+      "sha256": "1c3708464031f711376c6a2727fe5e9fc85c221f05fb87b841e8f1ff92d05184",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/Xi/CanonicalProductSymmetry.lean",
+      "sha256": "6940c75da42737642c461e82e62b964edd85a678eaf8773d3cae66dabee5af12",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/Xi/CanonicalQuotientCharacteristicGrowth.lean",
+      "sha256": "c92a5502f4fd4a1c8f9d796ce199ca9332d2fd7fd5dddbdddbfbd8c29e00ab23",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/Xi/CanonicalQuotientCriterion.lean",
+      "sha256": "39a5b9d0917f4a261e0fd826c4105da87805af19c2b94c264209796eb4b7da19",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/Xi/CanonicalQuotientLogNormGrowth.lean",
+      "sha256": "e2a7504dce7dbeb659c74c3914ad98ff819c8d2a37ff062543f5f146e3a3e2a8",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/Xi/CanonicalQuotientThetaCharacteristicGrowth.lean",
+      "sha256": "398c3e9ae6a72d47a178ca1d346400ab92b946d7b145927e1739ae0e52d38662",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/Xi/CompletedLFunctionInstance.lean",
+      "sha256": "b31ea04b198a71519a650c1da1954d242c280bdaec1742e7c1110b41ede2f576",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/Xi/Definitions.lean",
+      "sha256": "a421e366b8a199e997d88ff8cc822b51aff637bfab17e59e19f60ab663c70280",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/Xi/DyadicZeroCountBridge.lean",
+      "sha256": "a8e22bbbe7c4fdff270926860d890608c499bf1aedd93bfd6441186e40bfd622",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/Xi/EntireXiLogNormGrowth.lean",
+      "sha256": "2be4e49647505f922cb097e3e781487fe4cbdb8e8a84024d684e640d09acac57",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/Xi/EntireXiMellinGrowth.lean",
+      "sha256": "7e917cc060fcc9f2358526e55f02538c3e42a905b8e0b38f11fb8086bbd650d4",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/Xi/FunctionalEquation.lean",
+      "sha256": "c8b22abfc9b7d193c2b7060fca2524263f606e10ab12ffc890f59ecaee5db34a",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/Xi/HadamardLogDerivativeCriterion.lean",
+      "sha256": "66f396b981d181a8eed8a62e5de61b2b98d96a670ac30a7a2c9841caa1aaf062",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/Xi/JensenDyadicCountBridge.lean",
+      "sha256": "3712fa9953497863b55cfe7e260dba68d985a57706064b1bc480d78e5b337eda",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/Xi/Pullback.lean",
+      "sha256": "8fd6242f9e252abbfa3c3b391923d44944b409bd87d05ea23ac6b050263a5b43",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/Xi/RiemannHypothesisBridge.lean",
+      "sha256": "4dc024d08641c4e8f8da5da7ac6c67af29fae3ca2e74c249042bb5b5a0fa7c04",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/Xi/SignTargets.lean",
+      "sha256": "5408924103ee1b4bc2fa939d6de918eadb3b225dc253df60a808f40414e7d65f",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/Xi/StrictLagariasCriterion.lean",
+      "sha256": "64be344e40e2ec962da464bc337df22d0f2eefd7305dd224721bb3cb8239494d",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/Xi/ThetaKernelMellinGrowth.lean",
+      "sha256": "26bbe69ddcc599a2bfcbbe378e411b03043eddc3e85ee5663cea382743d1ec9b",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/Xi/UnconditionalLagariasEquivalence.lean",
+      "sha256": "d1e3f6cb7a1a6f8200fe6cb53026b004855d4953272b2875de64c4d75a619275",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/Xi/ZetaMultiplicityBridge.lean",
+      "sha256": "4ad8d6b8140d745a0e3841c700bd097064648480bcc51117363e53be9f750579",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/ZeroCounting/SmoothMainTerm.lean",
+      "sha256": "a734783488373589e5502cb01e33e3c0db9b7d5bf261030e4786249af9c94223",
+      "result": "PASS"
+    },
+    {
+      "source": "RiemannHypothesis/ZeroCounting/ZetaZeros.lean",
+      "sha256": "9015953ecae3abec20c23f337d005edefe60c56e183a436254b4c4a5a2a219c9",
+      "result": "PASS"
+    },
+    {
+      "source": "ScalarConverse.lean",
+      "sha256": "29a378321a8981abb3f4abebc5d7aa44b54a3d172c388cf2f88734a13e4f77c6",
+      "result": "PASS"
+    },
+    {
+      "source": "ScalarLittleO.lean",
+      "sha256": "9806b21d4ff2e772abefa9325e5c8b4c9a49be7afb5947371a2391325733ce6b",
+      "result": "PASS"
+    }
+  ]
+}

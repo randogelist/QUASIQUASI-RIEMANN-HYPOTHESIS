@@ -1,0 +1,1094 @@
+{
+  "description": "Source-only native RH routes; no compile performed",
+  "files": {
+    "Core/ActualThetaCayley.lean": {
+      "selected_source": {
+        "package": "07",
+        "package_root": "RH_NATIVE_SOLOBOLO_LEAN_v0_18_3_EXPLICIT_ANALYTIC_COMP_ARGS",
+        "path": "Core/ActualThetaCayley.lean",
+        "sha256": "703ea9f4d122a58af8500a03710129d4728135edef59a78ab30d4507df20dff0"
+      },
+      "identical_sources": [
+        {
+          "package": "08",
+          "package_root": "RH_NATIVE_SOLOBOLO_MERGER04_LOCAL_POLE_v0_4_1_FIX1",
+          "path": "Core/ActualThetaCayley.lean",
+          "sha256": "703ea9f4d122a58af8500a03710129d4728135edef59a78ab30d4507df20dff0"
+        },
+        {
+          "package": "17",
+          "package_root": "RH_NATIVE_SOLOBOLO_MERGER05_EXPLICIT_CAYLEY_TRACE_v0_23_0",
+          "path": "Core/ActualThetaCayley.lean",
+          "sha256": "703ea9f4d122a58af8500a03710129d4728135edef59a78ab30d4507df20dff0"
+        }
+      ],
+      "modification": "none"
+    },
+    "Core/MathlibXiSlitTheta.lean": {
+      "selected_source": {
+        "package": "07",
+        "package_root": "RH_NATIVE_SOLOBOLO_LEAN_v0_18_3_EXPLICIT_ANALYTIC_COMP_ARGS",
+        "path": "Core/MathlibXiSlitTheta.lean",
+        "sha256": "1b343e5f600a7d0091d80391ea470c71a45a6ebd7a3c54267fad8a9f44e8e39e"
+      },
+      "identical_sources": [
+        {
+          "package": "08",
+          "package_root": "RH_NATIVE_SOLOBOLO_MERGER04_LOCAL_POLE_v0_4_1_FIX1",
+          "path": "Core/MathlibXiSlitTheta.lean",
+          "sha256": "1b343e5f600a7d0091d80391ea470c71a45a6ebd7a3c54267fad8a9f44e8e39e"
+        },
+        {
+          "package": "17",
+          "package_root": "RH_NATIVE_SOLOBOLO_MERGER05_EXPLICIT_CAYLEY_TRACE_v0_23_0",
+          "path": "Core/MathlibXiSlitTheta.lean",
+          "sha256": "1b343e5f600a7d0091d80391ea470c71a45a6ebd7a3c54267fad8a9f44e8e39e"
+        }
+      ],
+      "modification": "none"
+    },
+    "Core/Observable.lean": {
+      "selected_source": {
+        "package": "07",
+        "package_root": "RH_NATIVE_SOLOBOLO_LEAN_v0_18_3_EXPLICIT_ANALYTIC_COMP_ARGS",
+        "path": "Core/Observable.lean",
+        "sha256": "3d5ac15448a67cb6d94ed6bd0624fe29ed7efb1385af092bdf6c245510384377"
+      },
+      "identical_sources": [
+        {
+          "package": "08",
+          "package_root": "RH_NATIVE_SOLOBOLO_MERGER04_LOCAL_POLE_v0_4_1_FIX1",
+          "path": "Core/Observable.lean",
+          "sha256": "3d5ac15448a67cb6d94ed6bd0624fe29ed7efb1385af092bdf6c245510384377"
+        },
+        {
+          "package": "17",
+          "package_root": "RH_NATIVE_SOLOBOLO_MERGER05_EXPLICIT_CAYLEY_TRACE_v0_23_0",
+          "path": "Core/Observable.lean",
+          "sha256": "3d5ac15448a67cb6d94ed6bd0624fe29ed7efb1385af092bdf6c245510384377"
+        }
+      ],
+      "modification": "none"
+    },
+    "Core/QuarterShiftReciprocalAngleJet.lean": {
+      "selected_source": {
+        "package": "07",
+        "package_root": "RH_NATIVE_SOLOBOLO_LEAN_v0_18_3_EXPLICIT_ANALYTIC_COMP_ARGS",
+        "path": "Core/QuarterShiftReciprocalAngleJet.lean",
+        "sha256": "6b02a0ff642c100a8080836893aa26df9d5ee38867589d0d5e8e7b67436bc1bc"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Derivations/BKQR/CayleySquares.lean": {
+      "selected_source": {
+        "package": "07",
+        "package_root": "RH_NATIVE_SOLOBOLO_LEAN_v0_18_3_EXPLICIT_ANALYTIC_COMP_ARGS",
+        "path": "Derivations/BKQR/CayleySquares.lean",
+        "sha256": "c4b104dbaee610753e35721465fcc6034a2561ca70969cbfa6cd339ca5f1e434"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Derivations/BKQR/DefectGramSquare.lean": {
+      "selected_source": {
+        "package": "07",
+        "package_root": "RH_NATIVE_SOLOBOLO_LEAN_v0_18_3_EXPLICIT_ANALYTIC_COMP_ARGS",
+        "path": "Derivations/BKQR/DefectGramSquare.lean",
+        "sha256": "506098a10986844f4289364b6cfe25bd74fb9cb542f79f15c6981ba2123f8cdd"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Derivations/BKQR/HardyCoeffActualCayleyClosure.lean": {
+      "selected_source": {
+        "package": "07",
+        "package_root": "RH_NATIVE_SOLOBOLO_LEAN_v0_18_3_EXPLICIT_ANALYTIC_COMP_ARGS",
+        "path": "Derivations/BKQR/HardyCoeffActualCayleyClosure.lean",
+        "sha256": "766d31b448c00b821c0a41cc8f180a03c9c2f1c94d23cf672b9ea9e940843f32"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Derivations/BKQR/HardyCoefficientTransfer.lean": {
+      "selected_source": {
+        "package": "07",
+        "package_root": "RH_NATIVE_SOLOBOLO_LEAN_v0_18_3_EXPLICIT_ANALYTIC_COMP_ARGS",
+        "path": "Derivations/BKQR/HardyCoefficientTransfer.lean",
+        "sha256": "9dcf1f17cb2243810796625ee3b1f22e3a1348230dd1a05cc099878d7fa24919"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Derivations/BKQR/PiActualCayleyClosure.lean": {
+      "selected_source": {
+        "package": "07",
+        "package_root": "RH_NATIVE_SOLOBOLO_LEAN_v0_18_3_EXPLICIT_ANALYTIC_COMP_ARGS",
+        "path": "Derivations/BKQR/PiActualCayleyClosure.lean",
+        "sha256": "4898c87e9a3c088220b44591d97268924a9edad7a81e8e25b40865f25a8ac4c3"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Derivations/BKQR/PiMetricCofinality.lean": {
+      "selected_source": {
+        "package": "07",
+        "package_root": "RH_NATIVE_SOLOBOLO_LEAN_v0_18_3_EXPLICIT_ANALYTIC_COMP_ARGS",
+        "path": "Derivations/BKQR/PiMetricCofinality.lean",
+        "sha256": "13882f322204dfa84d5ea20af0333952629ab1ece90287c7d6c6835196cbdabc"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Derivations/BKQR/ScalarProduct.lean": {
+      "selected_source": {
+        "package": "07",
+        "package_root": "RH_NATIVE_SOLOBOLO_LEAN_v0_18_3_EXPLICIT_ANALYTIC_COMP_ARGS",
+        "path": "Derivations/BKQR/ScalarProduct.lean",
+        "sha256": "0c04160d298d82d397df7b3a8147c4097950808bed5fb5fd11c666353ce2d2f4"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Derivations/BKQR/StrictPiActualCayleyClosure.lean": {
+      "selected_source": {
+        "package": "07",
+        "package_root": "RH_NATIVE_SOLOBOLO_LEAN_v0_18_3_EXPLICIT_ANALYTIC_COMP_ARGS",
+        "path": "Derivations/BKQR/StrictPiActualCayleyClosure.lean",
+        "sha256": "f47ed70f98affb7007c3a682a8aa4baa98dddc7f0dd79767679a6dbabad62c4f"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Derivations/BKQR/StrictPiCofinality.lean": {
+      "selected_source": {
+        "package": "07",
+        "package_root": "RH_NATIVE_SOLOBOLO_LEAN_v0_18_3_EXPLICIT_ANALYTIC_COMP_ARGS",
+        "path": "Derivations/BKQR/StrictPiCofinality.lean",
+        "sha256": "b8b45eaf61586e4974232dc1e691618c135545a1e608e02b729e1231790f420a"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Derivations/FreeEnergyFrontierDerivation.lean": {
+      "selected_source": {
+        "package": "07",
+        "package_root": "RH_NATIVE_SOLOBOLO_LEAN_v0_18_3_EXPLICIT_ANALYTIC_COMP_ARGS",
+        "path": "Derivations/FreeEnergyFrontierDerivation.lean",
+        "sha256": "b002b8476dd23d69c800c44bfc9d890ff89bc3c80080856a63000eb9d1204200"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Derivations/GP/CayleyObservable.lean": {
+      "selected_source": {
+        "package": "07",
+        "package_root": "RH_NATIVE_SOLOBOLO_LEAN_v0_18_3_EXPLICIT_ANALYTIC_COMP_ARGS",
+        "path": "Derivations/GP/CayleyObservable.lean",
+        "sha256": "1fb86e2431cc70041139e0c6f802fe9d33d085a22cf1c1dbe7e468a26e5c2c1d"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Derivations/GP/FreeEnergyCurvature.lean": {
+      "selected_source": {
+        "package": "07",
+        "package_root": "RH_NATIVE_SOLOBOLO_LEAN_v0_18_3_EXPLICIT_ANALYTIC_COMP_ARGS",
+        "path": "Derivations/GP/FreeEnergyCurvature.lean",
+        "sha256": "5430dd4451898d239e3b82aca562c0032f016c15890f92626af671c4f1e7cb5c"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Derivations/GP/WidderRecursion.lean": {
+      "selected_source": {
+        "package": "07",
+        "package_root": "RH_NATIVE_SOLOBOLO_LEAN_v0_18_3_EXPLICIT_ANALYTIC_COMP_ARGS",
+        "path": "Derivations/GP/WidderRecursion.lean",
+        "sha256": "8be20a6e485712531751137dee217bfdeb37f1af05a620316d2b3e084aedf983"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Derivations/Geometry/ActualCayleyObservable.lean": {
+      "selected_source": {
+        "package": "07",
+        "package_root": "RH_NATIVE_SOLOBOLO_LEAN_v0_18_3_EXPLICIT_ANALYTIC_COMP_ARGS",
+        "path": "Derivations/Geometry/ActualCayleyObservable.lean",
+        "sha256": "7547d5d4b41bc6cd6e74e75653488bee1d92c34e9275a6097219a288ccfbd733"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Derivations/Geometry/CayleyChannelKernel.lean": {
+      "selected_source": {
+        "package": "07",
+        "package_root": "RH_NATIVE_SOLOBOLO_LEAN_v0_18_3_EXPLICIT_ANALYTIC_COMP_ARGS",
+        "path": "Derivations/Geometry/CayleyChannelKernel.lean",
+        "sha256": "a97b45c83c05ad0d295dd2346f5472971c0ad9dc6133b3d3ed26c5974b7f617a"
+      },
+      "identical_sources": [
+        {
+          "package": "08",
+          "package_root": "RH_NATIVE_SOLOBOLO_MERGER04_LOCAL_POLE_v0_4_1_FIX1",
+          "path": "Derivations/Geometry/CayleyChannelKernel.lean",
+          "sha256": "a97b45c83c05ad0d295dd2346f5472971c0ad9dc6133b3d3ed26c5974b7f617a"
+        },
+        {
+          "package": "17",
+          "package_root": "RH_NATIVE_SOLOBOLO_MERGER05_EXPLICIT_CAYLEY_TRACE_v0_23_0",
+          "path": "Derivations/Geometry/CayleyChannelKernel.lean",
+          "sha256": "a97b45c83c05ad0d295dd2346f5472971c0ad9dc6133b3d3ed26c5974b7f617a"
+        }
+      ],
+      "modification": "none"
+    },
+    "Derivations/Geometry/CayleyRadius.lean": {
+      "selected_source": {
+        "package": "07",
+        "package_root": "RH_NATIVE_SOLOBOLO_LEAN_v0_18_3_EXPLICIT_ANALYTIC_COMP_ARGS",
+        "path": "Derivations/Geometry/CayleyRadius.lean",
+        "sha256": "83f7fb60c08d6bb6c64024d433d827271e40fdeabf6e7d03e540ad7ef5885ab5"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Derivations/Geometry/InteriorPole.lean": {
+      "selected_source": {
+        "package": "07",
+        "package_root": "RH_NATIVE_SOLOBOLO_LEAN_v0_18_3_EXPLICIT_ANALYTIC_COMP_ARGS",
+        "path": "Derivations/Geometry/InteriorPole.lean",
+        "sha256": "2b9ccd9ba10f7f6af50692a4deaa3766e6dcb9316caa2a9ce91a1c2df4a82f47"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Derivations/Geometry/LocalLaurent.lean": {
+      "selected_source": {
+        "package": "07",
+        "package_root": "RH_NATIVE_SOLOBOLO_LEAN_v0_18_3_EXPLICIT_ANALYTIC_COMP_ARGS",
+        "path": "Derivations/Geometry/LocalLaurent.lean",
+        "sha256": "e0b6f933b79c833f4b79a1ff1661d0d6a8ede86cc927aecd350e3acd87c9e55d"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Derivations/Geometry/MetricPiObstruction.lean": {
+      "selected_source": {
+        "package": "07",
+        "package_root": "RH_NATIVE_SOLOBOLO_LEAN_v0_18_3_EXPLICIT_ANALYTIC_COMP_ARGS",
+        "path": "Derivations/Geometry/MetricPiObstruction.lean",
+        "sha256": "c723b8cd0acc45178fd01c9a5a98e4f4fe4ec689ba026dfdf7ddd0f48adc1fe9"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Derivations/Geometry/PositiveAnchorNonvanishing.lean": {
+      "selected_source": {
+        "package": "07",
+        "package_root": "RH_NATIVE_SOLOBOLO_LEAN_v0_18_3_EXPLICIT_ANALYTIC_COMP_ARGS",
+        "path": "Derivations/Geometry/PositiveAnchorNonvanishing.lean",
+        "sha256": "9fa34700467eecdaa2f0585f989775bbff38b57f418d03e634f381fe9bcdad63"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Derivations/Hopf/CayleyHopf.lean": {
+      "selected_source": {
+        "package": "07",
+        "package_root": "RH_NATIVE_SOLOBOLO_LEAN_v0_18_3_EXPLICIT_ANALYTIC_COMP_ARGS",
+        "path": "Derivations/Hopf/CayleyHopf.lean",
+        "sha256": "0f01a4c02295af3ec810a98396cff6c0b90adf8a374844faabe203221ca0a8dc"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Derivations/OurFrontierDerivation.lean": {
+      "selected_source": {
+        "package": "07",
+        "package_root": "RH_NATIVE_SOLOBOLO_LEAN_v0_18_3_EXPLICIT_ANALYTIC_COMP_ARGS",
+        "path": "Derivations/OurFrontierDerivation.lean",
+        "sha256": "5b400cc2714084dd18c9609efb1eed730ae414c012f9d88250b90c7cf5ac26d5"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Frontier/BKQRHardyCoeffFrontier.lean": {
+      "selected_source": {
+        "package": "07",
+        "package_root": "RH_NATIVE_SOLOBOLO_LEAN_v0_18_3_EXPLICIT_ANALYTIC_COMP_ARGS",
+        "path": "Frontier/BKQRHardyCoeffFrontier.lean",
+        "sha256": "26c8ed5221e417a08d77a058b59f9ccbbb20bfccf784cefa6d1697e9034b4a12"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Frontier/BKQRPiFrontier.lean": {
+      "selected_source": {
+        "package": "07",
+        "package_root": "RH_NATIVE_SOLOBOLO_LEAN_v0_18_3_EXPLICIT_ANALYTIC_COMP_ARGS",
+        "path": "Frontier/BKQRPiFrontier.lean",
+        "sha256": "b726410187b55c8874e7a8a4cd84dc41e332b83db8ed286b3b0d79ad2808840d"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Frontier/BKQRStrictPiFrontier.lean": {
+      "selected_source": {
+        "package": "07",
+        "package_root": "RH_NATIVE_SOLOBOLO_LEAN_v0_18_3_EXPLICIT_ANALYTIC_COMP_ARGS",
+        "path": "Frontier/BKQRStrictPiFrontier.lean",
+        "sha256": "ff46f54eb0caeee8e72afbf605acbd000a1042c94a6e10f153f9829cc14b94ff"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Frontier/ContractiveOrbitFrontier.lean": {
+      "selected_source": {
+        "package": "07",
+        "package_root": "RH_NATIVE_SOLOBOLO_LEAN_v0_18_3_EXPLICIT_ANALYTIC_COMP_ARGS",
+        "path": "Frontier/ContractiveOrbitFrontier.lean",
+        "sha256": "8924fb52ecca604c3ab6e67b5f5d0a695a946b8481802eb8c2e4f5f7bd7c7c56"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Frontier/FreeEnergyFrontier.lean": {
+      "selected_source": {
+        "package": "07",
+        "package_root": "RH_NATIVE_SOLOBOLO_LEAN_v0_18_3_EXPLICIT_ANALYTIC_COMP_ARGS",
+        "path": "Frontier/FreeEnergyFrontier.lean",
+        "sha256": "4a62fe30d6aeeea42deb619f553c79c12535bc497c5121b8f97a0a70403a78fc"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Frontier/GeometryFrontier.lean": {
+      "selected_source": {
+        "package": "07",
+        "package_root": "RH_NATIVE_SOLOBOLO_LEAN_v0_18_3_EXPLICIT_ANALYTIC_COMP_ARGS",
+        "path": "Frontier/GeometryFrontier.lean",
+        "sha256": "499ed3df7964cf2cd344cd4f68747c4b938060f3d5a914fd387cdaa9cf44b898"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Frontier/OurFrontier.lean": {
+      "selected_source": {
+        "package": "07",
+        "package_root": "RH_NATIVE_SOLOBOLO_LEAN_v0_18_3_EXPLICIT_ANALYTIC_COMP_ARGS",
+        "path": "Frontier/OurFrontier.lean",
+        "sha256": "f61c487207f52e36fbbae8fd65ee6ea5ef43842ca630b3b645d03109948f69fd"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Bridge/ActualWidderCore.lean": {
+      "selected_source": {
+        "package": "08",
+        "package_root": "RH_NATIVE_SOLOBOLO_MERGER04_LOCAL_POLE_v0_4_1_FIX1",
+        "path": "Bridge/ActualWidderCore.lean",
+        "sha256": "a0db1f9d7126cd7e36c76ba457df7033e56243c0760702e0f33d5d4699ced4bb"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Bridge/USForwardLocalPole07.lean": {
+      "selected_source": {
+        "package": "08",
+        "package_root": "RH_NATIVE_SOLOBOLO_MERGER04_LOCAL_POLE_v0_4_1_FIX1",
+        "path": "Bridge/USForwardLocalPole07.lean",
+        "sha256": "98547e3a34358759159c74f4977716543700aa69ba4638c0104b4b6a3bef9b4b"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Bridge/UniformDepthPositivityRH04.lean": {
+      "selected_source": {
+        "package": "08",
+        "package_root": "RH_NATIVE_SOLOBOLO_MERGER04_LOCAL_POLE_v0_4_1_FIX1",
+        "path": "Bridge/UniformDepthPositivityRH04.lean",
+        "sha256": "a2cfd9d637fd2b5ba18a8f1f8b21792be610f54a8a454d3a33171f22a11ebfa1"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Bridge/XiChannelNegativity.lean": {
+      "selected_source": {
+        "package": "08",
+        "package_root": "RH_NATIVE_SOLOBOLO_MERGER04_LOCAL_POLE_v0_4_1_FIX1",
+        "path": "Bridge/XiChannelNegativity.lean",
+        "sha256": "dbf531a684069ba2f98008c427046f250b09c471b1ed8b22d880cb79d8cb58a1"
+      },
+      "identical_sources": [
+        {
+          "package": "17",
+          "package_root": "RH_NATIVE_SOLOBOLO_MERGER05_EXPLICIT_CAYLEY_TRACE_v0_23_0",
+          "path": "Bridge/XiChannelNegativity.lean",
+          "sha256": "dbf531a684069ba2f98008c427046f250b09c471b1ed8b22d880cb79d8cb58a1"
+        }
+      ],
+      "modification": "none"
+    },
+    "Bridge/XiWidderIdentification.lean": {
+      "selected_source": {
+        "package": "08",
+        "package_root": "RH_NATIVE_SOLOBOLO_MERGER04_LOCAL_POLE_v0_4_1_FIX1",
+        "path": "Bridge/XiWidderIdentification.lean",
+        "sha256": "e63e9ea4da8f1b12ef977343dfeb985433d2d024e9b202595f45cabc529c6f29"
+      },
+      "identical_sources": [
+        {
+          "package": "17",
+          "package_root": "RH_NATIVE_SOLOBOLO_MERGER05_EXPLICIT_CAYLEY_TRACE_v0_23_0",
+          "path": "Bridge/XiWidderIdentification.lean",
+          "sha256": "e63e9ea4da8f1b12ef977343dfeb985433d2d024e9b202595f45cabc529c6f29"
+        }
+      ],
+      "modification": "none"
+    },
+    "Core/EntireXiWidder.lean": {
+      "selected_source": {
+        "package": "08",
+        "package_root": "RH_NATIVE_SOLOBOLO_MERGER04_LOCAL_POLE_v0_4_1_FIX1",
+        "path": "Core/EntireXiWidder.lean",
+        "sha256": "06014f7ffe8d7c9909085e4fc6b6b8d29ba6d8d581e9a1c127546459b46e524a"
+      },
+      "identical_sources": [
+        {
+          "package": "17",
+          "package_root": "RH_NATIVE_SOLOBOLO_MERGER05_EXPLICIT_CAYLEY_TRACE_v0_23_0",
+          "path": "Core/EntireXiWidder.lean",
+          "sha256": "06014f7ffe8d7c9909085e4fc6b6b8d29ba6d8d581e9a1c127546459b46e524a"
+        }
+      ],
+      "modification": "none"
+    },
+    "Core/MigrationProfiles.lean": {
+      "selected_source": {
+        "package": "08",
+        "package_root": "RH_NATIVE_SOLOBOLO_MERGER04_LOCAL_POLE_v0_4_1_FIX1",
+        "path": "Core/MigrationProfiles.lean",
+        "sha256": "9f35d1692523f25920ef7e2120f47a49430960cad266d20b14ebf5712bc122a1"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Core/RegularizedXi.lean": {
+      "selected_source": {
+        "package": "08",
+        "package_root": "RH_NATIVE_SOLOBOLO_MERGER04_LOCAL_POLE_v0_4_1_FIX1",
+        "path": "Core/RegularizedXi.lean",
+        "sha256": "8230d52a70169b610d3dcbf3570c35367ff56d237b0204f45fff95b9f9f1ebe6"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Derivations/Negativity/GeometricDominance.lean": {
+      "selected_source": {
+        "package": "08",
+        "package_root": "RH_NATIVE_SOLOBOLO_MERGER04_LOCAL_POLE_v0_4_1_FIX1",
+        "path": "Derivations/Negativity/GeometricDominance.lean",
+        "sha256": "f4dff1fe459add23b48334b0509a37c2b6deafd27fc6efefb416f7611e6959bf"
+      },
+      "identical_sources": [
+        {
+          "package": "17",
+          "package_root": "RH_NATIVE_SOLOBOLO_MERGER05_EXPLICIT_CAYLEY_TRACE_v0_23_0",
+          "path": "Derivations/Negativity/GeometricDominance.lean",
+          "sha256": "f4dff1fe459add23b48334b0509a37c2b6deafd27fc6efefb416f7611e6959bf"
+        }
+      ],
+      "modification": "none"
+    },
+    "Derivations/Negativity/TunedChannelAlgebra.lean": {
+      "selected_source": {
+        "package": "08",
+        "package_root": "RH_NATIVE_SOLOBOLO_MERGER04_LOCAL_POLE_v0_4_1_FIX1",
+        "path": "Derivations/Negativity/TunedChannelAlgebra.lean",
+        "sha256": "381a9524bb198d20e85e54a3ed16af9a0ad920d193326ab580c1ac0883a40ba8"
+      },
+      "identical_sources": [
+        {
+          "package": "17",
+          "package_root": "RH_NATIVE_SOLOBOLO_MERGER05_EXPLICIT_CAYLEY_TRACE_v0_23_0",
+          "path": "Derivations/Negativity/TunedChannelAlgebra.lean",
+          "sha256": "381a9524bb198d20e85e54a3ed16af9a0ad920d193326ab580c1ac0883a40ba8"
+        }
+      ],
+      "modification": "none"
+    },
+    "Derivations/Negativity/UniformChannelBounds.lean": {
+      "selected_source": {
+        "package": "08",
+        "package_root": "RH_NATIVE_SOLOBOLO_MERGER04_LOCAL_POLE_v0_4_1_FIX1",
+        "path": "Derivations/Negativity/UniformChannelBounds.lean",
+        "sha256": "8d1e28d6cad2af5936b02088a825f27b3c2132af1c02d4eb2cb833824c8ac2f5"
+      },
+      "identical_sources": [
+        {
+          "package": "17",
+          "package_root": "RH_NATIVE_SOLOBOLO_MERGER05_EXPLICIT_CAYLEY_TRACE_v0_23_0",
+          "path": "Derivations/Negativity/UniformChannelBounds.lean",
+          "sha256": "8d1e28d6cad2af5936b02088a825f27b3c2132af1c02d4eb2cb833824c8ac2f5"
+        }
+      ],
+      "modification": "none"
+    },
+    "Derivations/Negativity/UniformGap.lean": {
+      "selected_source": {
+        "package": "08",
+        "package_root": "RH_NATIVE_SOLOBOLO_MERGER04_LOCAL_POLE_v0_4_1_FIX1",
+        "path": "Derivations/Negativity/UniformGap.lean",
+        "sha256": "87918fb6d13a20235f384bc84bcd83b2cb9cc9046e3b70c47eddb5ac3b4e0f47"
+      },
+      "identical_sources": [
+        {
+          "package": "17",
+          "package_root": "RH_NATIVE_SOLOBOLO_MERGER05_EXPLICIT_CAYLEY_TRACE_v0_23_0",
+          "path": "Derivations/Negativity/UniformGap.lean",
+          "sha256": "87918fb6d13a20235f384bc84bcd83b2cb9cc9046e3b70c47eddb5ac3b4e0f47"
+        }
+      ],
+      "modification": "none"
+    },
+    "Derivations/Widder/DirectTower.lean": {
+      "selected_source": {
+        "package": "08",
+        "package_root": "RH_NATIVE_SOLOBOLO_MERGER04_LOCAL_POLE_v0_4_1_FIX1",
+        "path": "Derivations/Widder/DirectTower.lean",
+        "sha256": "a12470f41c429566629b9d17845f1f4b56c8450b51473b384257b4a646e32378"
+      },
+      "identical_sources": [
+        {
+          "package": "17",
+          "package_root": "RH_NATIVE_SOLOBOLO_MERGER05_EXPLICIT_CAYLEY_TRACE_v0_23_0",
+          "path": "Derivations/Widder/DirectTower.lean",
+          "sha256": "a12470f41c429566629b9d17845f1f4b56c8450b51473b384257b4a646e32378"
+        }
+      ],
+      "modification": "none"
+    },
+    "Derivations/Widder/LocalCalculus.lean": {
+      "selected_source": {
+        "package": "08",
+        "package_root": "RH_NATIVE_SOLOBOLO_MERGER04_LOCAL_POLE_v0_4_1_FIX1",
+        "path": "Derivations/Widder/LocalCalculus.lean",
+        "sha256": "625a4e7cf922dc542da89bf217605e8afc88004552355ba0af8ede4e7c998dd4"
+      },
+      "identical_sources": [
+        {
+          "package": "17",
+          "package_root": "RH_NATIVE_SOLOBOLO_MERGER05_EXPLICIT_CAYLEY_TRACE_v0_23_0",
+          "path": "Derivations/Widder/LocalCalculus.lean",
+          "sha256": "625a4e7cf922dc542da89bf217605e8afc88004552355ba0af8ede4e7c998dd4"
+        }
+      ],
+      "modification": "none"
+    },
+    "Merger02/Actual.lean": {
+      "selected_source": {
+        "package": "08",
+        "package_root": "RH_NATIVE_SOLOBOLO_MERGER04_LOCAL_POLE_v0_4_1_FIX1",
+        "path": "Merger02/Actual.lean",
+        "sha256": "3d76544aa5a077985598715868920ee900532c17dea541faea8df9deb5c8aff5"
+      },
+      "identical_sources": [
+        {
+          "package": "16",
+          "package_root": "MERGER_02_NATIVE_ROW_REINDEX_v0_10_1_FIX1",
+          "path": "Merger02/Actual.lean",
+          "sha256": "3d76544aa5a077985598715868920ee900532c17dea541faea8df9deb5c8aff5"
+        }
+      ],
+      "modification": "none"
+    },
+    "Merger02/ActualPoleLocation.lean": {
+      "selected_source": {
+        "package": "08",
+        "package_root": "RH_NATIVE_SOLOBOLO_MERGER04_LOCAL_POLE_v0_4_1_FIX1",
+        "path": "Merger02/ActualPoleLocation.lean",
+        "sha256": "93a9027ad407493fddb93b6a1e9adbe2f40c9bacc2f3fc23bc953baf17689e36"
+      },
+      "identical_sources": [
+        {
+          "package": "16",
+          "package_root": "MERGER_02_NATIVE_ROW_REINDEX_v0_10_1_FIX1",
+          "path": "Merger02/ActualPoleLocation.lean",
+          "sha256": "93a9027ad407493fddb93b6a1e9adbe2f40c9bacc2f3fc23bc953baf17689e36"
+        }
+      ],
+      "modification": "none"
+    },
+    "Merger02/LocalPole.lean": {
+      "selected_source": {
+        "package": "08",
+        "package_root": "RH_NATIVE_SOLOBOLO_MERGER04_LOCAL_POLE_v0_4_1_FIX1",
+        "path": "Merger02/LocalPole.lean",
+        "sha256": "20a7933513ee0fae2145b74e5aaa3da39956a3987d0a75910ec36be5d5cc3e6d"
+      },
+      "identical_sources": [
+        {
+          "package": "16",
+          "package_root": "MERGER_02_NATIVE_ROW_REINDEX_v0_10_1_FIX1",
+          "path": "Merger02/LocalPole.lean",
+          "sha256": "20a7933513ee0fae2145b74e5aaa3da39956a3987d0a75910ec36be5d5cc3e6d"
+        }
+      ],
+      "modification": "none"
+    },
+    "Merger02/SlitTransport.lean": {
+      "selected_source": {
+        "package": "08",
+        "package_root": "RH_NATIVE_SOLOBOLO_MERGER04_LOCAL_POLE_v0_4_1_FIX1",
+        "path": "Merger02/SlitTransport.lean",
+        "sha256": "93d48d3d8af787353e29aa52b2ca1a4cabbe49459718acbe396edb6c55d1d0e7"
+      },
+      "identical_sources": [
+        {
+          "package": "16",
+          "package_root": "MERGER_02_NATIVE_ROW_REINDEX_v0_10_1_FIX1",
+          "path": "Merger02/SlitTransport.lean",
+          "sha256": "93d48d3d8af787353e29aa52b2ca1a4cabbe49459718acbe396edb6c55d1d0e7"
+        }
+      ],
+      "modification": "none"
+    },
+    "Migration/ActualLocalPoleBinding.lean": {
+      "selected_source": {
+        "package": "08",
+        "package_root": "RH_NATIVE_SOLOBOLO_MERGER04_LOCAL_POLE_v0_4_1_FIX1",
+        "path": "Migration/ActualLocalPoleBinding.lean",
+        "sha256": "a9f4f52786f89cbf9c9cc2b298f410529bbce556695f1c44b824a9ecf818f382"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Migration/DirectXiBinding.lean": {
+      "selected_source": {
+        "package": "08",
+        "package_root": "RH_NATIVE_SOLOBOLO_MERGER04_LOCAL_POLE_v0_4_1_FIX1",
+        "path": "Migration/DirectXiBinding.lean",
+        "sha256": "4d7b46062f7e49139fb67729907bda0023f574c9ccc4b33440bf1fb6c6b99c32"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Migration/EndpointTransfer.lean": {
+      "selected_source": {
+        "package": "08",
+        "package_root": "RH_NATIVE_SOLOBOLO_MERGER04_LOCAL_POLE_v0_4_1_FIX1",
+        "path": "Migration/EndpointTransfer.lean",
+        "sha256": "a508ba18958aec87805aa0c46b668cf710633036c32b0a516a576ce6be46f3a2"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Migration/FrozenBinding.lean": {
+      "selected_source": {
+        "package": "08",
+        "package_root": "RH_NATIVE_SOLOBOLO_MERGER04_LOCAL_POLE_v0_4_1_FIX1",
+        "path": "Migration/FrozenBinding.lean",
+        "sha256": "9a6205d63664e755af70d45c72099a7ca0d93098f16ca2dd0a94c77851d57ea1"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Migration/LocalComparison.lean": {
+      "selected_source": {
+        "package": "08",
+        "package_root": "RH_NATIVE_SOLOBOLO_MERGER04_LOCAL_POLE_v0_4_1_FIX1",
+        "path": "Migration/LocalComparison.lean",
+        "sha256": "a08a982227e3238d42bfcc8c432860660f61c46f04209ad682e4c46c0e404ad1"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Merger02/CoefficientTransfer.lean": {
+      "selected_source": {
+        "package": "16",
+        "package_root": "MERGER_02_NATIVE_ROW_REINDEX_v0_10_1_FIX1",
+        "path": "Merger02/CoefficientTransfer.lean",
+        "sha256": "1eeab437fe13a5d12007913b8b9c53891ca342c78ed88f47ecdfeb0c37b50299"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Merger02/Dominance.lean": {
+      "selected_source": {
+        "package": "16",
+        "package_root": "MERGER_02_NATIVE_ROW_REINDEX_v0_10_1_FIX1",
+        "path": "Merger02/Dominance.lean",
+        "sha256": "14ee349275351eefb1a19ae567adf972ea73956b5dbe61ddfec86fe496b875bc"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Merger02/Envelope.lean": {
+      "selected_source": {
+        "package": "16",
+        "package_root": "MERGER_02_NATIVE_ROW_REINDEX_v0_10_1_FIX1",
+        "path": "Merger02/Envelope.lean",
+        "sha256": "4d4f8461f788a8921b204e65a80379bb3d6046d789518853f9b00add2691b922"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Merger02/FiniteFilter.lean": {
+      "selected_source": {
+        "package": "16",
+        "package_root": "MERGER_02_NATIVE_ROW_REINDEX_v0_10_1_FIX1",
+        "path": "Merger02/FiniteFilter.lean",
+        "sha256": "326068ce0a7d451d4258e72e26c42fd6d50ca120f3e0b57be9f00f0da9689e60"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Merger02/Growth.lean": {
+      "selected_source": {
+        "package": "16",
+        "package_root": "MERGER_02_NATIVE_ROW_REINDEX_v0_10_1_FIX1",
+        "path": "Merger02/Growth.lean",
+        "sha256": "2fb733fbba430929b8b352af010c0921c20729e1869abc7377499a58bbccb67d"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Merger02/PoleAlgebra.lean": {
+      "selected_source": {
+        "package": "16",
+        "package_root": "MERGER_02_NATIVE_ROW_REINDEX_v0_10_1_FIX1",
+        "path": "Merger02/PoleAlgebra.lean",
+        "sha256": "24b629c32c4d8c7355fa8bea1d17d8d3b17ffcb3868f0a92e88ae25845f459fa"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Merger02/PoleFilterPolynomial.lean": {
+      "selected_source": {
+        "package": "16",
+        "package_root": "MERGER_02_NATIVE_ROW_REINDEX_v0_10_1_FIX1",
+        "path": "Merger02/PoleFilterPolynomial.lean",
+        "sha256": "2e72babb90114c753a4283f9867ffac27dee6293be8bdc0a0a1936dba00ba3fd"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Merger02/RowCoefficient.lean": {
+      "selected_source": {
+        "package": "16",
+        "package_root": "MERGER_02_NATIVE_ROW_REINDEX_v0_10_1_FIX1",
+        "path": "Merger02/RowCoefficient.lean",
+        "sha256": "e6b8015f32f0ebd9298f7c0c80171c82cadf94ebb3236448b17276c57aa97447"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Merger02/RowRefinement.lean": {
+      "selected_source": {
+        "package": "16",
+        "package_root": "MERGER_02_NATIVE_ROW_REINDEX_v0_10_1_FIX1",
+        "path": "Merger02/RowRefinement.lean",
+        "sha256": "8f05dbc637379b1fb79835a6ef4b18347eb8a0b28227e126118bb60ebb269568"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Bridge/ExplicitMersenneReadout.lean": {
+      "selected_source": {
+        "package": "17",
+        "package_root": "RH_NATIVE_SOLOBOLO_MERGER05_EXPLICIT_CAYLEY_TRACE_v0_23_0",
+        "path": "Bridge/ExplicitMersenneReadout.lean",
+        "sha256": "0a208571ed56566a5bbffc54d26334c976379d1884ea9bc5adf1f36d013ce297"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Bridge/MersenneCentralCriterion.lean": {
+      "selected_source": {
+        "package": "17",
+        "package_root": "RH_NATIVE_SOLOBOLO_MERGER05_EXPLICIT_CAYLEY_TRACE_v0_23_0",
+        "path": "Bridge/MersenneCentralCriterion.lean",
+        "sha256": "f16080c6a92a13c6b15f894dc9979728ed447dbbb85d9b11fc71e71e2960fc83"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "Derivations/Hausdorff/CentralCell.lean": {
+      "selected_source": {
+        "package": "17",
+        "package_root": "RH_NATIVE_SOLOBOLO_MERGER05_EXPLICIT_CAYLEY_TRACE_v0_23_0",
+        "path": "Derivations/Hausdorff/CentralCell.lean",
+        "sha256": "91bb598827ce6b7c221dc86ac4c65f7d95ba999f338a1bcd4a360382a3d73562"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "AWPIRH/AnalyticODE.lean": {
+      "selected_source": {
+        "package": "18",
+        "package_root": "AWPIRH_MERGER_01_LEAN_v0_10_1_FIX1",
+        "path": "AWPIRH/AnalyticODE.lean",
+        "sha256": "625e10dd0e75ae6808560b9f7caff29fa6e43940c84dcaf9c6e22a6b9f3c9f8c"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "AWPIRH/Assembly.lean": {
+      "selected_source": {
+        "package": "18",
+        "package_root": "AWPIRH_MERGER_01_LEAN_v0_10_1_FIX1",
+        "path": "AWPIRH/Assembly.lean",
+        "sha256": "d3dce2aa81e2fd733cfd0b1fc3d66f55e98b538e9c2751e6f94b8bc9586c065f"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "AWPIRH/BernsteinEnergy.lean": {
+      "selected_source": {
+        "package": "18",
+        "package_root": "AWPIRH_MERGER_01_LEAN_v0_10_1_FIX1",
+        "path": "AWPIRH/BernsteinEnergy.lean",
+        "sha256": "afc36c8b1c2747cdaf905e06bf877050333099f15a13104d7b3824b12609c3a0"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "AWPIRH/BernsteinTransform.lean": {
+      "selected_source": {
+        "package": "18",
+        "package_root": "AWPIRH_MERGER_01_LEAN_v0_10_1_FIX1",
+        "path": "AWPIRH/BernsteinTransform.lean",
+        "sha256": "a265bd79c119c1cda20e85e44ccc14ae80c99185d44686ad01540928f8aa5d99"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "AWPIRH/LocalRowTransport.lean": {
+      "selected_source": {
+        "package": "18",
+        "package_root": "AWPIRH_MERGER_01_LEAN_v0_10_1_FIX1",
+        "path": "AWPIRH/LocalRowTransport.lean",
+        "sha256": "402e506a9a9169178c7fd2573f45b3d232596f87ab4044f7c501e565e921e074"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "AWPIRH/NativeCompletionReduction.lean": {
+      "selected_source": {
+        "package": "18",
+        "package_root": "AWPIRH_MERGER_01_LEAN_v0_10_1_FIX1",
+        "path": "AWPIRH/NativeCompletionReduction.lean",
+        "sha256": "a5e2f2202614298c57b6f68274c930006aef8ea9edf59f1856aeb59216c941c0"
+      },
+      "identical_sources": [],
+      "modification": "FIX1: one Complex.ofReal_mul proof rewrite; theorem statement unchanged."
+    },
+    "AWPIRH/NativeGermReduction.lean": {
+      "selected_source": {
+        "package": "18",
+        "package_root": "AWPIRH_MERGER_01_LEAN_v0_10_1_FIX1",
+        "path": "AWPIRH/NativeGermReduction.lean",
+        "sha256": "df80976dae5cd6c30fc11f069665173f5914871654310ec20dec6ce18c93f583"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "AWPIRH/NativeInput.lean": {
+      "selected_source": {
+        "package": "18",
+        "package_root": "AWPIRH_MERGER_01_LEAN_v0_10_1_FIX1",
+        "path": "AWPIRH/NativeInput.lean",
+        "sha256": "03c64ac2f81d4736eaa3bc727dd65cd806f900d2a6f31b68a2751ede850c6a88"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "AWPIRH/OneBindingAssembly.lean": {
+      "selected_source": {
+        "package": "18",
+        "package_root": "AWPIRH_MERGER_01_LEAN_v0_10_1_FIX1",
+        "path": "AWPIRH/OneBindingAssembly.lean",
+        "sha256": "491690413fe25a675c9208f9d5a1aaf5f835cd7ac01ca234e98bb8e9a4f5c49d"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "AWPIRH/PhaseGeometry.lean": {
+      "selected_source": {
+        "package": "18",
+        "package_root": "AWPIRH_MERGER_01_LEAN_v0_10_1_FIX1",
+        "path": "AWPIRH/PhaseGeometry.lean",
+        "sha256": "97d6a9c9681725101778901b16a8905cf4fcb62a99450c671b51f8b099360228"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "AWPIRH/ProductEntire.lean": {
+      "selected_source": {
+        "package": "18",
+        "package_root": "AWPIRH_MERGER_01_LEAN_v0_10_1_FIX1",
+        "path": "AWPIRH/ProductEntire.lean",
+        "sha256": "6ab9cf21dfe7155106140454cc56a40166e3d9bdb388fcba21aa84cefe7b701f"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "AWPIRH/ProductGeometry.lean": {
+      "selected_source": {
+        "package": "18",
+        "package_root": "AWPIRH_MERGER_01_LEAN_v0_10_1_FIX1",
+        "path": "AWPIRH/ProductGeometry.lean",
+        "sha256": "6fbe01c2b9302346a2e0cbd6cb90e607e9f6ea54c1f5ff8562738b2ea7286e06"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "AWPIRH/ProductLogGerm.lean": {
+      "selected_source": {
+        "package": "18",
+        "package_root": "AWPIRH_MERGER_01_LEAN_v0_10_1_FIX1",
+        "path": "AWPIRH/ProductLogGerm.lean",
+        "sha256": "777d5222b01386ed00a52db7df138dd8a81d8977894e9dfd886b1896c1e068e4"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "AWPIRH/RowAnalytic.lean": {
+      "selected_source": {
+        "package": "18",
+        "package_root": "AWPIRH_MERGER_01_LEAN_v0_10_1_FIX1",
+        "path": "AWPIRH/RowAnalytic.lean",
+        "sha256": "ef3eda36b81575b1323db59b6e89405347079f5ad49455fc82c1639f87a44d2b"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "AWPIRH/RowTransform.lean": {
+      "selected_source": {
+        "package": "18",
+        "package_root": "AWPIRH_MERGER_01_LEAN_v0_10_1_FIX1",
+        "path": "AWPIRH/RowTransform.lean",
+        "sha256": "add02fbc32258a2960a86e8cca5c7dc63e0d9f4a379f7252bd399329a9534c4f"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "AWPIRH/ThetaEntire.lean": {
+      "selected_source": {
+        "package": "38",
+        "archive_member": "ANGULAR_REGULARITY_LEAN_v0_1_9_FIX9/AWPIRH/ThetaEntire.lean",
+        "sha256": "cb1f0838f2d90a1ba30e696afd05337e721ee7cc7e021a30ec28cdf2f810533b"
+      },
+      "related_sources": [
+        {
+          "package": "18",
+          "package_root": "AWPIRH_MERGER_01_LEAN_v0_10_1_FIX1",
+          "path": "AWPIRH/ThetaEntire.lean",
+          "sha256": "cb1f0838f2d90a1ba30e696afd05337e721ee7cc7e021a30ec28cdf2f810533b"
+        }
+      ],
+      "modification": "none; canonical FIX9 baseline"
+    },
+    "AWPIRH/WidderCongruence.lean": {
+      "selected_source": {
+        "package": "18",
+        "package_root": "AWPIRH_MERGER_01_LEAN_v0_10_1_FIX1",
+        "path": "AWPIRH/WidderCongruence.lean",
+        "sha256": "7f2066728ef5cd04ca806ee55294c209fead13aab6c22132f46b81e6b40be137"
+      },
+      "identical_sources": [],
+      "modification": "none"
+    },
+    "AWPIRH/XiCore.lean": {
+      "selected_source": {
+        "package": "38",
+        "archive_member": "ANGULAR_REGULARITY_LEAN_v0_1_9_FIX9/AWPIRH/XiCore.lean",
+        "sha256": "6bda1a14b59a508811b9f9a8bff400ed824d86f366b2ddeecd728571be7fd9db"
+      },
+      "related_sources": [
+        {
+          "package": "18",
+          "package_root": "AWPIRH_MERGER_01_LEAN_v0_10_1_FIX1",
+          "path": "AWPIRH/XiCore.lean",
+          "sha256": "60a9f5b9dd6c94039c60a8fc78e2f16b1e9bdf3d1533baa646b4b7e8faf01432"
+        }
+      ],
+      "modification": "none; canonical FIX9 baseline"
+    },
+    "RHMaster/NativeRoutes.lean": {
+      "selected_source": "new composition for master package",
+      "sha256": "411153aac72afdc1be7e31856453bf34cf30dce35b4c2cf83b97743d137e0fb7",
+      "verification": "source review only; uncompiled"
+    }
+  },
+  "excluded_diagnostics": [
+    {
+      "package": "07",
+      "path": "Main.lean",
+      "reason": "diagnostic module"
+    },
+    {
+      "package": "08",
+      "path": "Main.lean",
+      "reason": "diagnostic module"
+    },
+    {
+      "package": "16",
+      "path": "CoreAudit.lean",
+      "reason": "diagnostic module"
+    },
+    {
+      "package": "16",
+      "path": "Main.lean",
+      "reason": "diagnostic module"
+    },
+    {
+      "package": "17",
+      "path": "Main.lean",
+      "reason": "diagnostic module"
+    },
+    {
+      "package": "18",
+      "path": "AWPIRH/Checks.lean",
+      "reason": "diagnostic module"
+    },
+    {
+      "package": "18",
+      "path": "AWPIRH/NativeCompletionChecks.lean",
+      "reason": "diagnostic module"
+    },
+    {
+      "package": "18",
+      "path": "AWPIRH/NativeGermChecks.lean",
+      "reason": "diagnostic module"
+    },
+    {
+      "package": "18",
+      "path": "AWPIRH/ProductEntireChecks.lean",
+      "reason": "diagnostic module"
+    },
+    {
+      "package": "18",
+      "path": "AWPIRH/RowTransportChecks.lean",
+      "reason": "diagnostic module"
+    },
+    {
+      "package": "18",
+      "path": "Audit.lean",
+      "reason": "diagnostic module"
+    },
+    {
+      "package": "18",
+      "path": "Main.lean",
+      "reason": "diagnostic module"
+    }
+  ],
+  "excluded_packages": {
+    "14": "superseded by 07; one proof-level QuarterShift fix",
+    "15": "auxiliary sign reduction with overlapping LocalComparison; not needed for chosen endpoints",
+    "31": "incomplete all-depth patch; absent imports",
+    "32": "incomplete RI01 patch; absent imports and no terminal RH theorem",
+    "33": "incomplete RI01 patch; absent imports and no terminal RH theorem"
+  }
+}

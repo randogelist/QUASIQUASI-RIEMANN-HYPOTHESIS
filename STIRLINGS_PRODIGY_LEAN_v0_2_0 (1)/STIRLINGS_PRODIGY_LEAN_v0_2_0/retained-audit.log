@@ -1,0 +1,3 @@
+RETAINED_DECLARATIONS_AXIOM_AUDIT=PASS COUNT=2259 MODULES=72
+'AngularMaster.actual_profileMaster_of_native_RH' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AngularMaster.native_RH_of_actual_angular_monotone' depends on axioms: [propext, Classical.choice, Quot.sound]

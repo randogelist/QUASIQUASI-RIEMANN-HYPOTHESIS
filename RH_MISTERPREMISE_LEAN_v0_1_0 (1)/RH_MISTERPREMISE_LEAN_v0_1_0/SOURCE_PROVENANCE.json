@@ -1,0 +1,2177 @@
+{
+  "baseline_package": "RH_MASTER_CLOSURE_ANGULAR_LEAN_v0_1_1_FIX1",
+  "import_normalization_record": "local-validation/import-normalization.json",
+  "package": "RH_MISTERPREMISE_LEAN_v0_1_0",
+  "records": [
+    {
+      "origin": "new_misterpremise_source",
+      "path": "MisterPremise/MathlibImports.lean",
+      "sha256": "6f1ba192c9c5f0a15b7cfb331b98d38e98febf70e97396dfa2b2c306d34cc71f"
+    },
+    {
+      "origin": "new_misterpremise_source",
+      "path": "MisterPremise/Cutoff.lean",
+      "sha256": "2a6b9f3b4f067a6fb93bfbb98d52e3afb2a7bb9b93f8a2ef874fa432cd293ced"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/AWPIRH/XiCore.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/AWPIRH/XiCore.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/AWPIRH/XiCore.lean"
+          },
+          {
+            "archive": "37-ANGULAR_REGULARITY_FRAMEWORK_LEAN_v0_1_0_FIX3-1-.zip",
+            "member": "ANGULAR_REGULARITY_FRAMEWORK_LEAN_v0_1_0_FIX3/AWPIRH/XiCore.lean"
+          },
+          {
+            "archive": "38-ANGULAR_REGULARITY_LEAN_v0_1_9_FIX9.zip",
+            "member": "ANGULAR_REGULARITY_LEAN_v0_1_9_FIX9/AWPIRH/XiCore.lean"
+          }
+        ],
+        "path": "AWPIRH/XiCore.lean",
+        "sha256": "6bda1a14b59a508811b9f9a8bff400ed824d86f366b2ddeecd728571be7fd9db"
+      },
+      "baseline_master_sha256": "6bda1a14b59a508811b9f9a8bff400ed824d86f366b2ddeecd728571be7fd9db",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "AWPIRH/XiCore.lean",
+      "sha256": "6bda1a14b59a508811b9f9a8bff400ed824d86f366b2ddeecd728571be7fd9db"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "18-AWPIRH_MERGER_01_LEAN_v0_10_1_FIX1.zip",
+            "member": "AWPIRH_MERGER_01_LEAN_v0_10_1_FIX1/AWPIRH/ThetaEntire.lean"
+          },
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/AWPIRH/ThetaEntire.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/AWPIRH/ThetaEntire.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/AWPIRH/ThetaEntire.lean"
+          },
+          {
+            "archive": "37-ANGULAR_REGULARITY_FRAMEWORK_LEAN_v0_1_0_FIX3-1-.zip",
+            "member": "ANGULAR_REGULARITY_FRAMEWORK_LEAN_v0_1_0_FIX3/AWPIRH/ThetaEntire.lean"
+          },
+          {
+            "archive": "38-ANGULAR_REGULARITY_LEAN_v0_1_9_FIX9.zip",
+            "member": "ANGULAR_REGULARITY_LEAN_v0_1_9_FIX9/AWPIRH/ThetaEntire.lean"
+          }
+        ],
+        "path": "AWPIRH/ThetaEntire.lean",
+        "sha256": "cb1f0838f2d90a1ba30e696afd05337e721ee7cc7e021a30ec28cdf2f810533b"
+      },
+      "baseline_master_sha256": "cb1f0838f2d90a1ba30e696afd05337e721ee7cc7e021a30ec28cdf2f810533b",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "AWPIRH/ThetaEntire.lean",
+      "sha256": "cb1f0838f2d90a1ba30e696afd05337e721ee7cc7e021a30ec28cdf2f810533b"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "38-ANGULAR_REGULARITY_LEAN_v0_1_9_FIX9.zip",
+            "member": "ANGULAR_REGULARITY_LEAN_v0_1_9_FIX9/AngularRegularity/Calculus.lean"
+          }
+        ],
+        "path": "AngularRegularity/Calculus.lean",
+        "sha256": "7aa6b8452c507d8b4d895ae8a84820467cfc6eba09e54e0331f44a174602ab46"
+      },
+      "baseline_master_sha256": "7aa6b8452c507d8b4d895ae8a84820467cfc6eba09e54e0331f44a174602ab46",
+      "change": "only_bare_Mathlib_import_replaced_by_explicit_bundle",
+      "mathematical_source_text_unchanged": true,
+      "origin": "retained_master_source",
+      "path": "AngularRegularity/Calculus.lean",
+      "sha256": "51e64a49f268cd181068944d67f2b38d32f30582bbeb47fc21fbf5e693bb4d18"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "38-ANGULAR_REGULARITY_LEAN_v0_1_9_FIX9.zip",
+            "member": "ANGULAR_REGULARITY_LEAN_v0_1_9_FIX9/AngularRegularity/DerivativeFormula.lean"
+          }
+        ],
+        "path": "AngularRegularity/DerivativeFormula.lean",
+        "sha256": "bb153f4a303d4e40d808351d5b2ec580f452f9e59a72c3bebfd86af8855fa4c9"
+      },
+      "baseline_master_sha256": "bb153f4a303d4e40d808351d5b2ec580f452f9e59a72c3bebfd86af8855fa4c9",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "AngularRegularity/DerivativeFormula.lean",
+      "sha256": "bb153f4a303d4e40d808351d5b2ec580f452f9e59a72c3bebfd86af8855fa4c9"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "38-ANGULAR_REGULARITY_LEAN_v0_1_9_FIX9.zip",
+            "member": "ANGULAR_REGULARITY_LEAN_v0_1_9_FIX9/AngularRegularity/Topology.lean"
+          }
+        ],
+        "path": "AngularRegularity/Topology.lean",
+        "sha256": "fb546c2d03f7c336d264c9b284b217643213075ca73192d8509b2c0b86d8b4c9"
+      },
+      "baseline_master_sha256": "fb546c2d03f7c336d264c9b284b217643213075ca73192d8509b2c0b86d8b4c9",
+      "change": "only_bare_Mathlib_import_replaced_by_explicit_bundle",
+      "mathematical_source_text_unchanged": true,
+      "origin": "retained_master_source",
+      "path": "AngularRegularity/Topology.lean",
+      "sha256": "567cd205b30fee544aff7bcdc8fa085783c0d7318e9d0b0f37fb052eada3ed29"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "38-ANGULAR_REGULARITY_LEAN_v0_1_9_FIX9.zip",
+            "member": "ANGULAR_REGULARITY_LEAN_v0_1_9_FIX9/AngularRegularity/RadiusIsolation.lean"
+          }
+        ],
+        "path": "AngularRegularity/RadiusIsolation.lean",
+        "sha256": "99f312f95277d1139c201ff645f8df3e4822c69f849619bfcd25b98962656d83"
+      },
+      "baseline_master_sha256": "99f312f95277d1139c201ff645f8df3e4822c69f849619bfcd25b98962656d83",
+      "change": "only_bare_Mathlib_import_replaced_by_explicit_bundle",
+      "mathematical_source_text_unchanged": true,
+      "origin": "retained_master_source",
+      "path": "AngularRegularity/RadiusIsolation.lean",
+      "sha256": "bab8f28dda98911f2f377eed81ec2c79aa84ac134c721ae008b634e50760fb58"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "38-ANGULAR_REGULARITY_LEAN_v0_1_9_FIX9.zip",
+            "member": "ANGULAR_REGULARITY_LEAN_v0_1_9_FIX9/AngularRegularity/StationaryAlgebra.lean"
+          }
+        ],
+        "path": "AngularRegularity/StationaryAlgebra.lean",
+        "sha256": "bc338488ac25a905fe3308ade667db0487c54086d9a8c9fc8f5ff743a2f3d8b1"
+      },
+      "baseline_master_sha256": "bc338488ac25a905fe3308ade667db0487c54086d9a8c9fc8f5ff743a2f3d8b1",
+      "change": "only_bare_Mathlib_import_replaced_by_explicit_bundle",
+      "mathematical_source_text_unchanged": true,
+      "origin": "retained_master_source",
+      "path": "AngularRegularity/StationaryAlgebra.lean",
+      "sha256": "4bdb0f408d0f1f2b367d1f1e2ce1552c372cb9cf4316e5831ca985318ea93b19"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "38-ANGULAR_REGULARITY_LEAN_v0_1_9_FIX9.zip",
+            "member": "ANGULAR_REGULARITY_LEAN_v0_1_9_FIX9/AngularRegularity/Targets.lean"
+          }
+        ],
+        "path": "AngularRegularity/Targets.lean",
+        "sha256": "b3c3ce7366f5c874cf820717f6e9985ca25150ecd306b230a90eb4f1b36d7cdf"
+      },
+      "baseline_master_sha256": "b3c3ce7366f5c874cf820717f6e9985ca25150ecd306b230a90eb4f1b36d7cdf",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "AngularRegularity/Targets.lean",
+      "sha256": "b3c3ce7366f5c874cf820717f6e9985ca25150ecd306b230a90eb4f1b36d7cdf"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "38-ANGULAR_REGULARITY_LEAN_v0_1_9_FIX9.zip",
+            "member": "ANGULAR_REGULARITY_LEAN_v0_1_9_FIX9/AngularRegularity/Actual.lean"
+          }
+        ],
+        "path": "AngularRegularity/Actual.lean",
+        "sha256": "4c7e66a7ce7d5c6fc1d97808b9408d30d392c465ef38969aab39d9cbc87ce463"
+      },
+      "baseline_master_sha256": "4c7e66a7ce7d5c6fc1d97808b9408d30d392c465ef38969aab39d9cbc87ce463",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "AngularRegularity/Actual.lean",
+      "sha256": "4c7e66a7ce7d5c6fc1d97808b9408d30d392c465ef38969aab39d9cbc87ce463"
+    },
+    {
+      "origin": "new_misterpremise_source",
+      "path": "MisterPremise/Premise.lean",
+      "sha256": "8d7863859e67a4a6067cdd7e76583e5de18bfef82af47f44e2fbcedef3abbfa2"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/ComplexAnalysis/MellinGrowth.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/ComplexAnalysis/MellinGrowth.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/ComplexAnalysis/MellinGrowth.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/ComplexAnalysis/MellinGrowth.lean",
+        "sha256": "95150cb0fec21a8ffb62ef6eb59bee9d7fc9570cd4d150fdc67a49b848e7db0e"
+      },
+      "baseline_master_sha256": "95150cb0fec21a8ffb62ef6eb59bee9d7fc9570cd4d150fdc67a49b848e7db0e",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/ComplexAnalysis/MellinGrowth.lean",
+      "sha256": "95150cb0fec21a8ffb62ef6eb59bee9d7fc9570cd4d150fdc67a49b848e7db0e"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/Xi/ThetaKernelMellinGrowth.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/Xi/ThetaKernelMellinGrowth.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/Xi/ThetaKernelMellinGrowth.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/Xi/ThetaKernelMellinGrowth.lean",
+        "sha256": "26bbe69ddcc599a2bfcbbe378e411b03043eddc3e85ee5663cea382743d1ec9b"
+      },
+      "baseline_master_sha256": "26bbe69ddcc599a2bfcbbe378e411b03043eddc3e85ee5663cea382743d1ec9b",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/Xi/ThetaKernelMellinGrowth.lean",
+      "sha256": "26bbe69ddcc599a2bfcbbe378e411b03043eddc3e85ee5663cea382743d1ec9b"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/AngularMaster/ThetaKernelExplicitBound.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/AngularMaster/ThetaKernelExplicitBound.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/AngularMaster/ThetaKernelExplicitBound.lean"
+          }
+        ],
+        "path": "AngularMaster/ThetaKernelExplicitBound.lean",
+        "sha256": "9a01fbfd31a48c096eb8c27fcfd07c7fec716d7069669dfc28dd7c77c9d37122"
+      },
+      "baseline_master_sha256": "9a01fbfd31a48c096eb8c27fcfd07c7fec716d7069669dfc28dd7c77c9d37122",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "AngularMaster/ThetaKernelExplicitBound.lean",
+      "sha256": "9a01fbfd31a48c096eb8c27fcfd07c7fec716d7069669dfc28dd7c77c9d37122"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/AngularMaster/ThetaKernelAnchorBound.lean"
+          }
+        ],
+        "path": "AngularMaster/ThetaKernelAnchorBound.lean",
+        "sha256": "5bb0ac885fba20de6daecfea0f1ad5f7dab8062eeeebfb1584ba356f1ffe074d"
+      },
+      "baseline_master_sha256": "5bb0ac885fba20de6daecfea0f1ad5f7dab8062eeeebfb1584ba356f1ffe074d",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "AngularMaster/ThetaKernelAnchorBound.lean",
+      "sha256": "5bb0ac885fba20de6daecfea0f1ad5f7dab8062eeeebfb1584ba356f1ffe074d"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/AngularMaster/MellinEndpointBound.lean"
+          }
+        ],
+        "path": "AngularMaster/MellinEndpointBound.lean",
+        "sha256": "061df1283ff2011629a2fe501f3151f17e2d6d67b84d7da18fb1a225b8ab19c3"
+      },
+      "baseline_master_sha256": "061df1283ff2011629a2fe501f3151f17e2d6d67b84d7da18fb1a225b8ab19c3",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "AngularMaster/MellinEndpointBound.lean",
+      "sha256": "061df1283ff2011629a2fe501f3151f17e2d6d67b84d7da18fb1a225b8ab19c3"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/AngularMaster/MellinAnchorBound.lean"
+          }
+        ],
+        "path": "AngularMaster/MellinAnchorBound.lean",
+        "sha256": "d38e72e3c5ba927d7d2ed01f85ec4165f7e54ba196cf8d0f789ac91bc84274d8"
+      },
+      "baseline_master_sha256": "d38e72e3c5ba927d7d2ed01f85ec4165f7e54ba196cf8d0f789ac91bc84274d8",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "AngularMaster/MellinAnchorBound.lean",
+      "sha256": "d38e72e3c5ba927d7d2ed01f85ec4165f7e54ba196cf8d0f789ac91bc84274d8"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/AngularMaster/MellinPairedBound.lean"
+          }
+        ],
+        "path": "AngularMaster/MellinPairedBound.lean",
+        "sha256": "5d2e593be01d93f425ccff6a178706d46b90479dcc843eb7f2f21e78b4a954d7"
+      },
+      "baseline_master_sha256": "5d2e593be01d93f425ccff6a178706d46b90479dcc843eb7f2f21e78b4a954d7",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "AngularMaster/MellinPairedBound.lean",
+      "sha256": "5d2e593be01d93f425ccff6a178706d46b90479dcc843eb7f2f21e78b4a954d7"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/AngularMaster/ZeroGeometry.lean"
+          }
+        ],
+        "path": "AngularMaster/ZeroGeometry.lean",
+        "sha256": "a2a155d8584f3682c4a48f4b8f0c9fdd1473c25ed4934c448f5015a4647361df"
+      },
+      "baseline_master_sha256": "a2a155d8584f3682c4a48f4b8f0c9fdd1473c25ed4934c448f5015a4647361df",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "AngularMaster/ZeroGeometry.lean",
+      "sha256": "a2a155d8584f3682c4a48f4b8f0c9fdd1473c25ed4934c448f5015a4647361df"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/AngularMaster/ZeroFreeSeed.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/AngularMaster/ZeroFreeSeed.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/AngularMaster/ZeroFreeSeed.lean"
+          }
+        ],
+        "path": "AngularMaster/ZeroFreeSeed.lean",
+        "sha256": "4c617c74b545f1473f85c8ea59dd31818b5de9e8b5a35814d0a0e8a7ca1a3aa4"
+      },
+      "baseline_master_sha256": "4c617c74b545f1473f85c8ea59dd31818b5de9e8b5a35814d0a0e8a7ca1a3aa4",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "AngularMaster/ZeroFreeSeed.lean",
+      "sha256": "4c617c74b545f1473f85c8ea59dd31818b5de9e8b5a35814d0a0e8a7ca1a3aa4"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/AngularMaster/StripProductBound.lean"
+          }
+        ],
+        "path": "AngularMaster/StripProductBound.lean",
+        "sha256": "616dcc0be8cddcad2a2eac3b43887cb2c2571559c7067b57649a18e3405a4314"
+      },
+      "baseline_master_sha256": "616dcc0be8cddcad2a2eac3b43887cb2c2571559c7067b57649a18e3405a4314",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "AngularMaster/StripProductBound.lean",
+      "sha256": "616dcc0be8cddcad2a2eac3b43887cb2c2571559c7067b57649a18e3405a4314"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/AngularMaster/AnchorHeight.lean"
+          }
+        ],
+        "path": "AngularMaster/AnchorHeight.lean",
+        "sha256": "07084ddd1f5e622dcb82cbe711670cfff09638ba25878a86c6929aa32de1643a"
+      },
+      "baseline_master_sha256": "07084ddd1f5e622dcb82cbe711670cfff09638ba25878a86c6929aa32de1643a",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "AngularMaster/AnchorHeight.lean",
+      "sha256": "07084ddd1f5e622dcb82cbe711670cfff09638ba25878a86c6929aa32de1643a"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/AngularMaster/QQRHGeometry.lean"
+          }
+        ],
+        "path": "AngularMaster/QQRHGeometry.lean",
+        "sha256": "13f82914e544300589b55a873c0a92a3afd64cf8333c138729a8aabec1cd8df8"
+      },
+      "baseline_master_sha256": "13f82914e544300589b55a873c0a92a3afd64cf8333c138729a8aabec1cd8df8",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "AngularMaster/QQRHGeometry.lean",
+      "sha256": "13f82914e544300589b55a873c0a92a3afd64cf8333c138729a8aabec1cd8df8"
+    },
+    {
+      "origin": "new_misterpremise_source",
+      "path": "MisterPremise/Geometry.lean",
+      "sha256": "069f9229f00f75310584fcb5007f0fa3696f452942337bbfcbbf3053236da4d1"
+    },
+    {
+      "origin": "new_misterpremise_source",
+      "path": "MisterPremise/Continuation.lean",
+      "sha256": "40ab2edc11b1651b97e29640b8323afdc913ac2b250524e78dcef6fc9feec36c"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/ComplexAnalysis/GrowthRigidity.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/ComplexAnalysis/GrowthRigidity.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/ComplexAnalysis/GrowthRigidity.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/ComplexAnalysis/GrowthRigidity.lean",
+        "sha256": "6393cb9257fb39f5979974b9eb01a86c2b426aaa9199f310bbb021d4c015cc4e"
+      },
+      "baseline_master_sha256": "6393cb9257fb39f5979974b9eb01a86c2b426aaa9199f310bbb021d4c015cc4e",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/ComplexAnalysis/GrowthRigidity.lean",
+      "sha256": "6393cb9257fb39f5979974b9eb01a86c2b426aaa9199f310bbb021d4c015cc4e"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/ComplexAnalysis/RealPartGrowth.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/ComplexAnalysis/RealPartGrowth.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/ComplexAnalysis/RealPartGrowth.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/ComplexAnalysis/RealPartGrowth.lean",
+        "sha256": "17f4a7906ac32639c2187ebcade312bbcf0fa91dbc1dc49bb14669aafb6a7128"
+      },
+      "baseline_master_sha256": "17f4a7906ac32639c2187ebcade312bbcf0fa91dbc1dc49bb14669aafb6a7128",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/ComplexAnalysis/RealPartGrowth.lean",
+      "sha256": "17f4a7906ac32639c2187ebcade312bbcf0fa91dbc1dc49bb14669aafb6a7128"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/ComplexAnalysis/ProximityGrowth.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/ComplexAnalysis/ProximityGrowth.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/ComplexAnalysis/ProximityGrowth.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/ComplexAnalysis/ProximityGrowth.lean",
+        "sha256": "2c4130bb3afe29e94aaf339599a4aef2f50b2b68da53361ffb0755d1c0850b9d"
+      },
+      "baseline_master_sha256": "2c4130bb3afe29e94aaf339599a4aef2f50b2b68da53361ffb0755d1c0850b9d",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/ComplexAnalysis/ProximityGrowth.lean",
+      "sha256": "2c4130bb3afe29e94aaf339599a4aef2f50b2b68da53361ffb0755d1c0850b9d"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/ComplexAnalysis/AntiHerglotz.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/ComplexAnalysis/AntiHerglotz.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/ComplexAnalysis/AntiHerglotz.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/ComplexAnalysis/AntiHerglotz.lean",
+        "sha256": "1792b68059adde42fba35af15461764462d9b686e4a702eae240d5db0012fa88"
+      },
+      "baseline_master_sha256": "1792b68059adde42fba35af15461764462d9b686e4a702eae240d5db0012fa88",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/ComplexAnalysis/AntiHerglotz.lean",
+      "sha256": "1792b68059adde42fba35af15461764462d9b686e4a702eae240d5db0012fa88"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/ComplexAnalysis/LogDerivative.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/ComplexAnalysis/LogDerivative.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/ComplexAnalysis/LogDerivative.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/ComplexAnalysis/LogDerivative.lean",
+        "sha256": "46e6818321ea99f466740578e0b16a0ba0b8a57f8b8ae5f3fb91921c9f7ffe64"
+      },
+      "baseline_master_sha256": "46e6818321ea99f466740578e0b16a0ba0b8a57f8b8ae5f3fb91921c9f7ffe64",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/ComplexAnalysis/LogDerivative.lean",
+      "sha256": "46e6818321ea99f466740578e0b16a0ba0b8a57f8b8ae5f3fb91921c9f7ffe64"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/HadamardProduct/GenusOne.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/HadamardProduct/GenusOne.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/HadamardProduct/GenusOne.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/HadamardProduct/GenusOne.lean",
+        "sha256": "6ea6e3041c9db215831e4fd3b5825797dea27f0fb6a497aec5523f61aab5ea69"
+      },
+      "baseline_master_sha256": "6ea6e3041c9db215831e4fd3b5825797dea27f0fb6a497aec5523f61aab5ea69",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/HadamardProduct/GenusOne.lean",
+      "sha256": "6ea6e3041c9db215831e4fd3b5825797dea27f0fb6a497aec5523f61aab5ea69"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/HadamardProduct/InfiniteProducts.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/HadamardProduct/InfiniteProducts.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/HadamardProduct/InfiniteProducts.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/HadamardProduct/InfiniteProducts.lean",
+        "sha256": "0a52a01b6f1a79e490d794f470cd6096fec3ca683d5d7d7d725a91f84ad8ce48"
+      },
+      "baseline_master_sha256": "0a52a01b6f1a79e490d794f470cd6096fec3ca683d5d7d7d725a91f84ad8ce48",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/HadamardProduct/InfiniteProducts.lean",
+      "sha256": "0a52a01b6f1a79e490d794f470cd6096fec3ca683d5d7d7d725a91f84ad8ce48"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/HadamardProduct/LogDerivative.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/HadamardProduct/LogDerivative.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/HadamardProduct/LogDerivative.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/HadamardProduct/LogDerivative.lean",
+        "sha256": "0f6d76241e3da7221cf486c748faf51f44a262d75a9142b207529e36caf56586"
+      },
+      "baseline_master_sha256": "0f6d76241e3da7221cf486c748faf51f44a262d75a9142b207529e36caf56586",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/HadamardProduct/LogDerivative.lean",
+      "sha256": "0f6d76241e3da7221cf486c748faf51f44a262d75a9142b207529e36caf56586"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/HadamardProduct/CanonicalProductGrowth.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/HadamardProduct/CanonicalProductGrowth.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/HadamardProduct/CanonicalProductGrowth.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/HadamardProduct/CanonicalProductGrowth.lean",
+        "sha256": "677a9e98c5e9a8a7073ff2b14d9c1a1af325dff5ae880ba3524aab49f1d5219a"
+      },
+      "baseline_master_sha256": "677a9e98c5e9a8a7073ff2b14d9c1a1af325dff5ae880ba3524aab49f1d5219a",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/HadamardProduct/CanonicalProductGrowth.lean",
+      "sha256": "677a9e98c5e9a8a7073ff2b14d9c1a1af325dff5ae880ba3524aab49f1d5219a"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/HadamardProduct/DyadicZeroCount.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/HadamardProduct/DyadicZeroCount.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/HadamardProduct/DyadicZeroCount.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/HadamardProduct/DyadicZeroCount.lean",
+        "sha256": "c1a3b871311e0a4b8af3b7c8c10ba5071874db3105a6005ac176c85421148b00"
+      },
+      "baseline_master_sha256": "c1a3b871311e0a4b8af3b7c8c10ba5071874db3105a6005ac176c85421148b00",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/HadamardProduct/DyadicZeroCount.lean",
+      "sha256": "c1a3b871311e0a4b8af3b7c8c10ba5071874db3105a6005ac176c85421148b00"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/HadamardProduct/CanonicalProductDyadicGrowth.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/HadamardProduct/CanonicalProductDyadicGrowth.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/HadamardProduct/CanonicalProductDyadicGrowth.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/HadamardProduct/CanonicalProductDyadicGrowth.lean",
+        "sha256": "8adf77b92fa13a212eece3131d72cac0df2e07bf364ede8a01c2843191d12c29"
+      },
+      "baseline_master_sha256": "8adf77b92fa13a212eece3131d72cac0df2e07bf364ede8a01c2843191d12c29",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/HadamardProduct/CanonicalProductDyadicGrowth.lean",
+      "sha256": "8adf77b92fa13a212eece3131d72cac0df2e07bf364ede8a01c2843191d12c29"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/HadamardProduct/PairedGenusOne.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/HadamardProduct/PairedGenusOne.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/HadamardProduct/PairedGenusOne.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/HadamardProduct/PairedGenusOne.lean",
+        "sha256": "8b5a6002231a9ed90995c4a8a252c6772114e4ff9ed78e5cded7bdc4965fe0c2"
+      },
+      "baseline_master_sha256": "8b5a6002231a9ed90995c4a8a252c6772114e4ff9ed78e5cded7bdc4965fe0c2",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/HadamardProduct/PairedGenusOne.lean",
+      "sha256": "8b5a6002231a9ed90995c4a8a252c6772114e4ff9ed78e5cded7bdc4965fe0c2"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/HadamardProduct/PairedCanonicalProductGrowth.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/HadamardProduct/PairedCanonicalProductGrowth.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/HadamardProduct/PairedCanonicalProductGrowth.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/HadamardProduct/PairedCanonicalProductGrowth.lean",
+        "sha256": "ec5a9bcb065e2c3e286321ef0924014f97544ddb50d126895f4d7ba3a170aa24"
+      },
+      "baseline_master_sha256": "ec5a9bcb065e2c3e286321ef0924014f97544ddb50d126895f4d7ba3a170aa24",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/HadamardProduct/PairedCanonicalProductGrowth.lean",
+      "sha256": "ec5a9bcb065e2c3e286321ef0924014f97544ddb50d126895f4d7ba3a170aa24"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/HadamardProduct/CanonicalProductDivisor.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/HadamardProduct/CanonicalProductDivisor.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/HadamardProduct/CanonicalProductDivisor.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/HadamardProduct/CanonicalProductDivisor.lean",
+        "sha256": "7c26232ff13951e9a30df96fa8066aca71064d99790a0ff2e5343537b860f950"
+      },
+      "baseline_master_sha256": "7c26232ff13951e9a30df96fa8066aca71064d99790a0ff2e5343537b860f950",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/HadamardProduct/CanonicalProductDivisor.lean",
+      "sha256": "7c26232ff13951e9a30df96fa8066aca71064d99790a0ff2e5343537b860f950"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/HadamardProduct/IndexedRealZeroSign.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/HadamardProduct/IndexedRealZeroSign.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/HadamardProduct/IndexedRealZeroSign.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/HadamardProduct/IndexedRealZeroSign.lean",
+        "sha256": "5cc725c58ee37d7e6fa286157d4e6f66d6c3ed1eab918d1700cda30ad39df26f"
+      },
+      "baseline_master_sha256": "5cc725c58ee37d7e6fa286157d4e6f66d6c3ed1eab918d1700cda30ad39df26f",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/HadamardProduct/IndexedRealZeroSign.lean",
+      "sha256": "5cc725c58ee37d7e6fa286157d4e6f66d6c3ed1eab918d1700cda30ad39df26f"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/ComplexAnalysis/PoleProbe.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/ComplexAnalysis/PoleProbe.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/ComplexAnalysis/PoleProbe.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/ComplexAnalysis/PoleProbe.lean",
+        "sha256": "40401afe8024afdf5feb81be0da723a25139047f8e6d209281cb387ff2abffaa"
+      },
+      "baseline_master_sha256": "40401afe8024afdf5feb81be0da723a25139047f8e6d209281cb387ff2abffaa",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/ComplexAnalysis/PoleProbe.lean",
+      "sha256": "40401afe8024afdf5feb81be0da723a25139047f8e6d209281cb387ff2abffaa"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/ComplexAnalysis/RealSymmetry.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/ComplexAnalysis/RealSymmetry.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/ComplexAnalysis/RealSymmetry.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/ComplexAnalysis/RealSymmetry.lean",
+        "sha256": "5f83e842a50fe85e7601290db5f7620244da46951ee129ac4135e8d6a07726ea"
+      },
+      "baseline_master_sha256": "5f83e842a50fe85e7601290db5f7620244da46951ee129ac4135e8d6a07726ea",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/ComplexAnalysis/RealSymmetry.lean",
+      "sha256": "5f83e842a50fe85e7601290db5f7620244da46951ee129ac4135e8d6a07726ea"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/RealZeros/Engine.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/RealZeros/Engine.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/RealZeros/Engine.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/RealZeros/Engine.lean",
+        "sha256": "0f48d57c45672a56f354c8cacc6e017c0a6c45e4809b5f89b44c96e6819c77c7"
+      },
+      "baseline_master_sha256": "0f48d57c45672a56f354c8cacc6e017c0a6c45e4809b5f89b44c96e6819c77c7",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/RealZeros/Engine.lean",
+      "sha256": "0f48d57c45672a56f354c8cacc6e017c0a6c45e4809b5f89b44c96e6819c77c7"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/RealZeros/EntireFunctions.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/RealZeros/EntireFunctions.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/RealZeros/EntireFunctions.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/RealZeros/EntireFunctions.lean",
+        "sha256": "cf7b51cbe17e56e7bc4a2674c0d122a4d42fab3b8a2b2204da5a5d6ae6ec3902"
+      },
+      "baseline_master_sha256": "cf7b51cbe17e56e7bc4a2674c0d122a4d42fab3b8a2b2204da5a5d6ae6ec3902",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/RealZeros/EntireFunctions.lean",
+      "sha256": "cf7b51cbe17e56e7bc4a2674c0d122a4d42fab3b8a2b2204da5a5d6ae6ec3902"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/HadamardProduct/CompletedLFunction.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/HadamardProduct/CompletedLFunction.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/HadamardProduct/CompletedLFunction.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/HadamardProduct/CompletedLFunction.lean",
+        "sha256": "25e2ea5bd1238b6c15bbafa05cfe06f4eca5dd4ea6ecdde4cc433bb8c5f699be"
+      },
+      "baseline_master_sha256": "25e2ea5bd1238b6c15bbafa05cfe06f4eca5dd4ea6ecdde4cc433bb8c5f699be",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/HadamardProduct/CompletedLFunction.lean",
+      "sha256": "25e2ea5bd1238b6c15bbafa05cfe06f4eca5dd4ea6ecdde4cc433bb8c5f699be"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/Xi/Definitions.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/Xi/Definitions.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/Xi/Definitions.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/Xi/Definitions.lean",
+        "sha256": "a421e366b8a199e997d88ff8cc822b51aff637bfab17e59e19f60ab663c70280"
+      },
+      "baseline_master_sha256": "a421e366b8a199e997d88ff8cc822b51aff637bfab17e59e19f60ab663c70280",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/Xi/Definitions.lean",
+      "sha256": "a421e366b8a199e997d88ff8cc822b51aff637bfab17e59e19f60ab663c70280"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/Xi/FunctionalEquation.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/Xi/FunctionalEquation.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/Xi/FunctionalEquation.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/Xi/FunctionalEquation.lean",
+        "sha256": "c8b22abfc9b7d193c2b7060fca2524263f606e10ab12ffc890f59ecaee5db34a"
+      },
+      "baseline_master_sha256": "c8b22abfc9b7d193c2b7060fca2524263f606e10ab12ffc890f59ecaee5db34a",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/Xi/FunctionalEquation.lean",
+      "sha256": "c8b22abfc9b7d193c2b7060fca2524263f606e10ab12ffc890f59ecaee5db34a"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/Xi/Pullback.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/Xi/Pullback.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/Xi/Pullback.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/Xi/Pullback.lean",
+        "sha256": "8fd6242f9e252abbfa3c3b391923d44944b409bd87d05ea23ac6b050263a5b43"
+      },
+      "baseline_master_sha256": "8fd6242f9e252abbfa3c3b391923d44944b409bd87d05ea23ac6b050263a5b43",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/Xi/Pullback.lean",
+      "sha256": "8fd6242f9e252abbfa3c3b391923d44944b409bd87d05ea23ac6b050263a5b43"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/Xi/SignTargets.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/Xi/SignTargets.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/Xi/SignTargets.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/Xi/SignTargets.lean",
+        "sha256": "5408924103ee1b4bc2fa939d6de918eadb3b225dc253df60a808f40414e7d65f"
+      },
+      "baseline_master_sha256": "5408924103ee1b4bc2fa939d6de918eadb3b225dc253df60a808f40414e7d65f",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/Xi/SignTargets.lean",
+      "sha256": "5408924103ee1b4bc2fa939d6de918eadb3b225dc253df60a808f40414e7d65f"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/Xi/CanonicalDivisor.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/Xi/CanonicalDivisor.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/Xi/CanonicalDivisor.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/Xi/CanonicalDivisor.lean",
+        "sha256": "7fe314d6754729e36ffcbb43978d59d8226d47e007338493ca1b6a751eb299ec"
+      },
+      "baseline_master_sha256": "7fe314d6754729e36ffcbb43978d59d8226d47e007338493ca1b6a751eb299ec",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/Xi/CanonicalDivisor.lean",
+      "sha256": "7fe314d6754729e36ffcbb43978d59d8226d47e007338493ca1b6a751eb299ec"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/HadamardProduct/CanonicalProductMultiplicity.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/HadamardProduct/CanonicalProductMultiplicity.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/HadamardProduct/CanonicalProductMultiplicity.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/HadamardProduct/CanonicalProductMultiplicity.lean",
+        "sha256": "10da8fd539dee790695e73c76bc30565171aff83c5b3d72b8cfad091063b786f"
+      },
+      "baseline_master_sha256": "10da8fd539dee790695e73c76bc30565171aff83c5b3d72b8cfad091063b786f",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/HadamardProduct/CanonicalProductMultiplicity.lean",
+      "sha256": "10da8fd539dee790695e73c76bc30565171aff83c5b3d72b8cfad091063b786f"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/Xi/CanonicalProductCharacteristicGrowth.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/Xi/CanonicalProductCharacteristicGrowth.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/Xi/CanonicalProductCharacteristicGrowth.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/Xi/CanonicalProductCharacteristicGrowth.lean",
+        "sha256": "173dc74a9f1dce4e868eb5cc2fbde83c6648ff4cf9c2e827a22009183f44ee86"
+      },
+      "baseline_master_sha256": "173dc74a9f1dce4e868eb5cc2fbde83c6648ff4cf9c2e827a22009183f44ee86",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/Xi/CanonicalProductCharacteristicGrowth.lean",
+      "sha256": "173dc74a9f1dce4e868eb5cc2fbde83c6648ff4cf9c2e827a22009183f44ee86"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/ComplexAnalysis/EvenAnalyticOrder.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/ComplexAnalysis/EvenAnalyticOrder.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/ComplexAnalysis/EvenAnalyticOrder.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/ComplexAnalysis/EvenAnalyticOrder.lean",
+        "sha256": "1b40cdb7861734c5f5e13d55be65abc211cbcfcf5e1f27e8e89b9ab4a9f01659"
+      },
+      "baseline_master_sha256": "1b40cdb7861734c5f5e13d55be65abc211cbcfcf5e1f27e8e89b9ab4a9f01659",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/ComplexAnalysis/EvenAnalyticOrder.lean",
+      "sha256": "1b40cdb7861734c5f5e13d55be65abc211cbcfcf5e1f27e8e89b9ab4a9f01659"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/ComplexAnalysis/EntireQuotient.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/ComplexAnalysis/EntireQuotient.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/ComplexAnalysis/EntireQuotient.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/ComplexAnalysis/EntireQuotient.lean",
+        "sha256": "ca9213e5608b0d63e5d3a2a5fe982ffb72bf77b815c8a0f29ce6420cd471105e"
+      },
+      "baseline_master_sha256": "ca9213e5608b0d63e5d3a2a5fe982ffb72bf77b815c8a0f29ce6420cd471105e",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/ComplexAnalysis/EntireQuotient.lean",
+      "sha256": "ca9213e5608b0d63e5d3a2a5fe982ffb72bf77b815c8a0f29ce6420cd471105e"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/Xi/BacklundTuringBridge.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/Xi/BacklundTuringBridge.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/Xi/BacklundTuringBridge.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/Xi/BacklundTuringBridge.lean",
+        "sha256": "415689e15ab1afc103378d0817d6c23137d7bacada4b85b1b33c62db14888ffc"
+      },
+      "baseline_master_sha256": "415689e15ab1afc103378d0817d6c23137d7bacada4b85b1b33c62db14888ffc",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/Xi/BacklundTuringBridge.lean",
+      "sha256": "415689e15ab1afc103378d0817d6c23137d7bacada4b85b1b33c62db14888ffc"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/GammaCancellation/PoleSet.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/GammaCancellation/PoleSet.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/GammaCancellation/PoleSet.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/GammaCancellation/PoleSet.lean",
+        "sha256": "eb5c37f7ded790b001f868fc8e6991973ae9a3ac1c74eea51e5d05746ae3eb63"
+      },
+      "baseline_master_sha256": "eb5c37f7ded790b001f868fc8e6991973ae9a3ac1c74eea51e5d05746ae3eb63",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/GammaCancellation/PoleSet.lean",
+      "sha256": "eb5c37f7ded790b001f868fc8e6991973ae9a3ac1c74eea51e5d05746ae3eb63"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/GammaCancellation/CompletedZeta.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/GammaCancellation/CompletedZeta.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/GammaCancellation/CompletedZeta.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/GammaCancellation/CompletedZeta.lean",
+        "sha256": "a68c5c838f8a4b7666f4fe579908946212ea0f052d81cdb6d6d2b929f88c001b"
+      },
+      "baseline_master_sha256": "a68c5c838f8a4b7666f4fe579908946212ea0f052d81cdb6d6d2b929f88c001b",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/GammaCancellation/CompletedZeta.lean",
+      "sha256": "a68c5c838f8a4b7666f4fe579908946212ea0f052d81cdb6d6d2b929f88c001b"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/GammaCancellation/TextbookXi.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/GammaCancellation/TextbookXi.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/GammaCancellation/TextbookXi.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/GammaCancellation/TextbookXi.lean",
+        "sha256": "b08c3353a4bade05487631009f2ebbd1d993d524481274a858886105fe6059c7"
+      },
+      "baseline_master_sha256": "b08c3353a4bade05487631009f2ebbd1d993d524481274a858886105fe6059c7",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/GammaCancellation/TextbookXi.lean",
+      "sha256": "b08c3353a4bade05487631009f2ebbd1d993d524481274a858886105fe6059c7"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/Xi/RiemannHypothesisBridge.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/Xi/RiemannHypothesisBridge.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/Xi/RiemannHypothesisBridge.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/Xi/RiemannHypothesisBridge.lean",
+        "sha256": "4dc024d08641c4e8f8da5da7ac6c67af29fae3ca2e74c249042bb5b5a0fa7c04"
+      },
+      "baseline_master_sha256": "4dc024d08641c4e8f8da5da7ac6c67af29fae3ca2e74c249042bb5b5a0fa7c04",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/Xi/RiemannHypothesisBridge.lean",
+      "sha256": "4dc024d08641c4e8f8da5da7ac6c67af29fae3ca2e74c249042bb5b5a0fa7c04"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/Xi/ZetaMultiplicityBridge.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/Xi/ZetaMultiplicityBridge.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/Xi/ZetaMultiplicityBridge.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/Xi/ZetaMultiplicityBridge.lean",
+        "sha256": "4ad8d6b8140d745a0e3841c700bd097064648480bcc51117363e53be9f750579"
+      },
+      "baseline_master_sha256": "4ad8d6b8140d745a0e3841c700bd097064648480bcc51117363e53be9f750579",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/Xi/ZetaMultiplicityBridge.lean",
+      "sha256": "4ad8d6b8140d745a0e3841c700bd097064648480bcc51117363e53be9f750579"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/ZeroCounting/SmoothMainTerm.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/ZeroCounting/SmoothMainTerm.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/ZeroCounting/SmoothMainTerm.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/ZeroCounting/SmoothMainTerm.lean",
+        "sha256": "a734783488373589e5502cb01e33e3c0db9b7d5bf261030e4786249af9c94223"
+      },
+      "baseline_master_sha256": "a734783488373589e5502cb01e33e3c0db9b7d5bf261030e4786249af9c94223",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/ZeroCounting/SmoothMainTerm.lean",
+      "sha256": "a734783488373589e5502cb01e33e3c0db9b7d5bf261030e4786249af9c94223"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/ZeroCounting/ZetaZeros.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/ZeroCounting/ZetaZeros.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/ZeroCounting/ZetaZeros.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/ZeroCounting/ZetaZeros.lean",
+        "sha256": "9015953ecae3abec20c23f337d005edefe60c56e183a436254b4c4a5a2a219c9"
+      },
+      "baseline_master_sha256": "9015953ecae3abec20c23f337d005edefe60c56e183a436254b4c4a5a2a219c9",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/ZeroCounting/ZetaZeros.lean",
+      "sha256": "9015953ecae3abec20c23f337d005edefe60c56e183a436254b4c4a5a2a219c9"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/Reduction/BacklundCanonicalDivisor.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/Reduction/BacklundCanonicalDivisor.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/Reduction/BacklundCanonicalDivisor.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/Reduction/BacklundCanonicalDivisor.lean",
+        "sha256": "ca04cd2aa7b38d0443f1316c3c61ce2d0c79c32256d0490cdbb743d37aaee43c"
+      },
+      "baseline_master_sha256": "ca04cd2aa7b38d0443f1316c3c61ce2d0c79c32256d0490cdbb743d37aaee43c",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/Reduction/BacklundCanonicalDivisor.lean",
+      "sha256": "ca04cd2aa7b38d0443f1316c3c61ce2d0c79c32256d0490cdbb743d37aaee43c"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/Xi/DyadicZeroCountBridge.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/Xi/DyadicZeroCountBridge.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/Xi/DyadicZeroCountBridge.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/Xi/DyadicZeroCountBridge.lean",
+        "sha256": "a8e22bbbe7c4fdff270926860d890608c499bf1aedd93bfd6441186e40bfd622"
+      },
+      "baseline_master_sha256": "a8e22bbbe7c4fdff270926860d890608c499bf1aedd93bfd6441186e40bfd622",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/Xi/DyadicZeroCountBridge.lean",
+      "sha256": "a8e22bbbe7c4fdff270926860d890608c499bf1aedd93bfd6441186e40bfd622"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/HadamardProduct/ExponentialPrefactor.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/HadamardProduct/ExponentialPrefactor.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/HadamardProduct/ExponentialPrefactor.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/HadamardProduct/ExponentialPrefactor.lean",
+        "sha256": "b567173b5bce7c312e65f755ea29757e0339e9237abe1cd3fbf6f39fe5feb024"
+      },
+      "baseline_master_sha256": "b567173b5bce7c312e65f755ea29757e0339e9237abe1cd3fbf6f39fe5feb024",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/HadamardProduct/ExponentialPrefactor.lean",
+      "sha256": "b567173b5bce7c312e65f755ea29757e0339e9237abe1cd3fbf6f39fe5feb024"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/HadamardProduct/NatZeroData.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/HadamardProduct/NatZeroData.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/HadamardProduct/NatZeroData.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/HadamardProduct/NatZeroData.lean",
+        "sha256": "54ca9e5f26fd1d7e7e2e70bb63590425ecd058b6d9a6740b4d2eef5d95fd4934"
+      },
+      "baseline_master_sha256": "54ca9e5f26fd1d7e7e2e70bb63590425ecd058b6d9a6740b4d2eef5d95fd4934",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/HadamardProduct/NatZeroData.lean",
+      "sha256": "54ca9e5f26fd1d7e7e2e70bb63590425ecd058b6d9a6740b4d2eef5d95fd4934"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/HadamardProduct/RealZeroSign.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/HadamardProduct/RealZeroSign.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/HadamardProduct/RealZeroSign.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/HadamardProduct/RealZeroSign.lean",
+        "sha256": "4309deef7755b23c1f1da8aca5cec5566a2269d5ffca0eb2d61ece83abfa193e"
+      },
+      "baseline_master_sha256": "4309deef7755b23c1f1da8aca5cec5566a2269d5ffca0eb2d61ece83abfa193e",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/HadamardProduct/RealZeroSign.lean",
+      "sha256": "4309deef7755b23c1f1da8aca5cec5566a2269d5ffca0eb2d61ece83abfa193e"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/HadamardProduct/StrictRealZeroCriterion.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/HadamardProduct/StrictRealZeroCriterion.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/HadamardProduct/StrictRealZeroCriterion.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/HadamardProduct/StrictRealZeroCriterion.lean",
+        "sha256": "832d9b74b67b4d916d21808acb0280445e1f63cc3438a066670ae8e7f6d41028"
+      },
+      "baseline_master_sha256": "832d9b74b67b4d916d21808acb0280445e1f63cc3438a066670ae8e7f6d41028",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/HadamardProduct/StrictRealZeroCriterion.lean",
+      "sha256": "832d9b74b67b4d916d21808acb0280445e1f63cc3438a066670ae8e7f6d41028"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/HadamardProduct/OriginMultiplicityCriterion.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/HadamardProduct/OriginMultiplicityCriterion.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/HadamardProduct/OriginMultiplicityCriterion.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/HadamardProduct/OriginMultiplicityCriterion.lean",
+        "sha256": "5c304d933e1fd7ef22b80d5901153483abca28a8f81056a4467d1f9e5dfe8f0e"
+      },
+      "baseline_master_sha256": "5c304d933e1fd7ef22b80d5901153483abca28a8f81056a4467d1f9e5dfe8f0e",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/HadamardProduct/OriginMultiplicityCriterion.lean",
+      "sha256": "5c304d933e1fd7ef22b80d5901153483abca28a8f81056a4467d1f9e5dfe8f0e"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/Xi/StrictLagariasCriterion.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/Xi/StrictLagariasCriterion.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/Xi/StrictLagariasCriterion.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/Xi/StrictLagariasCriterion.lean",
+        "sha256": "64be344e40e2ec962da464bc337df22d0f2eefd7305dd224721bb3cb8239494d"
+      },
+      "baseline_master_sha256": "64be344e40e2ec962da464bc337df22d0f2eefd7305dd224721bb3cb8239494d",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/Xi/StrictLagariasCriterion.lean",
+      "sha256": "64be344e40e2ec962da464bc337df22d0f2eefd7305dd224721bb3cb8239494d"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/Xi/HadamardLogDerivativeCriterion.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/Xi/HadamardLogDerivativeCriterion.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/Xi/HadamardLogDerivativeCriterion.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/Xi/HadamardLogDerivativeCriterion.lean",
+        "sha256": "66f396b981d181a8eed8a62e5de61b2b98d96a670ac30a7a2c9841caa1aaf062"
+      },
+      "baseline_master_sha256": "66f396b981d181a8eed8a62e5de61b2b98d96a670ac30a7a2c9841caa1aaf062",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/Xi/HadamardLogDerivativeCriterion.lean",
+      "sha256": "66f396b981d181a8eed8a62e5de61b2b98d96a670ac30a7a2c9841caa1aaf062"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/Xi/CanonicalQuotientCriterion.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/Xi/CanonicalQuotientCriterion.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/Xi/CanonicalQuotientCriterion.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/Xi/CanonicalQuotientCriterion.lean",
+        "sha256": "39a5b9d0917f4a261e0fd826c4105da87805af19c2b94c264209796eb4b7da19"
+      },
+      "baseline_master_sha256": "39a5b9d0917f4a261e0fd826c4105da87805af19c2b94c264209796eb4b7da19",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/Xi/CanonicalQuotientCriterion.lean",
+      "sha256": "39a5b9d0917f4a261e0fd826c4105da87805af19c2b94c264209796eb4b7da19"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/Xi/CanonicalProductSymmetry.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/Xi/CanonicalProductSymmetry.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/Xi/CanonicalProductSymmetry.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/Xi/CanonicalProductSymmetry.lean",
+        "sha256": "6940c75da42737642c461e82e62b964edd85a678eaf8773d3cae66dabee5af12"
+      },
+      "baseline_master_sha256": "6940c75da42737642c461e82e62b964edd85a678eaf8773d3cae66dabee5af12",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/Xi/CanonicalProductSymmetry.lean",
+      "sha256": "6940c75da42737642c461e82e62b964edd85a678eaf8773d3cae66dabee5af12"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/Xi/CanonicalQuotientLogNormGrowth.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/Xi/CanonicalQuotientLogNormGrowth.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/Xi/CanonicalQuotientLogNormGrowth.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/Xi/CanonicalQuotientLogNormGrowth.lean",
+        "sha256": "e2a7504dce7dbeb659c74c3914ad98ff819c8d2a37ff062543f5f146e3a3e2a8"
+      },
+      "baseline_master_sha256": "e2a7504dce7dbeb659c74c3914ad98ff819c8d2a37ff062543f5f146e3a3e2a8",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/Xi/CanonicalQuotientLogNormGrowth.lean",
+      "sha256": "e2a7504dce7dbeb659c74c3914ad98ff819c8d2a37ff062543f5f146e3a3e2a8"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/Xi/CanonicalQuotientCharacteristicGrowth.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/Xi/CanonicalQuotientCharacteristicGrowth.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/Xi/CanonicalQuotientCharacteristicGrowth.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/Xi/CanonicalQuotientCharacteristicGrowth.lean",
+        "sha256": "c92a5502f4fd4a1c8f9d796ce199ca9332d2fd7fd5dddbdddbfbd8c29e00ab23"
+      },
+      "baseline_master_sha256": "c92a5502f4fd4a1c8f9d796ce199ca9332d2fd7fd5dddbdddbfbd8c29e00ab23",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/Xi/CanonicalQuotientCharacteristicGrowth.lean",
+      "sha256": "c92a5502f4fd4a1c8f9d796ce199ca9332d2fd7fd5dddbdddbfbd8c29e00ab23"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/ComplexAnalysis/FactorialDyadicGrowth.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/ComplexAnalysis/FactorialDyadicGrowth.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/ComplexAnalysis/FactorialDyadicGrowth.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/ComplexAnalysis/FactorialDyadicGrowth.lean",
+        "sha256": "4f0c560effde7259d8fa6ef52b17df85aebb39294dc71ad3bf8009769954a50c"
+      },
+      "baseline_master_sha256": "4f0c560effde7259d8fa6ef52b17df85aebb39294dc71ad3bf8009769954a50c",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/ComplexAnalysis/FactorialDyadicGrowth.lean",
+      "sha256": "4f0c560effde7259d8fa6ef52b17df85aebb39294dc71ad3bf8009769954a50c"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/Xi/JensenDyadicCountBridge.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/Xi/JensenDyadicCountBridge.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/Xi/JensenDyadicCountBridge.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/Xi/JensenDyadicCountBridge.lean",
+        "sha256": "3712fa9953497863b55cfe7e260dba68d985a57706064b1bc480d78e5b337eda"
+      },
+      "baseline_master_sha256": "3712fa9953497863b55cfe7e260dba68d985a57706064b1bc480d78e5b337eda",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/Xi/JensenDyadicCountBridge.lean",
+      "sha256": "3712fa9953497863b55cfe7e260dba68d985a57706064b1bc480d78e5b337eda"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/Xi/EntireXiMellinGrowth.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/Xi/EntireXiMellinGrowth.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/Xi/EntireXiMellinGrowth.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/Xi/EntireXiMellinGrowth.lean",
+        "sha256": "7e917cc060fcc9f2358526e55f02538c3e42a905b8e0b38f11fb8086bbd650d4"
+      },
+      "baseline_master_sha256": "7e917cc060fcc9f2358526e55f02538c3e42a905b8e0b38f11fb8086bbd650d4",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/Xi/EntireXiMellinGrowth.lean",
+      "sha256": "7e917cc060fcc9f2358526e55f02538c3e42a905b8e0b38f11fb8086bbd650d4"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/Xi/EntireXiLogNormGrowth.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/Xi/EntireXiLogNormGrowth.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/Xi/EntireXiLogNormGrowth.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/Xi/EntireXiLogNormGrowth.lean",
+        "sha256": "2be4e49647505f922cb097e3e781487fe4cbdb8e8a84024d684e640d09acac57"
+      },
+      "baseline_master_sha256": "2be4e49647505f922cb097e3e781487fe4cbdb8e8a84024d684e640d09acac57",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/Xi/EntireXiLogNormGrowth.lean",
+      "sha256": "2be4e49647505f922cb097e3e781487fe4cbdb8e8a84024d684e640d09acac57"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/Xi/CanonicalQuotientThetaCharacteristicGrowth.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/Xi/CanonicalQuotientThetaCharacteristicGrowth.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/Xi/CanonicalQuotientThetaCharacteristicGrowth.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/Xi/CanonicalQuotientThetaCharacteristicGrowth.lean",
+        "sha256": "398c3e9ae6a72d47a178ca1d346400ab92b946d7b145927e1739ae0e52d38662"
+      },
+      "baseline_master_sha256": "398c3e9ae6a72d47a178ca1d346400ab92b946d7b145927e1739ae0e52d38662",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/Xi/CanonicalQuotientThetaCharacteristicGrowth.lean",
+      "sha256": "398c3e9ae6a72d47a178ca1d346400ab92b946d7b145927e1739ae0e52d38662"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/Xi/UnconditionalLagariasEquivalence.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/Xi/UnconditionalLagariasEquivalence.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/Xi/UnconditionalLagariasEquivalence.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/Xi/UnconditionalLagariasEquivalence.lean",
+        "sha256": "d1e3f6cb7a1a6f8200fe6cb53026b004855d4953272b2875de64c4d75a619275"
+      },
+      "baseline_master_sha256": "d1e3f6cb7a1a6f8200fe6cb53026b004855d4953272b2875de64c4d75a619275",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/Xi/UnconditionalLagariasEquivalence.lean",
+      "sha256": "d1e3f6cb7a1a6f8200fe6cb53026b004855d4953272b2875de64c4d75a619275"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/Xi/CompletedLFunctionInstance.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/Xi/CompletedLFunctionInstance.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/Xi/CompletedLFunctionInstance.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/Xi/CompletedLFunctionInstance.lean",
+        "sha256": "b31ea04b198a71519a650c1da1954d242c280bdaec1742e7c1110b41ede2f576"
+      },
+      "baseline_master_sha256": "b31ea04b198a71519a650c1da1954d242c280bdaec1742e7c1110b41ede2f576",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/Xi/CompletedLFunctionInstance.lean",
+      "sha256": "b31ea04b198a71519a650c1da1954d242c280bdaec1742e7c1110b41ede2f576"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+            "member": "QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0/RiemannHypothesis/Xi/CanonicalProductPairedGrowth.lean"
+          },
+          {
+            "archive": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+            "member": "QQRH_MINIMAL_LEAN_v0_1_0/RiemannHypothesis/Xi/CanonicalProductPairedGrowth.lean"
+          },
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/RiemannHypothesis/Xi/CanonicalProductPairedGrowth.lean"
+          }
+        ],
+        "path": "RiemannHypothesis/Xi/CanonicalProductPairedGrowth.lean",
+        "sha256": "1c3708464031f711376c6a2727fe5e9fc85c221f05fb87b841e8f1ff92d05184"
+      },
+      "baseline_master_sha256": "1c3708464031f711376c6a2727fe5e9fc85c221f05fb87b841e8f1ff92d05184",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "RiemannHypothesis/Xi/CanonicalProductPairedGrowth.lean",
+      "sha256": "1c3708464031f711376c6a2727fe5e9fc85c221f05fb87b841e8f1ff92d05184"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/AngularMaster/ZeroExclusion.lean"
+          }
+        ],
+        "path": "AngularMaster/ZeroExclusion.lean",
+        "sha256": "a66106b85dcd395d139e5acc628bff9e990125767203e00d6319804cd920cf45"
+      },
+      "baseline_master_sha256": "a66106b85dcd395d139e5acc628bff9e990125767203e00d6319804cd920cf45",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "AngularMaster/ZeroExclusion.lean",
+      "sha256": "a66106b85dcd395d139e5acc628bff9e990125767203e00d6319804cd920cf45"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/AngularMaster/Calculus.lean"
+          }
+        ],
+        "path": "AngularMaster/Calculus.lean",
+        "sha256": "4d11fcd650f279c484bc008e3540ac5909f37bbf119466150763db7f44289488"
+      },
+      "baseline_master_sha256": "4d11fcd650f279c484bc008e3540ac5909f37bbf119466150763db7f44289488",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "AngularMaster/Calculus.lean",
+      "sha256": "4d11fcd650f279c484bc008e3540ac5909f37bbf119466150763db7f44289488"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/AngularMaster/ActualProfile.lean"
+          }
+        ],
+        "path": "AngularMaster/ActualProfile.lean",
+        "sha256": "7f5a711f8f0be1bb73ba8a308d2c4ae944bb6b17752c65dd55609ea694462010"
+      },
+      "baseline_master_sha256": "7f5a711f8f0be1bb73ba8a308d2c4ae944bb6b17752c65dd55609ea694462010",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "AngularMaster/ActualProfile.lean",
+      "sha256": "7f5a711f8f0be1bb73ba8a308d2c4ae944bb6b17752c65dd55609ea694462010"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/AngularMaster/ProductLimit.lean"
+          }
+        ],
+        "path": "AngularMaster/ProductLimit.lean",
+        "sha256": "6b16366089083cee1c9bd1ad2b082cdccbb53a1631e2cf396e9011aa991b16f8"
+      },
+      "baseline_master_sha256": "6b16366089083cee1c9bd1ad2b082cdccbb53a1631e2cf396e9011aa991b16f8",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "AngularMaster/ProductLimit.lean",
+      "sha256": "6b16366089083cee1c9bd1ad2b082cdccbb53a1631e2cf396e9011aa991b16f8"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/AngularMaster/ProductValueLimit.lean"
+          }
+        ],
+        "path": "AngularMaster/ProductValueLimit.lean",
+        "sha256": "6611dd8cba2d2c6766cdeca9da926675df8d968d958caa2f2de803aa674b4d8f"
+      },
+      "baseline_master_sha256": "6611dd8cba2d2c6766cdeca9da926675df8d968d958caa2f2de803aa674b4d8f",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "AngularMaster/ProductValueLimit.lean",
+      "sha256": "6611dd8cba2d2c6766cdeca9da926675df8d968d958caa2f2de803aa674b4d8f"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/AngularMaster/CanonicalProduct.lean"
+          }
+        ],
+        "path": "AngularMaster/CanonicalProduct.lean",
+        "sha256": "7d60c79fc356caf94dd3a670034db7be7b831bf3ce135577c96e165cb5f9ce01"
+      },
+      "baseline_master_sha256": "7d60c79fc356caf94dd3a670034db7be7b831bf3ce135577c96e165cb5f9ce01",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "AngularMaster/CanonicalProduct.lean",
+      "sha256": "7d60c79fc356caf94dd3a670034db7be7b831bf3ce135577c96e165cb5f9ce01"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/AngularMaster/IndexedProduct.lean"
+          }
+        ],
+        "path": "AngularMaster/IndexedProduct.lean",
+        "sha256": "8c22f114f76f5a90e102c2ec130225393b08e983c6c8314def5bba5f53cccd60"
+      },
+      "baseline_master_sha256": "8c22f114f76f5a90e102c2ec130225393b08e983c6c8314def5bba5f53cccd60",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "AngularMaster/IndexedProduct.lean",
+      "sha256": "8c22f114f76f5a90e102c2ec130225393b08e983c6c8314def5bba5f53cccd60"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/AngularMaster/ProductSummability.lean"
+          }
+        ],
+        "path": "AngularMaster/ProductSummability.lean",
+        "sha256": "40aea813fb3146aa1aecae3e385b6c79e66f393a7e603f3779b9e679f29e159b"
+      },
+      "baseline_master_sha256": "40aea813fb3146aa1aecae3e385b6c79e66f393a7e603f3779b9e679f29e159b",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "AngularMaster/ProductSummability.lean",
+      "sha256": "40aea813fb3146aa1aecae3e385b6c79e66f393a7e603f3779b9e679f29e159b"
+    },
+    {
+      "baseline_manifest_record": {
+        "kind": "unchanged_import",
+        "matched_originals": [
+          {
+            "archive": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+            "member": "RH_ANGULAR_MASTER_CHAIN_v0_3_0/AngularMaster/ActualHadamard.lean"
+          }
+        ],
+        "path": "AngularMaster/ActualHadamard.lean",
+        "sha256": "0f5bac2eeac91ce9a44f6e1eed7afbe8caead36cca0b95fad34efae714bd72e3"
+      },
+      "baseline_master_sha256": "0f5bac2eeac91ce9a44f6e1eed7afbe8caead36cca0b95fad34efae714bd72e3",
+      "change": "byte_identical_to_baseline",
+      "origin": "retained_master_source",
+      "path": "AngularMaster/ActualHadamard.lean",
+      "sha256": "0f5bac2eeac91ce9a44f6e1eed7afbe8caead36cca0b95fad34efae714bd72e3"
+    },
+    {
+      "origin": "new_misterpremise_source",
+      "path": "MisterPremise/AnalyticBound.lean",
+      "sha256": "bb70797cc6a3c82adcad12c329b6c168455ff7d8bfc8dee12a8758fc3ddb8ead"
+    },
+    {
+      "origin": "new_misterpremise_source",
+      "path": "MisterPremise/ActualRegularity.lean",
+      "sha256": "c3f53038684715f1a43c68697ca48fcfdce4de094e9b979bdf6c98de5320fce2"
+    },
+    {
+      "origin": "new_misterpremise_source",
+      "path": "MisterPremise/Equivalence.lean",
+      "sha256": "de152a63887d7c95ce8c05208e5a611648774b282cc11c3ea3fbc7e54b255b81"
+    },
+    {
+      "origin": "new_misterpremise_source",
+      "path": "MisterPremise.lean",
+      "sha256": "bfee688bf0cc14ac84ff1d1fbb2a88c761ac3694a02079c8181de25b7d3818b0"
+    }
+  ],
+  "selection": "Transitive local source dependency closure of MisterPremise.lean; no unrelated master routes included.",
+  "upstream_records": [
+    "angular36_THIRD_PARTY_SOURCES.json",
+    "qqrh34_THIRD_PARTY_SOURCES.json"
+  ]
+}

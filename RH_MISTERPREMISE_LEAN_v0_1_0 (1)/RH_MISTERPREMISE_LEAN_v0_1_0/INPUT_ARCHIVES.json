@@ -1,0 +1,32 @@
+[
+  {
+    "bytes": 104596,
+    "filename": "18-AWPIRH_MERGER_01_LEAN_v0_10_1_FIX1.zip",
+    "sha256": "2dd8004d24a06bec6eebd401b8936d84168999cec1561fa68abe52f3e1cb7eb0"
+  },
+  {
+    "bytes": 287435,
+    "filename": "34-QQRH_FULL_X_ANCHOR_2_LEAN_v0_1_0.zip",
+    "sha256": "eb3dce3d9ef5b751cf5a9ba3281709f5e9d270533a6b024fe66539c7e3b99644"
+  },
+  {
+    "bytes": 259936,
+    "filename": "35-QQRH_MINIMAL_LEAN_v0_1_0.zip",
+    "sha256": "2d55c84b449d87957adc8897ea39557742a8667d2b2d869aef5bf7a34dc64705"
+  },
+  {
+    "bytes": 309549,
+    "filename": "36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip",
+    "sha256": "f6f5df99cc77321ae04cfe3e7e8a7d176f3ed2d5999af87e31636233a93c552b"
+  },
+  {
+    "bytes": 31016,
+    "filename": "37-ANGULAR_REGULARITY_FRAMEWORK_LEAN_v0_1_0_FIX3-1-.zip",
+    "sha256": "660bf9fd7adaf4ae40ee2bc5f3aaba523f0f2fd60bd091f0b6d362ed244224b9"
+  },
+  {
+    "bytes": 32901,
+    "filename": "38-ANGULAR_REGULARITY_LEAN_v0_1_9_FIX9.zip",
+    "sha256": "39b0166ea06a69b1338e228660e23c510ee0c90cf6a37edd352f37487b900809"
+  }
+]

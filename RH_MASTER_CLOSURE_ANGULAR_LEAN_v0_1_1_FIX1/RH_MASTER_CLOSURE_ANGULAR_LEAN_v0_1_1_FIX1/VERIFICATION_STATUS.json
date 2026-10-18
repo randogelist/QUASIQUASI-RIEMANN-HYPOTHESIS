@@ -1,0 +1,45 @@
+{
+  "kind": "source-only-static-validation",
+  "lean_compilation": "NOT_RUN_FOR_FIX1",
+  "windows_runner_execution": "NOT_RUN_FOR_FIX1",
+  "modules_in_compile_order": 240,
+  "source_declarations": {
+    "files": 240,
+    "declarations": 2533,
+    "public_declarations": 2460,
+    "private_declarations": 73,
+    "kinds": {
+      "def": 589,
+      "theorem": 1762,
+      "lemma": 73,
+      "structure": 86,
+      "abbrev": 20,
+      "instance": 3
+    },
+    "public_kinds": {
+      "def": 582,
+      "theorem": 1720,
+      "lemma": 52,
+      "structure": 86,
+      "abbrev": 17,
+      "instance": 3
+    },
+    "forbidden_tokens": 0
+  },
+  "theorems_and_lemmas": 1835,
+  "audit_public_named_declarations": 2460,
+  "private_helpers": "73 source declarations; audited transitively when used by public declarations; not individually inventoried by kernel names",
+  "duplicate_public_names": {},
+  "unresolved_local_imports": [],
+  "dependency_cycles": [],
+  "forbidden_proof_tokens": 0,
+  "new_bridge_declarations": 84,
+  "new_bridge_theorems": 77,
+  "package_version": "0.1.1 FIX1",
+  "previous_revision_user_build": "FAIL at AWPIRH/NativeCompletionReduction.lean:52, multiplication cast mismatch",
+  "mathematical_source_changes": [
+    "AWPIRH/NativeCompletionReduction.lean"
+  ],
+  "theorem_statements_changed": false,
+  "audit_inventory_changed": false
+}

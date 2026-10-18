@@ -1,0 +1,97 @@
+{
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "audit_source_separate": true,
+  "compiled_sources_match_release_hashes": true,
+  "compiler_and_mathlib_cache_included": false,
+  "compiler_platform": "x86_64-unknown-linux-gnu",
+  "custom_axiom_dependencies": 0,
+  "endpoint": "MisterPremise.MISTERPREMISE ↔ _root_.RiemannHypothesis",
+  "equivalence_status": "PROVED_AND_COMPILED",
+  "fresh_project_source_compilation": true,
+  "import_policy": "Explicit genuine Mathlib imports; no replacement root Mathlib module.",
+  "included_logs": [
+    "validation/build.log",
+    "validation/audit.log"
+  ],
+  "kernel_environment_counts": {
+    "AUDITED_PROJECT_DECLARATIONS": 2529,
+    "AUDITED_PROJECT_MODULES": 97,
+    "AUDITED_PROJECT_THEOREM_CONSTANTS": 1656
+  },
+  "lean_commit": "d8b18978322de05a8f3dba51ef03cf5461676c17",
+  "lean_version": "4.33.0",
+  "mathlib_revision": "db584cd6d46c92f209a44c0f1c829460d327499d",
+  "native_windows_runner": "INCLUDED; NOT EXECUTED ON THIS LINUX HOST",
+  "original_validation_log_sha256": {
+    "audit": "8d9e7a61238b2b69efc02524e9a46eee42f7a1d4bb1956d92534c069703c61f7",
+    "build": "2c69098d10e056c2ccb07ed30f8da2c8efeee6d65d61e0bef815c195ba2cd437"
+  },
+  "package": "RH_MISTERPREMISE_LEAN_v0_1_0",
+  "packaging_static_checks": {
+    "compile_order_matches_closure": true,
+    "dependency_closure": "PASS",
+    "import_bundle_hash_matches_metadata": true,
+    "source_forbidden_tokens": 0
+  },
+  "premise_status": "DEFINED_BUT_NOT_PROVED",
+  "project_build": "PASS",
+  "source_counts": {
+    "all": {
+      "all_declaration_kinds": {
+        "abbrev": 8,
+        "def": 236,
+        "instance": 3,
+        "lemma": 71,
+        "structure": 55,
+        "theorem": 853
+      },
+      "explicit_named_declarations": 1226,
+      "lemma": 71,
+      "private_theorems_and_lemmas": 54,
+      "source_modules": 97,
+      "theorem": 853,
+      "theorems_and_lemmas": 924
+    },
+    "counting_method": "Explicit named source commands after masking nested comments, strings and character literals; same-line attributes and modifiers supported.",
+    "new_misterpremise": {
+      "all_declaration_kinds": {
+        "abbrev": 2,
+        "def": 4,
+        "theorem": 33
+      },
+      "explicit_named_declarations": 39,
+      "lemma": 0,
+      "private_theorems_and_lemmas": 0,
+      "source_modules": 9,
+      "theorem": 33,
+      "theorems_and_lemmas": 33
+    },
+    "retained": {
+      "all_declaration_kinds": {
+        "abbrev": 6,
+        "def": 232,
+        "instance": 3,
+        "lemma": 71,
+        "structure": 55,
+        "theorem": 820
+      },
+      "explicit_named_declarations": 1187,
+      "lemma": 71,
+      "private_theorems_and_lemmas": 54,
+      "source_modules": 88,
+      "theorem": 820,
+      "theorems_and_lemmas": 891
+    },
+    "scanner_warnings": [],
+    "scope": "Dependency closure of MisterPremise.lean; excludes Audit.lean and generated declarations."
+  },
+  "source_modules": 97,
+  "transitive_project_axiom_audit": "PASS",
+  "unconditional_RH_proof_claimed": false,
+  "unfinished_proof_axioms": 0,
+  "validated_at_utc": "2026-10-18T19:54:58.546580+00:00"
+}

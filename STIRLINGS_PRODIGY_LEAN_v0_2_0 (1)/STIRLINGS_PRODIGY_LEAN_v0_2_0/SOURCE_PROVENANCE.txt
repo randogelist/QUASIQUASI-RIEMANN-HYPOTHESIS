@@ -1,0 +1,20 @@
+SOURCE=36-RH_ANGULAR_MASTER_CHAIN_v0_3_0-2-.zip
+ARCHIVE_SHA256=f6f5df99cc77321ae04cfe3e7e8a7d176f3ed2d5999af87e31636233a93c552b
+RETAINED_MODULES=72
+LOCAL_COMPILE_ORDER_MODULES=77
+RETAINED_SOURCE_BYTES=EXACT_ARCHIVE_MATCH
+RETAINED_SOURCE_MANIFEST=provenance-retained.tsv
+ORIGINAL_CLOSURE=EXACT_v0_1_0_BYTES
+
+The 72 retained modules are the local dependency closure of
+AngularMaster.ActualHadamard. Their proofs are included as source.
+The module and archive-member SHA-256 values are in provenance-retained.tsv.
+
+The original StirlingsProdigy/Closure.lean is unchanged from v0.1.0.
+New proof modules: StirlingsProdigy/LocalCalculus.lean, Local.lean,
+and Equivalence.lean. The root import, audit, runners, and docs are updated.
+
+The old conditional theorem has the single explicit hypothesis
+StirlingsProdigy.STIRLINGS_PRODIGY. The new equivalence has no extra
+hypotheses: StirlingsProdigy.STIRLINGS_PRODIGY_LOCAL <-> RiemannHypothesis.
+It establishes neither side. No converse to the original premise is asserted.

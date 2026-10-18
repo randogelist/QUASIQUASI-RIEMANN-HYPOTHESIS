@@ -1,0 +1,59 @@
+COMPILER_VALIDATION=PASS
+VALIDATION_MODE=INCREMENTAL_COMPILE_WITH_VERIFIED_RETAINED_CACHE
+LEAN_VERSION=4.33.0
+LEAN_COMMIT=d8b18978322de05a8f3dba51ef03cf5461676c17
+PLATFORM=x86_64-unknown-linux-gnu
+MATHLIB_TAG=v4.33.0
+MATHLIB_COMMIT=db584cd6d46c92f209a44c0f1c829460d327499d
+COMPILE_ORDER_MODULES=77
+FRESHLY_COMPILED_MODULES=18
+FRESHLY_COMPILED_RETAINED_MODULES=13
+FRESHLY_COMPILED_PACKAGE_MODULES=5
+VERIFIED_REUSED_RETAINED_MODULES=59
+FINAL_THEOREMS_COMPILED=PASS
+FINAL_TRANSITIVE_AXIOM_AUDIT=PASS COUNT=32
+RETAINED_DECLARATIONS_AXIOM_AUDIT=PASS COUNT=2259 MODULES=72
+ALLOWED_AXIOMS=propext, Classical.choice, Quot.sound
+PLACEHOLDER_SOURCE_SCAN=PASS
+RETAINED_SOURCE_BYTE_MATCH=72/72
+ORIGINAL_CLOSURE_UNCHANGED=PASS
+LOCAL_IMPORT_ORDER=PASS
+LINUX_RUNNER_SYNTAX=PASS
+FULL_CLEAN_REBUILD_THIS_UPDATE=NOT_PERFORMED
+LINUX_RUNNER_EXECUTION_THIS_UPDATE=NOT_PERFORMED
+WINDOWS_RUNNER_THIS_UPDATE=STATIC_REVIEW_ONLY
+ORIGINAL_CONDITIONAL_CLOSURE=PROVED
+LOCAL_FIRST_ORDER_NATIVE_RH_EQUIVALENCE=PROVED
+STIRLINGS_PRODIGY_ESTABLISHED=NO
+STIRLINGS_PRODIGY_LOCAL_ESTABLISHED=NO
+UNCONDITIONAL_RH_PROOF=NO
+
+Both directions of STIRLINGS_PRODIGY_LOCAL <-> native RiemannHypothesis
+were compiled, together with the root module and Audit.lean. The original
+STIRLINGS_PRODIGY definition and closure proof remain byte-identical to v0.1.0.
+
+Validation used 13 freshly compiled retained modules plus 59 verified retained
+cache objects. All five package-specific modules were freshly compiled.
+VALIDATION_MODULES.tsv lists each module's mode and source hash.
+CACHE_REUSE.tsv records the source and object hashes of the 59 reused modules.
+The reused sources match the delivered archive source bytes; the runtime,
+Mathlib sources/manifest, and external object dependencies were verified
+compatible. The independent retained-declaration audit then checked every
+declaration from all 72 retained modules against the stated axiom allowlist.
+
+Actual output logs: retained-build.log, new-build.log, retained-audit.log,
+and run-audit.log. LocalCalculus.lean was compiled separately: exit code 0,
+no diagnostics (tool receipt session 74622, final chunk b6814e); no standalone
+compiler log was captured for that module. The included runners rebuild
+all 77 modules; the incremental validation here is not a claimed clean run.
+
+Runtime note: the sandbox denies numeric /proc/<self-pid>/exe queries.
+A runtime-only LD_PRELOAD shim redirected that executable-path lookup to
+/proc/self/exe. Lean's elaborator, kernel, and library sources were unchanged.
+The shim is not a deliverable dependency and is unnecessary on normal native
+Windows installations. No runtime binaries or cache objects are bundled.
+
+Scope: the local equivalence is checked with no extra hypotheses. Neither
+RH nor the local premise is established. The original global premise has
+no newly asserted converse. Its documented large-radius asymptotic obstruction
+is analytic commentary, not a Lean theorem in this package.

@@ -1,0 +1,50 @@
+def RHSmallO.I : ℝ → ℝ :=
+AngularMaster.angularI
+def AngularMaster.angularI : ℝ → ℝ :=
+fun r => ∫ (x : ℝ) in -1..1, deriv (AngularMaster.actualProfile r) x / AngularMaster.actualProfile r x * √(1 - x ^ 2)
+def RHSmallO.q1 : ℝ :=
+(deriv AWPIRH.theta 0 / AWPIRH.theta 0).re
+def RHSmallO.criticalLineCutoffTerm : ℝ → RHSmallO.SpectralIndex → ℝ :=
+fun r i =>
+  if (AngularMaster.actualPairZero i).im = 0 ∧ ‖AngularMaster.actualPairZero i‖ ≤ 1 / r then RHSmallO.spectralWeight i
+  else 0
+def RHSmallO.criticalLineCutoff : ℝ → ℝ :=
+fun r => ∑' (i : RHSmallO.SpectralIndex), RHSmallO.criticalLineCutoffTerm r i
+RHSmallO.criticalLineCutoff_finite_support (r : ℝ) : (Function.support (RHSmallO.criticalLineCutoffTerm r)).Finite
+RHSmallO.criticalLineCutoff_eq_inverse_height_sum (r : ℝ) :
+  RHSmallO.criticalLineCutoff r =
+    ∑' (i : RHSmallO.SpectralIndex),
+      if (AngularMaster.actualPairZero i).im = 0 ∧ ‖AngularMaster.actualPairZero i‖ ≤ 1 / r then
+        1 / ‖AngularMaster.actualPairZero i‖ ^ 2
+      else 0
+def RHSmallO.SmallOPremise : Prop :=
+(fun r => RHSmallO.I r - Real.pi * r * RHSmallO.criticalLineCutoff r) =o[nhdsWithin 0 (Set.Ioi 0)] fun r => r
+RHSmallO.normalized_integral_tendsto :
+  Filter.Tendsto (fun r => RHSmallO.I r / r) (nhdsWithin 0 (Set.Ioi 0)) (nhds (Real.pi * RHSmallO.q1))
+RHSmallO.integral_tendsto_zero : Filter.Tendsto RHSmallO.I (nhdsWithin 0 (Set.Ioi 0)) (nhds 0)
+RHSmallO.cutoff_tendsto_of_small_o (h : RHSmallO.SmallOPremise) :
+  Filter.Tendsto RHSmallO.criticalLineCutoff (nhdsWithin 0 (Set.Ioi 0)) (nhds RHSmallO.q1)
+RHSmallO.residual_tendsto_of_small_o (h : RHSmallO.SmallOPremise) :
+  Filter.Tendsto (fun r => RHSmallO.q1 - RHSmallO.criticalLineCutoff r) (nhdsWithin 0 (Set.Ioi 0)) (nhds 0)
+RHSmallO.rh_of_small_o (h : RHSmallO.SmallOPremise) : RiemannHypothesis
+RHSmallO.rh_of_angular_integral_isLittleO
+  (h :
+    (fun r => AngularMaster.angularI r - Real.pi * r * RHSmallO.criticalLineCutoff r) =o[nhdsWithin 0 (Set.Ioi 0)]
+      fun r => r) :
+  RiemannHypothesis
+'AngularMaster.actual_theta_origin_real_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHSmallO.normalized_integral_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHSmallO.integral_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHSmallO.rh_of_small_o' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHSmallO.rh_of_angular_integral_isLittleO' depends on axioms: [propext, Classical.choice, Quot.sound]
+RHSmallO.small_o_of_rh (hRH : RiemannHypothesis) : RHSmallO.SmallOPremise
+RHSmallO.small_o_iff_RH : RHSmallO.SmallOPremise ↔ RiemannHypothesis
+RHSmallO.rh_iff_small_o : RiemannHypothesis ↔ RHSmallO.SmallOPremise
+RHSmallO.rh_iff_angular_integral_isLittleO :
+  RiemannHypothesis ↔
+    (fun r => AngularMaster.angularI r - Real.pi * r * RHSmallO.criticalLineCutoff r) =o[nhdsWithin 0 (Set.Ioi 0)]
+      fun r => r
+'RHSmallO.small_o_of_rh' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHSmallO.small_o_iff_RH' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHSmallO.rh_iff_small_o' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHSmallO.rh_iff_angular_integral_isLittleO' depends on axioms: [propext, Classical.choice, Quot.sound]

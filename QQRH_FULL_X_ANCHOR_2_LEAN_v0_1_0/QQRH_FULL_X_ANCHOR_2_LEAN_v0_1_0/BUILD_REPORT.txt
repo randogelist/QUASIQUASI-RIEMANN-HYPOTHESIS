@@ -1,0 +1,552 @@
+Lean (version 4.33.0, x86_64-unknown-linux-gnu, commit d8b18978322de05a8f3dba51ef03cf5461676c17, Release)
+
+AWPIRH/XiCore.lean: EXIT 0
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+AWPIRH/XiCore.lean:48:20: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+AWPIRH/XiCore.lean:85:2: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+AWPIRH/XiCore.lean:107:10: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+AWPIRH/XiCore.lean:116:2: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+
+AWPIRH/ThetaEntire.lean: EXIT 0
+AWPIRH/ThetaEntire.lean:50:23: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+AWPIRH/ThetaEntire.lean:50:23: warning: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+
+AngularMaster/ZeroGeometry.lean: EXIT 0
+AngularMaster/ZeroGeometry.lean:39:8: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+
+AngularMaster/ZeroExclusion.lean: EXIT 0
+
+AngularMaster/Calculus.lean: EXIT 0
+
+AngularMaster/ActualProfile.lean: EXIT 0
+
+AngularMaster/AngularCutoff.lean: EXIT 0
+
+AngularMaster/QQRHGeometry.lean: EXIT 0
+AngularMaster/QQRHGeometry.lean:54:4: warning: Try `simp at hwedge` instead of `simpa using hwedge`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+
+AngularMaster/QQRH.lean: EXIT 0
+
+RiemannHypothesis/ComplexAnalysis/GrowthRigidity.lean: EXIT 0
+
+RiemannHypothesis/ComplexAnalysis/RealPartGrowth.lean: EXIT 0
+
+RiemannHypothesis/ComplexAnalysis/ProximityGrowth.lean: EXIT 0
+
+RiemannHypothesis/ComplexAnalysis/AntiHerglotz.lean: EXIT 0
+
+RiemannHypothesis/ComplexAnalysis/LogDerivative.lean: EXIT 0
+RiemannHypothesis/ComplexAnalysis/LogDerivative.lean:495:4: warning: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+
+RiemannHypothesis/HadamardProduct/GenusOne.lean: EXIT 0
+
+RiemannHypothesis/HadamardProduct/InfiniteProducts.lean: EXIT 0
+
+RiemannHypothesis/HadamardProduct/LogDerivative.lean: EXIT 0
+
+RiemannHypothesis/HadamardProduct/CanonicalProductGrowth.lean: EXIT 0
+RiemannHypothesis/HadamardProduct/CanonicalProductGrowth.lean:205:31: warning: `Finset.le_eq_subset` has been deprecated: This is now a syntactic equality
+RiemannHypothesis/HadamardProduct/CanonicalProductGrowth.lean:205:31: warning: This simp argument is unused:
+  Finset.le_eq_subset
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [eventually_atTop] at htail_event
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+
+RiemannHypothesis/HadamardProduct/DyadicZeroCount.lean: EXIT 0
+RiemannHypothesis/HadamardProduct/DyadicZeroCount.lean:161:4: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+RiemannHypothesis/HadamardProduct/DyadicZeroCount.lean:168:2: warning: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+
+RiemannHypothesis/HadamardProduct/CanonicalProductDyadicGrowth.lean: EXIT 0
+RiemannHypothesis/HadamardProduct/CanonicalProductDyadicGrowth.lean:91:4: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+RiemannHypothesis/HadamardProduct/CanonicalProductDyadicGrowth.lean:98:2: warning: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+RiemannHypothesis/HadamardProduct/CanonicalProductDyadicGrowth.lean:331:2: warning: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+
+RiemannHypothesis/HadamardProduct/PairedGenusOne.lean: EXIT 0
+
+RiemannHypothesis/HadamardProduct/PairedCanonicalProductGrowth.lean: EXIT 0
+RiemannHypothesis/HadamardProduct/PairedCanonicalProductGrowth.lean:192:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+RiemannHypothesis/HadamardProduct/PairedCanonicalProductGrowth.lean:517:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+RiemannHypothesis/HadamardProduct/PairedCanonicalProductGrowth.lean:548:2: warning: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+
+RiemannHypothesis/HadamardProduct/CanonicalProductDivisor.lean: EXIT 0
+RiemannHypothesis/HadamardProduct/CanonicalProductDivisor.lean:116:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+RiemannHypothesis/HadamardProduct/CanonicalProductDivisor.lean:165:6: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+
+RiemannHypothesis/HadamardProduct/IndexedRealZeroSign.lean: EXIT 0
+
+RiemannHypothesis/ComplexAnalysis/PoleProbe.lean: EXIT 0
+
+RiemannHypothesis/ComplexAnalysis/RealSymmetry.lean: EXIT 0
+
+RiemannHypothesis/RealZeros/Engine.lean: EXIT 0
+
+RiemannHypothesis/RealZeros/EntireFunctions.lean: EXIT 0
+
+RiemannHypothesis/HadamardProduct/CompletedLFunction.lean: EXIT 0
+RiemannHypothesis/HadamardProduct/CompletedLFunction.lean:69:4: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+RiemannHypothesis/HadamardProduct/CompletedLFunction.lean:72:15: warning: `ENat.coe_zero` has been deprecated: Use `ENat.natCast_zero` instead
+RiemannHypothesis/HadamardProduct/CompletedLFunction.lean:162:0: warning: Definition `CompletedLFunctionHadamardData.zeroData` is a proposition; use `theorem` instead of `def`
+
+Note: This linter can be disabled with `set_option linter.defProp false`
+RiemannHypothesis/HadamardProduct/CompletedLFunction.lean:267:4: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+
+RiemannHypothesis/Xi/Definitions.lean: EXIT 0
+
+RiemannHypothesis/Xi/FunctionalEquation.lean: EXIT 0
+
+RiemannHypothesis/Xi/Pullback.lean: EXIT 0
+
+RiemannHypothesis/Xi/SignTargets.lean: EXIT 0
+
+RiemannHypothesis/Xi/CanonicalDivisor.lean: EXIT 0
+
+RiemannHypothesis/HadamardProduct/CanonicalProductMultiplicity.lean: EXIT 0
+RiemannHypothesis/HadamardProduct/CanonicalProductMultiplicity.lean:50:4: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+RiemannHypothesis/HadamardProduct/CanonicalProductMultiplicity.lean:111:4: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+RiemannHypothesis/HadamardProduct/CanonicalProductMultiplicity.lean:115:15: warning: `ENat.coe_zero` has been deprecated: Use `ENat.natCast_zero` instead
+
+RiemannHypothesis/Xi/CanonicalProductCharacteristicGrowth.lean: EXIT 0
+
+RiemannHypothesis/ComplexAnalysis/EvenAnalyticOrder.lean: EXIT 0
+
+RiemannHypothesis/ComplexAnalysis/EntireQuotient.lean: EXIT 0
+
+RiemannHypothesis/Xi/BacklundTuringBridge.lean: EXIT 0
+RiemannHypothesis/Xi/BacklundTuringBridge.lean:107:2: warning: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+
+RiemannHypothesis/GammaCancellation/PoleSet.lean: EXIT 0
+
+RiemannHypothesis/GammaCancellation/CompletedZeta.lean: EXIT 0
+
+RiemannHypothesis/GammaCancellation/TextbookXi.lean: EXIT 0
+
+RiemannHypothesis/Xi/RiemannHypothesisBridge.lean: EXIT 0
+
+RiemannHypothesis/Xi/ZetaMultiplicityBridge.lean: EXIT 0
+
+RiemannHypothesis/ZeroCounting/SmoothMainTerm.lean: EXIT 0
+
+RiemannHypothesis/ZeroCounting/ZetaZeros.lean: EXIT 0
+RiemannHypothesis/ZeroCounting/ZetaZeros.lean:96:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+RiemannHypothesis/ZeroCounting/ZetaZeros.lean:126:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+RiemannHypothesis/ZeroCounting/ZetaZeros.lean:128:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+RiemannHypothesis/ZeroCounting/ZetaZeros.lean:143:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+
+RiemannHypothesis/Reduction/BacklundCanonicalDivisor.lean: EXIT 0
+RiemannHypothesis/Reduction/BacklundCanonicalDivisor.lean:262:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+RiemannHypothesis/Reduction/BacklundCanonicalDivisor.lean:274:42: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+RiemannHypothesis/Reduction/BacklundCanonicalDivisor.lean:409:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+
+RiemannHypothesis/Xi/DyadicZeroCountBridge.lean: EXIT 0
+
+RiemannHypothesis/HadamardProduct/ExponentialPrefactor.lean: EXIT 0
+
+RiemannHypothesis/HadamardProduct/NatZeroData.lean: EXIT 0
+
+RiemannHypothesis/HadamardProduct/RealZeroSign.lean: EXIT 0
+
+RiemannHypothesis/HadamardProduct/StrictRealZeroCriterion.lean: EXIT 0
+
+RiemannHypothesis/HadamardProduct/OriginMultiplicityCriterion.lean: EXIT 0
+
+RiemannHypothesis/Xi/StrictLagariasCriterion.lean: EXIT 0
+
+RiemannHypothesis/Xi/HadamardLogDerivativeCriterion.lean: EXIT 0
+RiemannHypothesis/Xi/HadamardLogDerivativeCriterion.lean:208:4: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+RiemannHypothesis/Xi/HadamardLogDerivativeCriterion.lean:407:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+
+RiemannHypothesis/Xi/CanonicalQuotientCriterion.lean: EXIT 0
+
+RiemannHypothesis/Xi/CanonicalProductSymmetry.lean: EXIT 0
+
+RiemannHypothesis/Xi/CanonicalQuotientLogNormGrowth.lean: EXIT 0
+
+RiemannHypothesis/Xi/CanonicalQuotientCharacteristicGrowth.lean: EXIT 0
+
+RiemannHypothesis/ComplexAnalysis/MellinGrowth.lean: EXIT 0
+
+RiemannHypothesis/Xi/ThetaKernelMellinGrowth.lean: EXIT 0
+
+RiemannHypothesis/ComplexAnalysis/FactorialDyadicGrowth.lean: EXIT 0
+
+RiemannHypothesis/Xi/JensenDyadicCountBridge.lean: EXIT 0
+RiemannHypothesis/Xi/JensenDyadicCountBridge.lean:102:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+
+RiemannHypothesis/Xi/EntireXiMellinGrowth.lean: EXIT 0
+RiemannHypothesis/Xi/EntireXiMellinGrowth.lean:22:5: warning: Ambiguous namespace `Real`: it is interpreted as `_root_.OverflowResidueRH.Real` because this `open` occurs inside `namespace OverflowResidueRH`, while `_root_.Real` is silently not opened. Specify the namespace unambiguously, e.g. `_root_.OverflowResidueRH.Real`. The warning can sometimes also be addressed by moving the `open` outside of the surrounding `namespace`.
+
+Note: This linter can be disabled with `set_option linter.ambiguousOpen false`
+RiemannHypothesis/Xi/EntireXiMellinGrowth.lean:251:0: warning: Definition `entireXiPullbackCanonicalZeroDistributionFromTheta` is a proposition; use `theorem` instead of `def`
+
+Note: This linter can be disabled with `set_option linter.defProp false`
+
+RiemannHypothesis/Xi/EntireXiLogNormGrowth.lean: EXIT 0
+
+RiemannHypothesis/Xi/CanonicalQuotientThetaCharacteristicGrowth.lean: EXIT 0
+
+RiemannHypothesis/Xi/UnconditionalLagariasEquivalence.lean: EXIT 0
+
+RiemannHypothesis/Xi/CompletedLFunctionInstance.lean: EXIT 0
+
+RiemannHypothesis/Xi/CanonicalProductPairedGrowth.lean: EXIT 0
+
+AngularMaster/ActualHadamard.lean: EXIT 0
+
+AngularMaster/ComplexScaleProduct.lean: EXIT 0
+
+AngularMaster/LowHeightGeometry.lean: EXIT 0
+
+AngularMaster/ConjugateFactor.lean: EXIT 0
+
+AngularMaster/SectorPositivity.lean: EXIT 0
+
+AngularMaster/ThetaKernelExplicitBound.lean: EXIT 0
+
+AngularMaster/ZeroFreeSeed.lean: EXIT 0
+
+AngularMaster/QQRHUnconditional.lean: EXIT 0
+
+AngularMaster/ThetaKernelSharperBound.lean: EXIT 0
+
+AngularMaster/MellinEndpointBound.lean: EXIT 0
+
+AngularMaster/SharperZeroFreeSeed.lean: EXIT 0
+
+AngularMaster/StripProductBound.lean: EXIT 0
+
+AngularMaster/HeightExtension.lean: EXIT 0
+
+AngularMaster/AnalyticExtension.lean: EXIT 0
+
+AngularMaster/ThetaKernelAnchorBound.lean: EXIT 0
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+AngularMaster/ThetaKernelAnchorBound.lean:57:61: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+AngularMaster/ThetaKernelAnchorBound.lean:57:75: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+
+AngularMaster/MellinAnchorBound.lean: EXIT 0
+AngularMaster/MellinAnchorBound.lean:22:21: warning: This simp argument is unused:
+  f
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [id_eq]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+AngularMaster/MellinAnchorBound.lean:23:4: warning: Unused tactic linter: `all_goals try rfl` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+AngularMaster/MellinAnchorBound.lean:21:101: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+AngularMaster/MellinAnchorBound.lean:97:10: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+
+AngularMaster/MellinPairedBound.lean: EXIT 0
+
+AngularMaster/AnchorHeight.lean: EXIT 0
+
+AngularMaster/FullXGeometry.lean: EXIT 0
+
+AngularMaster/FullXProduct.lean: EXIT 0
+
+AngularMaster/SecondFullXAnchor.lean: EXIT 0
+
+QQRH.lean: EXIT 0
+
+Audit.lean: EXIT 0
+@[reducible] def QQRH : ℝ → Prop :=
+fun m => AngularMaster.QQRH m
+def AngularMaster.QQRH : ℝ → Prop :=
+fun m => ∀ (s : ℂ), 0 < s.re → s.re < 1 → |s.im| < m * |s.re - 1 / 2| → riemannZeta s ≠ 0
+@[reducible] def QQRH.cutoff : ℝ → ℝ :=
+fun m => AngularMaster.slopeCutoff m
+def AngularMaster.slopeCutoff : ℝ → ℝ :=
+fun m => (1 - m ^ 2) / (1 + m ^ 2)
+@[reducible] def QQRH.profile : ℝ → ℝ → ℝ :=
+fun r x => AngularMaster.actualProfile r x
+def AngularMaster.actualProfile : ℝ → ℝ → ℝ :=
+AngularMaster.angularNormSq AWPIRH.theta
+def AWPIRH.theta : ℂ → ℂ :=
+fun z => AWPIRH.centeredXi z.sqrt
+def AWPIRH.xi : ℂ → ℂ :=
+fun s => (1 + s * (s - 1) * completedRiemannZeta₀ s) / 2
+QQRH.cutoff_two : QQRH.cutoff 2 = -(3 / 5)
+QQRH.of_positivity {m : ℝ} (hm : 0 < m)
+  (hP : ∀ (r : ℝ), 0 < r → ∀ (x : ℝ), QQRH.cutoff m < x → x < 1 → 0 ≤ deriv (QQRH.profile r) x) : QQRH m
+QQRH.positivity_two (r : ℝ) (hr : 0 < r) (x : ℝ) (hx : -(3 / 5) < x) (hx1 : x < 1) : 0 ≤ deriv (QQRH.profile r) x
+theorem QQRH.two : QQRH 2 :=
+QQRH.of_positivity
+  (Mathlib.Meta.NormNum.isNat_lt_true (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_zero)
+    (Mathlib.Meta.NormNum.isNat_ofNat ℝ (Eq.refl 2)) (Eq.refl false))
+  (Eq.mpr
+    (id
+      (forall_congr fun r =>
+        implies_congr (Eq.refl (0 < r))
+          (forall_congr fun x =>
+            implies_congr (congrFun' (congrArg LT.lt QQRH.cutoff_two) x)
+              (Eq.refl (x < 1 → 0 ≤ deriv (QQRH.profile r) x)))))
+    QQRH.positivity_two)
+'QQRH.cutoff_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QQRH.of_positivity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QQRH.positivity_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QQRH.two' depends on axioms: [propext, Classical.choice, Quot.sound]
+QQRH.cutoff_ten : QQRH.cutoff 10 = -(99 / 101)
+QQRH.cutoff_eleven : QQRH.cutoff 11 = -(60 / 61)
+QQRH.positivity_eleven (r : ℝ) (hr : 0 < r) (x : ℝ) (hx : -(60 / 61) < x) (hx1 : x < 1) : 0 ≤ deriv (QQRH.profile r) x
+QQRH.of_sq_lt_122 {m : ℝ} (hm : 1 ≤ m) (hcap : m ^ 2 < 122) : QQRH m
+theorem QQRH.eleven : QQRH 11 :=
+QQRH.of_positivity
+  (Mathlib.Meta.NormNum.isNat_lt_true (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_zero)
+    (Mathlib.Meta.NormNum.isNat_ofNat ℝ (Eq.refl 11)) (Eq.refl false))
+  (Eq.mpr
+    (id
+      (forall_congr fun r =>
+        implies_congr (Eq.refl (0 < r))
+          (forall_congr fun x =>
+            implies_congr (congrFun' (congrArg LT.lt QQRH.cutoff_eleven) x)
+              (Eq.refl (x < 1 → 0 ≤ deriv (QQRH.profile r) x)))))
+    QQRH.positivity_eleven)
+'AngularMaster.hurwitzThetaMellinKernel_sharper_upper_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AngularMaster.actual_completedZeta₀_norm_le_one_thirtyone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AngularMaster.norm_mul_sub_one_le_im_sq_add_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AngularMaster.actual_xi_zero_height_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AngularMaster.actual_cutoff_nonnegative_of_zero_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QQRH.cutoff_ten' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QQRH.cutoff_eleven' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QQRH.positivity_eleven' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QQRH.eleven' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QQRH.ten' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QQRH.of_sq_lt_122' depends on axioms: [propext, Classical.choice, Quot.sound]
+AngularMaster.actual_xi_zero_thirteen_halves_lt_abs_im {s : ℂ} (hz : AWPIRH.xi s = 0) : 13 / 2 < |s.im|
+QQRH.second_full_x_radius : QQRH.secondFullXRadius = 255 / 7
+QQRH.second_full_x_monotone (r : ℝ) (hr : 0 < r) (hR : r ≤ 255 / 7) : MonotoneOn (QQRH.profile r) (Set.Icc (-1) 1)
+QQRH.second_full_x_range_anchor (r : ℝ) (hr : 0 < r) (hR : r ≤ 255 / 7) (x : ℝ) (hx : -1 < x) (hx1 : x < 1) :
+  0 ≤ deriv (QQRH.profile r) x
+QQRH.second_full_x_positive (r : ℝ) (hr : 0 ≤ r) (hR : r ≤ 255 / 7) (x : ℝ) (hx : -1 ≤ x) (hx1 : x ≤ 1) :
+  0 < QQRH.profile r x
+'AngularMaster.actual_xi_zero_thirteen_halves_lt_abs_im' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AngularMaster.hurwitzThetaMellinKernel_anchor_upper_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AngularMaster.integral_Ioi_one_rpow_neg_exp_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AngularMaster.norm_mellin_le_paired_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AngularMaster.actual_completedZeta₀_norm_le_nine_three_eightyfive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AngularMaster.monotoneOn_normSq_conjugateFactor_circle_of_height' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AngularMaster.actualProfile_sq_symmetric_product_values' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AngularMaster.actual_theta_second_full_x_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AngularMaster.actual_theta_ne_zero_closed_disk_of_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QQRH.second_full_x_radius' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QQRH.second_full_x_monotone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QQRH.second_full_x_range_anchor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QQRH.second_full_x_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+ELAPSED_SECONDS=251.21

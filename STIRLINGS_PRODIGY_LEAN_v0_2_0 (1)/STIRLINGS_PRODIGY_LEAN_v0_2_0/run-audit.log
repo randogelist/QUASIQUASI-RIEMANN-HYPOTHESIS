@@ -1,0 +1,77 @@
+def RiemannHypothesis : Prop :=
+∀ (s : ℂ), riemannZeta s = 0 → (¬∃ n, s = -2 * (↑n + 1)) → s ≠ 1 → s.re = 1 / 2
+def AWPIRH.xi : ℂ → ℂ :=
+fun s => (1 + s * (s - 1) * completedRiemannZeta₀ s) / 2
+def AWPIRH.theta : ℂ → ℂ :=
+fun z => AWPIRH.centeredXi z.sqrt
+def AngularMaster.actualProfile : ℝ → ℝ → ℝ :=
+AngularMaster.angularNormSq AWPIRH.theta
+def StirlingsProdigy.U : ℝ → ℝ → ℝ :=
+fun r x => AngularMaster.angularDerivative AngularMaster.actualProfile r x
+def StirlingsProdigy.A : ℝ → ℝ :=
+fun r => StirlingsProdigy.U r 1
+def StirlingsProdigy.B : ℝ → ℝ :=
+fun r => derivWithin (StirlingsProdigy.U r) AngularMaster.angularInterval 1
+def StirlingsProdigy.taylorRemainder : ℝ → ℝ → ℝ :=
+fun r x => StirlingsProdigy.U r x - (StirlingsProdigy.A r - StirlingsProdigy.B r * (1 - x))
+def StirlingsProdigy.STIRLINGS_PRODIGY : Prop :=
+∀ (r : ℝ),
+  0 < r →
+    (∀ (x : ℝ), -1 < x → x < 1 → 0 ≤ StirlingsProdigy.taylorRemainder r x) ∧
+      2 * StirlingsProdigy.B r ≤ StirlingsProdigy.A r ∧ 0 < StirlingsProdigy.B r
+theorem StirlingsProdigy.RH_of_STIRLINGS_PRODIGY : StirlingsProdigy.STIRLINGS_PRODIGY → RiemannHypothesis :=
+fun h =>
+  AngularMaster.native_RH_of_actual_angular_monotone (StirlingsProdigy.actual_profile_monotone_of_STIRLINGS_PRODIGY h)
+theorem StirlingsProdigy.STIRLINGS_PRODIGY_IMP_RH : StirlingsProdigy.STIRLINGS_PRODIGY → RiemannHypothesis :=
+StirlingsProdigy.RH_of_STIRLINGS_PRODIGY
+def StirlingsProdigy.LocalFirstOrderAt : (ℝ → ℝ) → ℝ → Prop :=
+fun f x => ∀ (ε : ℝ), 0 < ε → ∃ η, 0 < η ∧ ∀ (h : ℝ), 0 < h → h < η → x + h ≤ 1 → -ε * h ≤ f (x + h) - f x
+def StirlingsProdigy.STIRLINGS_PRODIGY_LOCAL : Prop :=
+∀ (r : ℝ), 0 < r → ∀ (x : ℝ), -1 < x → x < 1 → StirlingsProdigy.LocalFirstOrderAt (AngularMaster.actualProfile r) x
+theorem StirlingsProdigy.STIRLINGS_PRODIGY_LOCAL_IFF_RH : StirlingsProdigy.STIRLINGS_PRODIGY_LOCAL ↔
+  RiemannHypothesis :=
+{ mp := StirlingsProdigy.RH_of_STIRLINGS_PRODIGY_LOCAL, mpr := StirlingsProdigy.STIRLINGS_PRODIGY_LOCAL_of_RH }
+theorem StirlingsProdigy.RH_IFF_STIRLINGS_PRODIGY_LOCAL : RiemannHypothesis ↔
+  StirlingsProdigy.STIRLINGS_PRODIGY_LOCAL :=
+Iff.symm StirlingsProdigy.STIRLINGS_PRODIGY_LOCAL_IFF_RH
+AXIOM_DEPENDENCIES AWPIRH.xi: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES AWPIRH.theta: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES AWPIRH.theta_entire: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES AngularMaster.actualProfile: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES AngularMaster.native_RH_iff_theta_zeros_nonpositive: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES AngularMaster.native_RH_of_actual_angular_monotone: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES StirlingsProdigy.U: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES StirlingsProdigy.A: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES StirlingsProdigy.B: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES StirlingsProdigy.taylorRemainder: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES StirlingsProdigy.STIRLINGS_PRODIGY: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES StirlingsProdigy.taylor_decomposition: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES StirlingsProdigy.U_eq_deriv: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES StirlingsProdigy.affine_lower_bound: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES StirlingsProdigy.U_lower_bound_of_STIRLINGS_PRODIGY: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES StirlingsProdigy.U_positive_of_STIRLINGS_PRODIGY: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES StirlingsProdigy.actual_deriv_positive_of_STIRLINGS_PRODIGY: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES StirlingsProdigy.actual_profile_monotone_of_STIRLINGS_PRODIGY: [propext,
+ Classical.choice,
+ Quot.sound]
+AXIOM_DEPENDENCIES StirlingsProdigy.RH_of_STIRLINGS_PRODIGY: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES StirlingsProdigy.STIRLINGS_PRODIGY_IMP_RH: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES StirlingsProdigy.LocalFirstOrderAt: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES StirlingsProdigy.derivative_nonnegative_of_localFirstOrderAt: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES StirlingsProdigy.localFirstOrderAt_of_monotoneOn: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES StirlingsProdigy.STIRLINGS_PRODIGY_LOCAL: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES StirlingsProdigy.actual_deriv_nonnegative_of_STIRLINGS_PRODIGY_LOCAL: [propext,
+ Classical.choice,
+ Quot.sound]
+AXIOM_DEPENDENCIES StirlingsProdigy.actual_profile_monotone_of_STIRLINGS_PRODIGY_LOCAL: [propext,
+ Classical.choice,
+ Quot.sound]
+AXIOM_DEPENDENCIES StirlingsProdigy.RH_of_STIRLINGS_PRODIGY_LOCAL: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES StirlingsProdigy.STIRLINGS_PRODIGY_LOCAL_of_STIRLINGS_PRODIGY: [propext,
+ Classical.choice,
+ Quot.sound]
+AXIOM_DEPENDENCIES AngularMaster.actual_profileMaster_of_native_RH: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES StirlingsProdigy.STIRLINGS_PRODIGY_LOCAL_of_RH: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES StirlingsProdigy.STIRLINGS_PRODIGY_LOCAL_IFF_RH: [propext, Classical.choice, Quot.sound]
+AXIOM_DEPENDENCIES StirlingsProdigy.RH_IFF_STIRLINGS_PRODIGY_LOCAL: [propext, Classical.choice, Quot.sound]
+STIRLINGS_PRODIGY_AXIOM_AUDIT=PASS COUNT=32

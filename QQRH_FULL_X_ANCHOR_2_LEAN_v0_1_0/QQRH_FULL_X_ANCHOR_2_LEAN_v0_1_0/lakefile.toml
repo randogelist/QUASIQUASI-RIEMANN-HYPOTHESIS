@@ -1,0 +1,20 @@
+name = "qqrh_full_x_anchor_2"
+version = "0.1.0"
+defaultTargets = ["QQRH"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "v4.33.0"
+
+[[lean_lib]]
+name = "QQRH"
+
+[[lean_lib]]
+name = "AWPIRH"
+
+[[lean_lib]]
+name = "AngularMaster"
+
+[[lean_lib]]
+name = "RiemannHypothesis"

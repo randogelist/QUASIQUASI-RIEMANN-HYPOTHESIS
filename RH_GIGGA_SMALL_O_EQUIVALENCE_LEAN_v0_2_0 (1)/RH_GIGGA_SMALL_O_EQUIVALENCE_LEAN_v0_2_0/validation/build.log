@@ -1,0 +1,377 @@
+COMPILE_PASS=AngularMaster.ZeroExclusion
+COMPILE_PASS=AWPIRH.XiCore
+Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+AWPIRH/XiCore.lean:48:20: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+AWPIRH/XiCore.lean:85:2: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+AWPIRH/XiCore.lean:107:10: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+AWPIRH/XiCore.lean:116:2: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+COMPILE_PASS=RiemannHypothesis.ComplexAnalysis.GrowthRigidity
+COMPILE_PASS=RiemannHypothesis.ComplexAnalysis.AntiHerglotz
+COMPILE_PASS=AWPIRH.ThetaEntire
+AWPIRH/ThetaEntire.lean:50:23: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+AWPIRH/ThetaEntire.lean:50:23: warning: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+COMPILE_PASS=RiemannHypothesis.ComplexAnalysis.RealPartGrowth
+COMPILE_PASS=RiemannHypothesis.ComplexAnalysis.PoleProbe
+COMPILE_PASS=RiemannHypothesis.ComplexAnalysis.RealSymmetry
+COMPILE_PASS=RiemannHypothesis.ComplexAnalysis.ProximityGrowth
+COMPILE_PASS=RiemannHypothesis.RealZeros.Engine
+COMPILE_PASS=RiemannHypothesis.ComplexAnalysis.EvenAnalyticOrder
+COMPILE_PASS=RiemannHypothesis.Xi.Definitions
+COMPILE_PASS=RiemannHypothesis.ComplexAnalysis.LogDerivative
+RiemannHypothesis/ComplexAnalysis/LogDerivative.lean:495:4: warning: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+COMPILE_PASS=RiemannHypothesis.ComplexAnalysis.EntireQuotient
+COMPILE_PASS=RiemannHypothesis.Xi.FunctionalEquation
+COMPILE_PASS=RiemannHypothesis.HadamardProduct.GenusOne
+COMPILE_PASS=RiemannHypothesis.RealZeros.EntireFunctions
+COMPILE_PASS=RiemannHypothesis.Xi.Pullback
+COMPILE_PASS=RiemannHypothesis.GammaCancellation.PoleSet
+COMPILE_PASS=RiemannHypothesis.HadamardProduct.InfiniteProducts
+COMPILE_PASS=RiemannHypothesis.Xi.SignTargets
+COMPILE_PASS=RiemannHypothesis.GammaCancellation.CompletedZeta
+COMPILE_PASS=RiemannHypothesis.HadamardProduct.PairedGenusOne
+COMPILE_PASS=RiemannHypothesis.HadamardProduct.LogDerivative
+COMPILE_PASS=RiemannHypothesis.GammaCancellation.TextbookXi
+COMPILE_PASS=RiemannHypothesis.HadamardProduct.DyadicZeroCount
+RiemannHypothesis/HadamardProduct/DyadicZeroCount.lean:161:4: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+RiemannHypothesis/HadamardProduct/DyadicZeroCount.lean:168:2: warning: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+COMPILE_PASS=RiemannHypothesis.HadamardProduct.CanonicalProductGrowth
+RiemannHypothesis/HadamardProduct/CanonicalProductGrowth.lean:205:31: warning: `Finset.le_eq_subset` has been deprecated: This is now a syntactic equality
+RiemannHypothesis/HadamardProduct/CanonicalProductGrowth.lean:205:31: warning: This simp argument is unused:
+  Finset.le_eq_subset
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [eventually_atTop] at htail_event
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+COMPILE_PASS=RiemannHypothesis.HadamardProduct.CanonicalProductDivisor
+RiemannHypothesis/HadamardProduct/CanonicalProductDivisor.lean:116:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+RiemannHypothesis/HadamardProduct/CanonicalProductDivisor.lean:165:6: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+COMPILE_PASS=RiemannHypothesis.HadamardProduct.IndexedRealZeroSign
+COMPILE_PASS=RiemannHypothesis.ZeroCounting.SmoothMainTerm
+COMPILE_PASS=RiemannHypothesis.HadamardProduct.CompletedLFunction
+RiemannHypothesis/HadamardProduct/CompletedLFunction.lean:69:4: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+RiemannHypothesis/HadamardProduct/CompletedLFunction.lean:72:15: warning: `ENat.coe_zero` has been deprecated: Use `ENat.natCast_zero` instead
+RiemannHypothesis/HadamardProduct/CompletedLFunction.lean:162:0: warning: Definition `CompletedLFunctionHadamardData.zeroData` is a proposition; use `theorem` instead of `def`
+
+Note: This linter can be disabled with `set_option linter.defProp false`
+RiemannHypothesis/HadamardProduct/CompletedLFunction.lean:267:4: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+COMPILE_PASS=RiemannHypothesis.Xi.CanonicalDivisor
+COMPILE_PASS=RiemannHypothesis.HadamardProduct.CanonicalProductDyadicGrowth
+RiemannHypothesis/HadamardProduct/CanonicalProductDyadicGrowth.lean:91:4: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+RiemannHypothesis/HadamardProduct/CanonicalProductDyadicGrowth.lean:98:2: warning: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+RiemannHypothesis/HadamardProduct/CanonicalProductDyadicGrowth.lean:331:2: warning: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+COMPILE_PASS=RiemannHypothesis.HadamardProduct.CanonicalProductMultiplicity
+RiemannHypothesis/HadamardProduct/CanonicalProductMultiplicity.lean:50:4: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+RiemannHypothesis/HadamardProduct/CanonicalProductMultiplicity.lean:111:4: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+RiemannHypothesis/HadamardProduct/CanonicalProductMultiplicity.lean:115:15: warning: `ENat.coe_zero` has been deprecated: Use `ENat.natCast_zero` instead
+COMPILE_PASS=RiemannHypothesis.Xi.RiemannHypothesisBridge
+COMPILE_PASS=RiemannHypothesis.Xi.CanonicalProductCharacteristicGrowth
+COMPILE_PASS=RiemannHypothesis.Xi.BacklundTuringBridge
+RiemannHypothesis/Xi/BacklundTuringBridge.lean:107:2: warning: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+COMPILE_PASS=RiemannHypothesis.Xi.ZetaMultiplicityBridge
+COMPILE_PASS=RiemannHypothesis.ZeroCounting.ZetaZeros
+RiemannHypothesis/ZeroCounting/ZetaZeros.lean:96:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+RiemannHypothesis/ZeroCounting/ZetaZeros.lean:126:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+RiemannHypothesis/ZeroCounting/ZetaZeros.lean:128:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+RiemannHypothesis/ZeroCounting/ZetaZeros.lean:143:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+COMPILE_PASS=RiemannHypothesis.Xi.DyadicZeroCountBridge
+COMPILE_PASS=RiemannHypothesis.HadamardProduct.ExponentialPrefactor
+COMPILE_PASS=RiemannHypothesis.Reduction.BacklundCanonicalDivisor
+RiemannHypothesis/Reduction/BacklundCanonicalDivisor.lean:262:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+RiemannHypothesis/Reduction/BacklundCanonicalDivisor.lean:274:42: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+RiemannHypothesis/Reduction/BacklundCanonicalDivisor.lean:409:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+COMPILE_PASS=RiemannHypothesis.HadamardProduct.PairedCanonicalProductGrowth
+RiemannHypothesis/HadamardProduct/PairedCanonicalProductGrowth.lean:192:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+RiemannHypothesis/HadamardProduct/PairedCanonicalProductGrowth.lean:517:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+RiemannHypothesis/HadamardProduct/PairedCanonicalProductGrowth.lean:548:2: warning: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+COMPILE_PASS=RiemannHypothesis.HadamardProduct.NatZeroData
+COMPILE_PASS=AngularMaster.ZeroGeometry
+AngularMaster/ZeroGeometry.lean:39:8: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+COMPILE_PASS=RiemannHypothesis.ComplexAnalysis.MellinGrowth
+COMPILE_PASS=RiemannHypothesis.HadamardProduct.RealZeroSign
+COMPILE_PASS=AngularMaster.Calculus
+COMPILE_PASS=RiemannHypothesis.HadamardProduct.StrictRealZeroCriterion
+COMPILE_PASS=RiemannHypothesis.Xi.ThetaKernelMellinGrowth
+COMPILE_PASS=RiemannHypothesis.ComplexAnalysis.FactorialDyadicGrowth
+COMPILE_PASS=RiemannHypothesis.HadamardProduct.OriginMultiplicityCriterion
+COMPILE_PASS=AngularMaster.ActualProfile
+COMPILE_PASS=AngularMaster.ThetaKernelExplicitBound
+COMPILE_PASS=RiemannHypothesis.Xi.StrictLagariasCriterion
+COMPILE_PASS=AngularRegularity.Geometry
+AngularRegularity/Geometry.lean:68:2: warning: Try `simp at hi` instead of `simpa using hi`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+COMPILE_PASS=AngularMaster.ZeroFreeSeed
+COMPILE_PASS=RiemannHypothesis.Xi.HadamardLogDerivativeCriterion
+RiemannHypothesis/Xi/HadamardLogDerivativeCriterion.lean:208:4: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+RiemannHypothesis/Xi/HadamardLogDerivativeCriterion.lean:407:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+COMPILE_PASS=AngularRegularity.Derivative
+AngularRegularity/Derivative.lean:52:10: warning: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+AngularRegularity/Derivative.lean:52:10: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+AngularRegularity/Derivative.lean:94:4: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+COMPILE_PASS=AngularMaster.AngularCutoff
+COMPILE_PASS=RiemannHypothesis.Xi.CanonicalQuotientCriterion
+COMPILE_PASS=RiemannHypothesis.Xi.CanonicalProductSymmetry
+COMPILE_PASS=AngularIntegral
+AngularIntegral.lean:74:6: warning: This simp argument is unused:
+  Complex.one_re
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [actualProfile, angularNormSq, AngularRegularity.slopeFormula, angularRegularIntegrand,
+    actualLogDerivative, AngularRegularity.circlePoint, circlePoint, Complex.mul_re, Complex.mul_im, Complex.add_re,
+    Complex.add_im, Complex.ofReal_re, Complex.ofReal_im, Complex.I_re, Complex.I_im, Complex.one_im, Complex.star_def,
+    Complex.conj_re, Complex.conj_im, Complex.div_re, Complex.div_im]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+AngularIntegral.lean:74:22: warning: This simp argument is unused:
+  Complex.one_im
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [actualProfile, angularNormSq, AngularRegularity.slopeFormula, angularRegularIntegrand,
+    actualLogDerivative, AngularRegularity.circlePoint, circlePoint, Complex.mul_re, Complex.mul_im, Complex.add_re,
+    Complex.add_im, Complex.ofReal_re, Complex.ofReal_im, Complex.I_re, Complex.I_im, Complex.one_re, Complex.star_def,
+    Complex.conj_re, Complex.conj_im, Complex.div_re, Complex.div_im]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+AngularIntegral.lean:77:4: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+COMPILE_PASS=AngularMaster.QQRHGeometry
+AngularMaster/QQRHGeometry.lean:54:4: warning: Try `simp at hwedge` instead of `simpa using hwedge`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+COMPILE_PASS=RiemannHypothesis.Xi.CanonicalQuotientLogNormGrowth
+COMPILE_PASS=RiemannHypothesis.Xi.JensenDyadicCountBridge
+RiemannHypothesis/Xi/JensenDyadicCountBridge.lean:102:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+COMPILE_PASS=AngularMaster.QQRH
+COMPILE_PASS=RiemannHypothesis.Xi.CanonicalQuotientCharacteristicGrowth
+COMPILE_PASS=ScalarLittleO
+COMPILE_PASS=AngularMaster.ConjugateFactor
+COMPILE_PASS=ScalarConverse
+COMPILE_PASS=RiemannHypothesis.Xi.EntireXiMellinGrowth
+RiemannHypothesis/Xi/EntireXiMellinGrowth.lean:22:5: warning: Ambiguous namespace `Real`: it is interpreted as `_root_.OverflowResidueRH.Real` because this `open` occurs inside `namespace OverflowResidueRH`, while `_root_.Real` is silently not opened. Specify the namespace unambiguously, e.g. `_root_.OverflowResidueRH.Real`. The warning can sometimes also be addressed by moving the `open` outside of the surrounding `namespace`.
+
+Note: This linter can be disabled with `set_option linter.ambiguousOpen false`
+RiemannHypothesis/Xi/EntireXiMellinGrowth.lean:251:0: warning: Definition `entireXiPullbackCanonicalZeroDistributionFromTheta` is a proposition; use `theorem` instead of `def`
+
+Note: This linter can be disabled with `set_option linter.defProp false`
+COMPILE_PASS=RiemannHypothesis.Xi.EntireXiLogNormGrowth
+COMPILE_PASS=RiemannHypothesis.Xi.CanonicalQuotientThetaCharacteristicGrowth
+COMPILE_PASS=RiemannHypothesis.Xi.UnconditionalLagariasEquivalence
+COMPILE_PASS=RiemannHypothesis.Xi.CompletedLFunctionInstance
+COMPILE_PASS=RiemannHypothesis.Xi.CanonicalProductPairedGrowth
+COMPILE_PASS=AngularMaster.ActualHadamard
+COMPILE_PASS=AngularMaster.ComplexScaleProduct
+COMPILE_PASS=AngularMaster.SectorPositivity
+COMPILE_PASS=AngularMaster.LowHeightGeometry
+COMPILE_PASS=AngularMaster.QQRHUnconditional
+COMPILE_PASS=NativeClosure
+COMPILE_PASS=OriginTrace
+COMPILE_PASS=RHSmallO
+COMPILE_PASS=ReverseCutoff
+COMPILE_PASS=RHSmallOEquivalence
+FRESH_BUILD_MODULES=87
+AXIOM_AUDIT=STANDARD_LOGICAL_AXIOMS_ONLY
+NATIVE_RH_CONDITIONAL_CLOSURE=PASS
+REVERSE_RH_TO_SMALL_O=PASS
+SMALL_O_RH_EQUIVALENCE=PASS

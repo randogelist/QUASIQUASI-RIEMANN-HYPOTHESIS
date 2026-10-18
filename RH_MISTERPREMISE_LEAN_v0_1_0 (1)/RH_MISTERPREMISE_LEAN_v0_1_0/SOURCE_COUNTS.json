@@ -1,0 +1,50 @@
+{
+  "all": {
+    "all_declaration_kinds": {
+      "abbrev": 8,
+      "def": 236,
+      "instance": 3,
+      "lemma": 71,
+      "structure": 55,
+      "theorem": 853
+    },
+    "explicit_named_declarations": 1226,
+    "lemma": 71,
+    "private_theorems_and_lemmas": 54,
+    "source_modules": 97,
+    "theorem": 853,
+    "theorems_and_lemmas": 924
+  },
+  "counting_method": "Explicit named source commands after masking nested comments, strings and character literals; same-line attributes and modifiers supported.",
+  "new_misterpremise": {
+    "all_declaration_kinds": {
+      "abbrev": 2,
+      "def": 4,
+      "theorem": 33
+    },
+    "explicit_named_declarations": 39,
+    "lemma": 0,
+    "private_theorems_and_lemmas": 0,
+    "source_modules": 9,
+    "theorem": 33,
+    "theorems_and_lemmas": 33
+  },
+  "retained": {
+    "all_declaration_kinds": {
+      "abbrev": 6,
+      "def": 232,
+      "instance": 3,
+      "lemma": 71,
+      "structure": 55,
+      "theorem": 820
+    },
+    "explicit_named_declarations": 1187,
+    "lemma": 71,
+    "private_theorems_and_lemmas": 54,
+    "source_modules": 88,
+    "theorem": 820,
+    "theorems_and_lemmas": 891
+  },
+  "scanner_warnings": [],
+  "scope": "Dependency closure of MisterPremise.lean; excludes Audit.lean and generated declarations."
+}

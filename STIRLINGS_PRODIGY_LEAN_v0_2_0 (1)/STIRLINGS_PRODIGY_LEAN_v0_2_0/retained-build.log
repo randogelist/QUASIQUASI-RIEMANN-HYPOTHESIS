@@ -1,0 +1,100 @@
+RETAINED_REUSE=1/72 AWPIRH/XiCore.lean
+RETAINED_REUSE=2/72 AWPIRH/ThetaEntire.lean
+RETAINED_COMPILE_START=3/72 RiemannHypothesis/ComplexAnalysis/GrowthRigidity.lean
+RETAINED_COMPILE_PASS=3/72 RiemannHypothesis/ComplexAnalysis/GrowthRigidity.lean
+RETAINED_COMPILE_START=4/72 RiemannHypothesis/ComplexAnalysis/RealPartGrowth.lean
+RETAINED_COMPILE_PASS=4/72 RiemannHypothesis/ComplexAnalysis/RealPartGrowth.lean
+RETAINED_REUSE=5/72 RiemannHypothesis/ComplexAnalysis/ProximityGrowth.lean
+RETAINED_REUSE=6/72 RiemannHypothesis/ComplexAnalysis/AntiHerglotz.lean
+RETAINED_REUSE=7/72 RiemannHypothesis/ComplexAnalysis/LogDerivative.lean
+RETAINED_REUSE=8/72 RiemannHypothesis/HadamardProduct/GenusOne.lean
+RETAINED_REUSE=9/72 RiemannHypothesis/HadamardProduct/InfiniteProducts.lean
+RETAINED_REUSE=10/72 RiemannHypothesis/HadamardProduct/LogDerivative.lean
+RETAINED_REUSE=11/72 RiemannHypothesis/HadamardProduct/CanonicalProductGrowth.lean
+RETAINED_REUSE=12/72 RiemannHypothesis/HadamardProduct/DyadicZeroCount.lean
+RETAINED_REUSE=13/72 RiemannHypothesis/HadamardProduct/CanonicalProductDyadicGrowth.lean
+RETAINED_REUSE=14/72 RiemannHypothesis/HadamardProduct/PairedGenusOne.lean
+RETAINED_REUSE=15/72 RiemannHypothesis/HadamardProduct/PairedCanonicalProductGrowth.lean
+RETAINED_REUSE=16/72 RiemannHypothesis/HadamardProduct/CanonicalProductDivisor.lean
+RETAINED_REUSE=17/72 RiemannHypothesis/HadamardProduct/IndexedRealZeroSign.lean
+RETAINED_REUSE=18/72 RiemannHypothesis/ComplexAnalysis/PoleProbe.lean
+RETAINED_REUSE=19/72 RiemannHypothesis/ComplexAnalysis/RealSymmetry.lean
+RETAINED_REUSE=20/72 RiemannHypothesis/RealZeros/Engine.lean
+RETAINED_REUSE=21/72 RiemannHypothesis/RealZeros/EntireFunctions.lean
+RETAINED_REUSE=22/72 RiemannHypothesis/HadamardProduct/CompletedLFunction.lean
+RETAINED_REUSE=23/72 RiemannHypothesis/Xi/Definitions.lean
+RETAINED_REUSE=24/72 RiemannHypothesis/Xi/FunctionalEquation.lean
+RETAINED_REUSE=25/72 RiemannHypothesis/Xi/Pullback.lean
+RETAINED_REUSE=26/72 RiemannHypothesis/Xi/SignTargets.lean
+RETAINED_REUSE=27/72 RiemannHypothesis/Xi/CanonicalDivisor.lean
+RETAINED_REUSE=28/72 RiemannHypothesis/HadamardProduct/CanonicalProductMultiplicity.lean
+RETAINED_REUSE=29/72 RiemannHypothesis/Xi/CanonicalProductCharacteristicGrowth.lean
+RETAINED_REUSE=30/72 RiemannHypothesis/ComplexAnalysis/EvenAnalyticOrder.lean
+RETAINED_REUSE=31/72 RiemannHypothesis/ComplexAnalysis/EntireQuotient.lean
+RETAINED_REUSE=32/72 RiemannHypothesis/Xi/BacklundTuringBridge.lean
+RETAINED_REUSE=33/72 RiemannHypothesis/GammaCancellation/PoleSet.lean
+RETAINED_REUSE=34/72 RiemannHypothesis/GammaCancellation/CompletedZeta.lean
+RETAINED_REUSE=35/72 RiemannHypothesis/GammaCancellation/TextbookXi.lean
+RETAINED_REUSE=36/72 RiemannHypothesis/Xi/RiemannHypothesisBridge.lean
+RETAINED_REUSE=37/72 RiemannHypothesis/Xi/ZetaMultiplicityBridge.lean
+RETAINED_REUSE=38/72 RiemannHypothesis/ZeroCounting/SmoothMainTerm.lean
+RETAINED_REUSE=39/72 RiemannHypothesis/ZeroCounting/ZetaZeros.lean
+RETAINED_REUSE=40/72 RiemannHypothesis/Reduction/BacklundCanonicalDivisor.lean
+RETAINED_REUSE=41/72 RiemannHypothesis/Xi/DyadicZeroCountBridge.lean
+RETAINED_REUSE=42/72 RiemannHypothesis/HadamardProduct/ExponentialPrefactor.lean
+RETAINED_REUSE=43/72 RiemannHypothesis/HadamardProduct/NatZeroData.lean
+RETAINED_REUSE=44/72 RiemannHypothesis/HadamardProduct/RealZeroSign.lean
+RETAINED_REUSE=45/72 RiemannHypothesis/HadamardProduct/StrictRealZeroCriterion.lean
+RETAINED_REUSE=46/72 RiemannHypothesis/HadamardProduct/OriginMultiplicityCriterion.lean
+RETAINED_REUSE=47/72 RiemannHypothesis/Xi/StrictLagariasCriterion.lean
+RETAINED_REUSE=48/72 RiemannHypothesis/Xi/HadamardLogDerivativeCriterion.lean
+RETAINED_REUSE=49/72 RiemannHypothesis/Xi/CanonicalQuotientCriterion.lean
+RETAINED_COMPILE_START=50/72 RiemannHypothesis/Xi/CanonicalProductSymmetry.lean
+RETAINED_COMPILE_PASS=50/72 RiemannHypothesis/Xi/CanonicalProductSymmetry.lean
+RETAINED_COMPILE_START=51/72 RiemannHypothesis/Xi/CanonicalQuotientLogNormGrowth.lean
+RETAINED_COMPILE_PASS=51/72 RiemannHypothesis/Xi/CanonicalQuotientLogNormGrowth.lean
+RETAINED_COMPILE_START=52/72 RiemannHypothesis/Xi/CanonicalQuotientCharacteristicGrowth.lean
+RETAINED_COMPILE_PASS=52/72 RiemannHypothesis/Xi/CanonicalQuotientCharacteristicGrowth.lean
+RETAINED_REUSE=53/72 RiemannHypothesis/ComplexAnalysis/MellinGrowth.lean
+RETAINED_REUSE=54/72 RiemannHypothesis/Xi/ThetaKernelMellinGrowth.lean
+RETAINED_REUSE=55/72 RiemannHypothesis/ComplexAnalysis/FactorialDyadicGrowth.lean
+RETAINED_COMPILE_START=56/72 RiemannHypothesis/Xi/JensenDyadicCountBridge.lean
+RiemannHypothesis/Xi/JensenDyadicCountBridge.lean:102:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+RETAINED_COMPILE_PASS=56/72 RiemannHypothesis/Xi/JensenDyadicCountBridge.lean
+RETAINED_COMPILE_START=57/72 RiemannHypothesis/Xi/EntireXiMellinGrowth.lean
+RiemannHypothesis/Xi/EntireXiMellinGrowth.lean:22:5: warning: Ambiguous namespace `Real`: it is interpreted as `_root_.OverflowResidueRH.Real` because this `open` occurs inside `namespace OverflowResidueRH`, while `_root_.Real` is silently not opened. Specify the namespace unambiguously, e.g. `_root_.OverflowResidueRH.Real`. The warning can sometimes also be addressed by moving the `open` outside of the surrounding `namespace`.
+
+Note: This linter can be disabled with `set_option linter.ambiguousOpen false`
+RiemannHypothesis/Xi/EntireXiMellinGrowth.lean:251:0: warning: Definition `entireXiPullbackCanonicalZeroDistributionFromTheta` is a proposition; use `theorem` instead of `def`
+
+Note: This linter can be disabled with `set_option linter.defProp false`
+RETAINED_COMPILE_PASS=57/72 RiemannHypothesis/Xi/EntireXiMellinGrowth.lean
+RETAINED_COMPILE_START=58/72 RiemannHypothesis/Xi/EntireXiLogNormGrowth.lean
+RETAINED_COMPILE_PASS=58/72 RiemannHypothesis/Xi/EntireXiLogNormGrowth.lean
+RETAINED_COMPILE_START=59/72 RiemannHypothesis/Xi/CanonicalQuotientThetaCharacteristicGrowth.lean
+RETAINED_COMPILE_PASS=59/72 RiemannHypothesis/Xi/CanonicalQuotientThetaCharacteristicGrowth.lean
+RETAINED_COMPILE_START=60/72 RiemannHypothesis/Xi/UnconditionalLagariasEquivalence.lean
+RETAINED_COMPILE_PASS=60/72 RiemannHypothesis/Xi/UnconditionalLagariasEquivalence.lean
+RETAINED_COMPILE_START=61/72 RiemannHypothesis/Xi/CompletedLFunctionInstance.lean
+RETAINED_COMPILE_PASS=61/72 RiemannHypothesis/Xi/CompletedLFunctionInstance.lean
+RETAINED_COMPILE_START=62/72 RiemannHypothesis/Xi/CanonicalProductPairedGrowth.lean
+RETAINED_COMPILE_PASS=62/72 RiemannHypothesis/Xi/CanonicalProductPairedGrowth.lean
+RETAINED_REUSE=63/72 AngularMaster/ZeroGeometry.lean
+RETAINED_REUSE=64/72 AngularMaster/ZeroExclusion.lean
+RETAINED_REUSE=65/72 AngularMaster/Calculus.lean
+RETAINED_REUSE=66/72 AngularMaster/ActualProfile.lean
+RETAINED_REUSE=67/72 AngularMaster/ProductLimit.lean
+RETAINED_REUSE=68/72 AngularMaster/ProductValueLimit.lean
+RETAINED_REUSE=69/72 AngularMaster/CanonicalProduct.lean
+RETAINED_REUSE=70/72 AngularMaster/IndexedProduct.lean
+RETAINED_REUSE=71/72 AngularMaster/ProductSummability.lean
+RETAINED_COMPILE_START=72/72 AngularMaster/ActualHadamard.lean
+RETAINED_COMPILE_PASS=72/72 AngularMaster/ActualHadamard.lean
+RETAINED_BUILD=PASS

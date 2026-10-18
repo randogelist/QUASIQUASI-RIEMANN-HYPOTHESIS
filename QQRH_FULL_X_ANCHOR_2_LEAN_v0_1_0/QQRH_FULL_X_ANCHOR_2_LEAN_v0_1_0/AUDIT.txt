@@ -1,0 +1,87 @@
+@[reducible] def QQRH : ℝ → Prop :=
+fun m => AngularMaster.QQRH m
+def AngularMaster.QQRH : ℝ → Prop :=
+fun m => ∀ (s : ℂ), 0 < s.re → s.re < 1 → |s.im| < m * |s.re - 1 / 2| → riemannZeta s ≠ 0
+@[reducible] def QQRH.cutoff : ℝ → ℝ :=
+fun m => AngularMaster.slopeCutoff m
+def AngularMaster.slopeCutoff : ℝ → ℝ :=
+fun m => (1 - m ^ 2) / (1 + m ^ 2)
+@[reducible] def QQRH.profile : ℝ → ℝ → ℝ :=
+fun r x => AngularMaster.actualProfile r x
+def AngularMaster.actualProfile : ℝ → ℝ → ℝ :=
+AngularMaster.angularNormSq AWPIRH.theta
+def AWPIRH.theta : ℂ → ℂ :=
+fun z => AWPIRH.centeredXi z.sqrt
+def AWPIRH.xi : ℂ → ℂ :=
+fun s => (1 + s * (s - 1) * completedRiemannZeta₀ s) / 2
+QQRH.cutoff_two : QQRH.cutoff 2 = -(3 / 5)
+QQRH.of_positivity {m : ℝ} (hm : 0 < m)
+  (hP : ∀ (r : ℝ), 0 < r → ∀ (x : ℝ), QQRH.cutoff m < x → x < 1 → 0 ≤ deriv (QQRH.profile r) x) : QQRH m
+QQRH.positivity_two (r : ℝ) (hr : 0 < r) (x : ℝ) (hx : -(3 / 5) < x) (hx1 : x < 1) : 0 ≤ deriv (QQRH.profile r) x
+theorem QQRH.two : QQRH 2 :=
+QQRH.of_positivity
+  (Mathlib.Meta.NormNum.isNat_lt_true (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_zero)
+    (Mathlib.Meta.NormNum.isNat_ofNat ℝ (Eq.refl 2)) (Eq.refl false))
+  (Eq.mpr
+    (id
+      (forall_congr fun r =>
+        implies_congr (Eq.refl (0 < r))
+          (forall_congr fun x =>
+            implies_congr (congrFun' (congrArg LT.lt QQRH.cutoff_two) x)
+              (Eq.refl (x < 1 → 0 ≤ deriv (QQRH.profile r) x)))))
+    QQRH.positivity_two)
+'QQRH.cutoff_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QQRH.of_positivity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QQRH.positivity_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QQRH.two' depends on axioms: [propext, Classical.choice, Quot.sound]
+QQRH.cutoff_ten : QQRH.cutoff 10 = -(99 / 101)
+QQRH.cutoff_eleven : QQRH.cutoff 11 = -(60 / 61)
+QQRH.positivity_eleven (r : ℝ) (hr : 0 < r) (x : ℝ) (hx : -(60 / 61) < x) (hx1 : x < 1) : 0 ≤ deriv (QQRH.profile r) x
+QQRH.of_sq_lt_122 {m : ℝ} (hm : 1 ≤ m) (hcap : m ^ 2 < 122) : QQRH m
+theorem QQRH.eleven : QQRH 11 :=
+QQRH.of_positivity
+  (Mathlib.Meta.NormNum.isNat_lt_true (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_zero)
+    (Mathlib.Meta.NormNum.isNat_ofNat ℝ (Eq.refl 11)) (Eq.refl false))
+  (Eq.mpr
+    (id
+      (forall_congr fun r =>
+        implies_congr (Eq.refl (0 < r))
+          (forall_congr fun x =>
+            implies_congr (congrFun' (congrArg LT.lt QQRH.cutoff_eleven) x)
+              (Eq.refl (x < 1 → 0 ≤ deriv (QQRH.profile r) x)))))
+    QQRH.positivity_eleven)
+'AngularMaster.hurwitzThetaMellinKernel_sharper_upper_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AngularMaster.actual_completedZeta₀_norm_le_one_thirtyone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AngularMaster.norm_mul_sub_one_le_im_sq_add_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AngularMaster.actual_xi_zero_height_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AngularMaster.actual_cutoff_nonnegative_of_zero_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QQRH.cutoff_ten' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QQRH.cutoff_eleven' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QQRH.positivity_eleven' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QQRH.eleven' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QQRH.ten' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QQRH.of_sq_lt_122' depends on axioms: [propext, Classical.choice, Quot.sound]
+AngularMaster.actual_xi_zero_thirteen_halves_lt_abs_im {s : ℂ} (hz : AWPIRH.xi s = 0) : 13 / 2 < |s.im|
+QQRH.second_full_x_radius : QQRH.secondFullXRadius = 255 / 7
+QQRH.second_full_x_monotone (r : ℝ) (hr : 0 < r) (hR : r ≤ 255 / 7) : MonotoneOn (QQRH.profile r) (Set.Icc (-1) 1)
+QQRH.second_full_x_range_anchor (r : ℝ) (hr : 0 < r) (hR : r ≤ 255 / 7) (x : ℝ) (hx : -1 < x) (hx1 : x < 1) :
+  0 ≤ deriv (QQRH.profile r) x
+QQRH.second_full_x_positive (r : ℝ) (hr : 0 ≤ r) (hR : r ≤ 255 / 7) (x : ℝ) (hx : -1 ≤ x) (hx1 : x ≤ 1) :
+  0 < QQRH.profile r x
+'AngularMaster.actual_xi_zero_thirteen_halves_lt_abs_im' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AngularMaster.hurwitzThetaMellinKernel_anchor_upper_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AngularMaster.integral_Ioi_one_rpow_neg_exp_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AngularMaster.norm_mellin_le_paired_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AngularMaster.actual_completedZeta₀_norm_le_nine_three_eightyfive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AngularMaster.monotoneOn_normSq_conjugateFactor_circle_of_height' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AngularMaster.actualProfile_sq_symmetric_product_values' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AngularMaster.actual_theta_second_full_x_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AngularMaster.actual_theta_ne_zero_closed_disk_of_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QQRH.second_full_x_radius' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QQRH.second_full_x_monotone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QQRH.second_full_x_range_anchor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'QQRH.second_full_x_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
